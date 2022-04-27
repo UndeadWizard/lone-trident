@@ -1,0 +1,17 @@
+#4683 - Dautherag
+
+owner = A12
+controller = A12
+add_core = A12
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = high_atlantean
+religion = atlanic
+trade_goods = cloth
+hre = no
+
+discovered_by = atlantean

@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = antillian_republic
+government_rank = 1
+mercantilism = 25
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5129
+
+1444.1.1 = {
+	monarch = {
+		name = "Baduila"
+		dynasty = "Hillus"
+		birth_date = 1390.6.2
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

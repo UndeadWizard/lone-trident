@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = alyric
+capital = 5030
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Nicon"
+		dynasty = "Glicia"
+		adm = 1
+		dip = 2
+		mil = 4
+		birth_date = 1398.8.5
+	}
+
+	heir = {
+		name = "Gaheris"
+		dynasty = "Glicia"
+		adm = 1
+		dip = 4
+		mil = 6
+		birth_date = 1430.7.8
+		death_date = 1500.5.20
+	}
+}

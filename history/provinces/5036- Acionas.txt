@@ -1,0 +1,22 @@
+#4687 - Acionas
+
+owner = A19
+controller = A19
+add_core = A19
+is_city = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = fish
+hre = no
+
+add_permanent_province_modifier = {
+	name = acionas_estuary_modifier
+	duration = -1
+}
+
+discovered_by = atlantean

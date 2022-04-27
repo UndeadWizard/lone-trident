@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = archbishop_reform
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5138
+
+1444.1.1 = {
+	monarch = {
+		name = "Argaith I"
+		birth_date = 1410.3.15
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

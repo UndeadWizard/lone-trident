@@ -1,0 +1,135 @@
+﻿l_english: 
+ #Atlantean Missions
+ ATL_nautean_expedition_title: "Nautean Expedition"
+ ATL_nautean_expedition_desc: "The Nautean Islands to the West are of great importance to Atlanteans. If a threat from the West is to ever rise, they are going to be our first line of defense, and our local brethren is some degree of willing to cooperate."
+ 
+ ATL_cannibal_island_title: "Cannibal Island"
+ ATL_cannibal_island_desc: "The Anthropofagoi tribe rules an island with their disgusting tendency to eat human meat. It's not only a matter of security for Atlanteans, it's decency that demands us to conquer the island and cease this practice."
+ 
+ ATL_new_world_title: "A New World?"
+ ATL_new_world_desc: "It's been long since the inhabitants of the Trident have gone beyond the Nautean islands in search for more land, quite in contrast with our ancestors, who braved the Atlantic to arrive here. It's up to us to make the next great discoveries of this world, and find lands to conquer!"
+ 
+ ATL_second_exile_title: "The Second Exile"
+ ATL_second_exile_desc: "A trend to migrate to the newly-discovered lands to the West seems to be inevitable. Many call it the second wave of exiles. Perhaps it's best that we ensure that these settlers are cooperating properly and loyal to us."
+ 
+ ATL_closing_the_atlantic_title: "Closing the Atlantic"
+ ATL_closing_the_atlantic_desc: "Conquering the island of Antillia will ensure our dominion over the Atlantic Ocean is uncontested. Once completed, we will be able to demand tolls from foreigners, close it down to enemies, and generall use it as a political and economic weapon."
+ 
+ ATL_the_pride_of_atlantis_title: "The Pride of Atlantis"
+ ATL_the_pride_of_atlantis_desc: "Imperative is our need to control the oceans, for it is both our main source of food and means of transportation. Any remotely serious Atlantean state needs a fierce navy to back it's interests."
+ 
+ ATL_island_presence_title: "Island Presence"
+ ATL_island_presence_desc: "The islands in the Trident Gulf are excellent defensive chokepoints and economic hubs. In order to strengthen our ambitions, subdueing one of the islands will guarantee our presence in the naval routes of the Gulf."
+ 
+ ATL_reclaim_the_islands_title: "Reclaim the Islands"
+ ATL_reclaim_the_islands_desc: "Every island off our coast that isn't under our control is a major liability. Whether it is piracy, rival warlords or foreign influence, their importance cannot be underestimated. We ought to control every single one of them to ensure our survival."
+ 
+ ATL_strengthen_the_army_title: "Strengthen the Army"
+ ATL_strengthen_the_army_desc: "Storms, literally and figuratively, approach the Trident Gulf. As the Imperator's health worsens, Atlantis comes closer and closer to all-out civil war. Preparation is key to ensure that, if conflict reaches our borders, we will fight back - and then bring it to other borders."
+ 
+ ATL_march_to_crownlands_title: "March to the Crownlands"
+ ATL_march_to_crownlands_desc: "The Crownlands are a shadow of their former selves, but are still wealthy and densely populated, on top of their obvious symbolic importance. If we seek to conquer the whole continent, the Crownlands are a good next step."
+ 
+ ATL_the_new_empire_title: "The New Empire"
+ ATL_the_new_empire_desc: "All other lords in Atlantis are merely pretender warlords, seeking to grow their fragile positions within the continent. We shall bring them all to their knees as our inevitable rise continues. Merely proclaiming ourselves Imperator is not enough - we'll make sure everyone in Atlantis is well aware that they are our lawful subjects!"
+ 
+ ATL_prepare_imperial_army_title: "Prepare Imperial Army"
+ ATL_prepare_imperial_army_desc: "Although we are the major force in the continent and claim to be the sole rulers, the truth is that there are still those out there that oppose us. On this final step of our unification, we will need to commit the full might of our armies."
+ 
+ ATL_reclaim_the_center_title: "Reclaim the Center"
+ ATL_reclaim_the_center_desc: "While land routes are less popular for those in the inner part of the Gulf, it remains important for the cities on the other coast. Central Atlantis is key in connecting our lands and splitting our enemies for easy pickings."
+ 
+ ATL_imperium_sine_title: "Imperium Sine Fine"
+ ATL_imperium_sine_desc: "Our unification is complete. Atlantis is whole again, this time for good, we hope. Our undisputed title of Imperator is a heavy burden that we are going to assume with all of our might!"
+ 
+ ATL_establish_hegemony_title: "Establish Hegemony"
+ ATL_establish_hegemony_desc: "If we seek to be recognized as more than yet another warring state, we must secure a power base within our immediate vicinity to start our campaigns from."
+ 
+ ATL_eliminate_rivals_title: "Eliminate Rivals"
+ ATL_eliminate_rivals_desc: "Many rivals stand between us and success in our road for the unification of Atlantis. Silencing our early ones and growing our power base into a serious regional power will soften the rest of the process."
+ 
+ ATL_reclaim_the_gate_title: "Reclaim the Gate"
+ ATL_reclaim_the_gate_desc: "Both sides of the Trident Gate must be reclaimed in order to police and control the entry and exit of ships within the Trident Gulf. Being Atlantis' most important geographical feature, we can't have it any other way."
+ 
+ ATL_peace_at_home_title: "Peace at Home"
+ ATL_peace_at_home_desc: "Internal dissent and instability crashed the mighty Atlantean Empire. A hard lesson, but one we have to learn; we can't let internal strife destroy our legacy, else everything we built will be meaningless."
+ 
+ ATL_diplomatic_priority_title: "Diplomatic Priority"
+ ATL_diplomatic_priority_desc: "Most deals in Atlantis nowadays come down to temporary alliances based on immediate needs, and little long-term planning, if any. Seeking a local ally with aligned interests is important for our safety, preventing conflicts before they even start."
+ 
+ ATL_deal_with_foreigners_title: "Deal with Foreigners"
+ ATL_deal_with_foreigners_desc: "Fairly recently, European explorers have started to visit Atlantis. It's in our best interests to open up dialogue with them for now and see what the future holds."
+ 
+ ATL_european_reforms_title: "European Reforms"
+ ATL_european_reforms_desc: "It's hard to deny that there is much to learn from the Europeans. Many of us can trace our ancestry to Europe, in fact; some of their advanced knowledge and weapons could be a decisive factor in an Atlantean conflict."
+ 
+ ATL_pathway_to_europe_title: "Pathway to Europe"
+ ATL_pathway_to_europe_desc: "The Macaronesian Archipelago, originally settled by Iberians, is a key point in the Atlantic Ocean. It's close to the coast of Africa enough to threaten the Berbers, and using the coast, it's easy to reach Europe. For us, living in a largely seaborne society, they serve as an interesting strategic location."
+ 
+ 
+ # Antillian Missions
+ ANX_war_chest_title: "War Chest"
+ ANX_war_chest_desc: "Antillia is a fairly poor island, yet still we need to pay our armies, else they cease to function. Before we engage on any serious change, we need to accumulate a small fortune."
+ 
+ ANX_diplomatic_initiative_title: "Diplomatic Initiative"
+ ANX_diplomatic_initiative_desc: "Many wars are won before the first arrow is fired, through mighty words rather than swords. Deals with our neighbors can assure we're in a privileged position in the regional political landscape."
+ 
+ ANX_conclude_a_draft_title: "Conclude a Draft"
+ ANX_conclude_a_draft_desc: "The threat of our rival states demands that we bear an army greater than theirs by as much as possible. Running a drafting campaign shall fill in our ranks."
+ 
+ ANX_preparations_complete_title: "Preparations Complete"
+ ANX_preparations_complete_desc: "We have put ourselves in an advantageous position to grow our influence within Antillia. The next step is to put our new resources to use against our rivals."
+ 
+ ANX_new_lands_title: "New Lands"
+ ANX_new_lands_desc: "There are many who think there is more ot see to the West, beyond Antillia. Some of us consider it impossible, but then again, in the days of old, many did not think we'd ever make landfall in the journey that led us to Antillia. Some investigation is due."
+ 
+ ANX_victors_payoff_title: "Victor's Payoff"
+ ANX_victors_payoff_desc: "We have witnessed the fall of one of our old rivals and taken the initiative in the conflict. With our newly increased power base, our legitimacy as the main power in Antillia is more visible to our citizens."
+ 
+ ANX_rediscover_the_old_title: "Rediscover the Old"
+ ANX_rediscover_the_old_desc: "Nostalgic sentiments of our old home are a rising trend, and perhaps the best way to handle it is to finally rediscover our old homes, seeing it's current state, and deciding whether or not the nostalgia was justified."
+ 
+ ANX_land_of_true_cross_title: "Land of the True Cross"
+ ANX_land_of_true_cross_desc: "Southwest of Antillia lies a land of seemingly endless jungles right off the coast. In the name of the Lord, we must claim these lands for ourselves and spread our faith to any natives."
+ 
+ ANX_farther_antilles_title: "Farther Antilles"
+ ANX_farther_antilles_desc: "To the Northwest, lies a chain of hundreds upon hundreds of islands, small yet blessed with a fantastic climate to live in, and even more fantastic to grow goods in."
+ 
+ ANX_unify_antillia_title: "Unify Antillia"
+ ANX_unify_antillia_desc: "At last, the dreams of unifying the island have shaped themselves into reality. Antillia has not had a single ruler ever since the first few days of our ancestors' landings, and we finally seem capable to reverse that."
+ 
+ ANX_african_security_title: "African Security"
+ ANX_african_security_desc: "Spreading our influence over the African continent is a surefire way to guarantee our economic expansion won't fail. It has some interesting luxury goods such as ivory and salt, but, most importantly, we want the gold."
+ 
+ ANX_our_roots_title: "Our Roots"
+ ANX_our_roots_desc: "A chance to reinsert ourselves in the politics of Iberia would open up plenty of diplomatic opportunities with Europe. But far more importantly, it also means we'll be able to rediscover our roots fully."
+ 
+ ANX_fell_the_nahua_title: "Fell the Nahua"
+ ANX_fell_the_nahua_desc: "The Nahua peoples of Mexico are quite... gross. Their rituals including sacrifice, both human and animal, and their rulers violently harass their rival states by demanding tributes in lives. On top of it all, they are sitting right on top of a lot of gold. Both of these are good enough reasons to invade their lands."
+ 
+ ANX_mare_clausum_title: "Mare Clausum"
+ ANX_mare_clausum_desc: "Our foreign influence is growing by the day. Should we maintain our dominance in our seas, we will be able to close it down and institute a policy of Mare Clausum. No foreigners will be able to go through our seas without showing some respect and paying some tolls."
+ 
+ ANX_atlantean_intervention_title: "Atlantean Intervention"
+ ANX_atlantean_intervention_desc: "Atlanteans have always been generally wealthier than Antillians, due to our island being less populated, harder to traverse, and messier to navigate. But now we're in a position to actively threaten their naval power. Owning a base in their continent would be a huge step forward..."
+ 
+ ANX_antillian_atlantis_title: "Antillian Atlantis"
+ ANX_antillian_atlantis_desc: "Having secured a place to land our troops in and check our supplies, a full conquest of Atlantis sounds very much plausible, provided we commit enough men and resources for that endeavor."
+ 
+ ANX_imperii_antillium_title: "Imperii Antillium"
+ ANX_imperii_antillium_desc: "The Atlantean crisis over emperorship is drawing to a close, as it seems their unifier is not going to be some local warlord, but rather, us mighty Antillians. We shall institute our own imperial government, ruling both Atlantis and Antillia, grander than the Old Empire that the Atlanteans are so proud of!"
+ 
+ ANX_eastwards_push_title: "Eastwards Push"
+ ANX_eastwards_push_desc: "Far to the East lie regions that supply the world with spice, silk and procelain, as well as many other goods not easily found or produced elsewhere. They are super lucrative when sold domestically, or in Europe and Atlantis. It's in our interest to control our share of their trade..."
+ 
+ ANX_global_power_title: "Global Power"
+ ANX_global_power_desc: "We've risen to project our influence far beyond the borders of our fairly small island, and it shows. Our place as a leading world power is cemented; from now on, we must work on maintaining our dominant position."
+ 
+ ANX_global_power_nodlc_title: "Global Power"
+ ANX_global_power_nodlc_desc: "We've risen to project our influence far beyond the borders of our fairly small island, and it shows. Our place as a leading world power is cemented; from now on, we must work on maintaining our dominant position."
+ 
+ #Tooltips
+ ATL_new_world_tt: "Old Atlantean Records speak of territories to the west where many of the Nauteans ancestors originated from, with a more stable homeland we should find these once more."
+ ATL_second_exile_tt: "Many Atlanteans are leaving their ancestral homes and farms on Atlantis to strike it out in new lands in our colonies, which many are posthumoursly calling 'The Second Exile'"
+ ATL_island_presence_tt: "It is important to secure an island within the Trident Gulf to ensure a more secured position within the Trident Gulf." 
+ ANX_discover_new_lands_tt:0 "There are rumours of lands to the west from fishing boats and sailors that have strayed to far from Antillia, discovering them would certainly be a boon to our people."

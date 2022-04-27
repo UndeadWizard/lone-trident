@@ -1,0 +1,19 @@
+#4700 - Anatolikos
+
+owner = A09
+controller = A09
+add_core = A09
+is_city = yes
+
+culture = high_atlantean
+religion = atlanic
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+center_of_trade = 1
+
+trade_goods = cloth 
+hre = no
+
+discovered_by = atlantean

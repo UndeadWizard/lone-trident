@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = nautean
+capital = 5108
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Severus"
+		dynasty = "Falco"
+		adm = 3
+		dip = 1
+		mil = 5
+		birth_date = 1393.1.18
+	}
+
+	heir = {
+		name = "Alair"
+		dynasty = "Falco"
+		adm = 3
+		dip = 1
+		mil = 5
+		birth_date = 1396.10.15
+		death_date = 1478.1.17
+	}
+}

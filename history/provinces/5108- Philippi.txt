@@ -1,0 +1,18 @@
+#4759 - Philippi
+
+owner = A46
+controller = A46
+add_core = A46
+is_city = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+culture = nautean
+religion = atlanic
+trade_goods = naval_supplies
+hre = no
+center_of_trade = 1
+
+discovered_by = atlantean

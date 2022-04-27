@@ -1,0 +1,18 @@
+#4735 - Pedaekaetopros
+
+owner = A39
+controller = A39
+add_core = A39
+is_city = yes
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+culture = ayadoni
+religion = atlanic
+trade_goods = fish
+hre = no
+
+
+discovered_by = atlantean

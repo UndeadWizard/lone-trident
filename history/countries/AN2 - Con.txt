@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5127
+
+1444.1.1 = {
+	monarch = {
+		name = "Hulmul IV"
+		birth_date = 1370.8.6
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

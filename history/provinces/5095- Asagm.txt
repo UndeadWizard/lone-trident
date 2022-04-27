@@ -1,0 +1,21 @@
+#4746 - Asagm
+
+owner = A41
+controller = A41
+add_core = A41
+is_city = yes
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = poenici
+religion = heptarchic
+trade_goods = iron
+hre = no
+
+latent_trade_goods = {
+	coal
+}
+
+discovered_by = atlantean

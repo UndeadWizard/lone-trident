@@ -1,0 +1,19 @@
+#481 - Bermuda
+
+capital = "Vorondi"
+owner = A50
+controller = A50
+add_core = A50
+is_city = yes
+
+
+base_tax = 1
+base_production = 1 
+base_manpower = 2
+
+culture = anthrean
+religion = atlanic
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

@@ -1,0 +1,17 @@
+#4756 - Arrantza
+
+owner = A45
+controller = A45
+add_core = A45
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = nautean
+religion = atlanic
+trade_goods = naval_supplies
+hre = no
+
+discovered_by = atlantean

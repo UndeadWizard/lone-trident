@@ -1,0 +1,17 @@
+#4760 - Chiosa
+
+owner = A46
+controller = A46
+add_core = A46
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = nautean
+religion = atlanic
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

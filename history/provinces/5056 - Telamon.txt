@@ -1,0 +1,19 @@
+#4707 - Telamon
+
+owner = A07
+controller = A07
+add_core = A07
+is_city = yes
+
+culture = high_atlantean
+religion = atlanic
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+
+trade_goods = cloth 
+hre = no
+add_province_triggered_modifier = great_oracle
+
+discovered_by = atlantean

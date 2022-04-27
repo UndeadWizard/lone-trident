@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = high_atlantean
+capital = 5032
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Hieronymus"
+		dynasty = "Catullus"
+		adm = 3
+		dip = 5
+		mil = 6
+		birth_date = 1397.10.14
+	}
+
+	heir = {
+		name = "Nicolaus"
+		dynasty = "Catullus"
+		adm = 5
+		dip = 2
+		mil = 4
+		birth_date = 1431.12.15
+		death_date = 1478.10.16
+
+	}
+}

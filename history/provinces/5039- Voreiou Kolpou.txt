@@ -1,0 +1,17 @@
+#4690 - Voreiou Kolpou
+
+owner = A19
+controller = A19
+add_core = A19
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = salt
+hre = no
+
+discovered_by = atlantean

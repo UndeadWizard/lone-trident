@@ -1,0 +1,68 @@
+namespace = aza_thecouncil
+
+
+###### ATLANTEAN THE COUNCIL CHAIN
+
+
+# Death of a Imperator
+country_event = {
+	id = aza_thecouncil.1
+	title = aza_thecouncil.1.t
+	desc = aza_thecouncil.1.d
+	picture = ASSASSINATION_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = aza_uncertainfuture
+	}
+	
+	option = {	
+		name = aza_thecouncil.1.a
+		remove_country_modifier = "aza_uncertainfuture"
+		add_country_modifier = {
+			name = "aza_brokendreams"
+			duration = 1825
+		}
+		release_all_subjects = yes
+		define_heir = {
+			male = yes
+			age = 42
+			dynasty = "Proditi"
+			name = "Dix"
+			claim = 100
+			adm = 6
+		}
+		kill_ruler= yes
+		hidden_effect = {
+			country_event = {
+					id = aza_thecouncil.2
+					days = 7
+			}
+		}
+	}
+}
+
+# Rise of the Council
+country_event = {
+	id = aza_thecouncil.2
+	title = aza_thecouncil.2.t
+	desc = aza_thecouncil.2.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = aza_brokendreams
+	}
+	
+	option = {	
+		name = aza_thecouncil.2.a
+		change_tag = A51
+		change_government = republic
+		add_government_reform = council_reform	
+		release_all_subjects = yes
+	}
+}

@@ -1,0 +1,99 @@
+﻿l_english: 
+ 
+#Opinion Modifiers
+ antillian_heretics: "Unholy Heretics"
+ antillian_christians: "Misunderstood Christians"
+ victoryofturks: "Victory of Turks"
+ forgiving_imperator: "Forgiving Imperator"
+ vengeful_imperator: "Vengeful Imperator"
+ fellow_converts: "Fellow Converts"
+
+#Antillian Modifiers
+ ANX_lowered_maintenance: "Antillian Reforms"
+ ANX_defused_tensions: "Stabilizing Antillia"
+ ANX_morale_boost: "Visigothic Legacy"
+ ANX_settler_growth: "Antillian Frontiersmen"
+ ANX_antillian_glory: "Antillian Glory"
+ ANX_dip_rep: "A Good Reputation"
+ ANX_carribean_goods: "Carribean Goods"
+ ANX_reconnected_roots: "Ancestral Home"
+ ANX_nahua_gold: "Nahua Gold Influx"
+ ANX_dominate_traders: "Dominant Traders"
+ ANX_intervening_atlantis: "Atlantean Intervention"
+ ANX_imperial_antillia: "Imperial Antillia"
+ ANX_pushing_east: "Eastern Aspirations"
+ ANX_global_trade: "Up and Coming Trade Power"
+ ANX_brazil_trade: "Brazilian Trade"
+ ANX_colonial_aspirations: "Colonial Aspirations"
+ 
+ #Atlantean Modifers
+ ATL_colonial_tariffs: "Colonial Tariffs"
+ ATL_no_barriers: "No Barriers"
+ ATL_atlantean_pride: "Atlantean Pride"
+ ATL_roman_legacy: "Roman Legacy"
+ ATL_renewed_security: "Renewed Security"
+ ATL_atlantean_bureaucracy: "Atlantean Bureaucracy"
+ ATL_established_state: "Established State"
+ ATL_atlantean_diplomats: "Atlantean Diplomats"
+ ATL_open_to_negotiation: "Open to Negotiation"
+ ATL_experienced_diplomats: "Experienced Diplomats"
+ ATL_path_to_europe: "Path to Europe"
+ 
+ #ATL continued; added by Zeph
+ ATL_aint_nothing_but_a_heartache: "Unified the Islands"
+ ATL_aint_nothing_but_a_mistake: "Crownlands Secured"
+ ATL_i_never_wanna_hear_you_say: "Control of the Gates of Atlantis"
+ ATL_i_want_it_that_way: "Economic Lockdowns"
+ 
+ desc_ATL_aint_nothing_but_a_heartache: "An influx of better prepared naval officers is necessary to maintain control over our new conquests."
+ desc_ATL_aint_nothing_but_a_mistake: "With the Crownlands under our firm grasp, our power grows, not just in resources, but also diplomatically, as they can be used as leverage to our claims to greatness."
+ desc_ATL_i_never_wanna_hear_you_say: "With the Gates secured, most of the trade in Atlantis can be policed by us. This can be used to our advantage, should we want to expel foreign traders."
+ desc_ATL_i_want_it_that_way: "Our recent conquest of the Gates has made it difficult for our enemies to adapt their economies in case of a war with us."
+ 
+ #Azaresi Modifiers
+ aza_uncertainfuture: "Uncertain Future"
+ desc_aza_uncertainfuture:"With the Imperator on his deathbed the future of Atlantis is insecure. The feeling of unease infects all the citizens of Alantium and the outer villages."
+ aza_newhope: "A New Hope"
+ desc_aza_newhope: "A trusted heir has been declared, one who with the might of the Gods will reforge a new Atlantis. Bringing peace and stability to the continent and the birth of a new era!"
+ aza_brokendreams: "Broken Dreams" 
+ desc_aza_brokendreams: "The dream of a united Atlantean Empire is dead, with the Council taking control over the city of Atlantium, any hope for the old order is gone."
+ freedom_of_religion_decree: "Freedom of Religion Decree"
+ desc_freedom_of_religion_decree: "Any man of any faith is free to worship how he pleases as long as he does not harm a Heptarchic nor does he fail in paying his due to the crown."
+ aza_farmer_immigrants: "Farmer Immigrants"
+ aza_traders_monopolies: "Trader Monopolies
+
+ #Yazde Modifiers
+ has_divine_marriage: "Has Divine Marriage"
+ 
+ #Province Modifiers
+ atla_estuary_modifier: "Atla Estuary"
+ desc_atla_estuary_modifier:0 "Controlling the important river estuary of Atla strengthens our hold of the trade in the region."
+ losrorham_estuary_modifier: "Losrorham Estuary"
+ desc_losrorham_estuary_modifier:0 "Controlling the important river estuary of Losrorham strengthens our hold of the trade in the region."
+ acionas_estuary_modifier: "Acionas Estuary"
+ desc_acionas_estuary_modifier:0 "Controlling the important river estuary of Acionas strengthens our hold of the trade in the region."
+ osoa_gemstone_cavern: "Osoa Gemstone Cavern"
+ salt_city: "Salt City"
+ aza_expanded_silk_district: "Expanded Silk District"
+ aza_azaresi_gladiators: "Azaresi Gladiators"
+
+ #Province Trigger Modifiers
+ bermudo_temple: "Great Bermudo Temple"
+ desc_bermudo_temple: "According to the Book of Bermudo, after the Antillians arrived in the Second Holy Land, Saint Bermudo saw a vision from God to build a temple on this very site."
+ oracle_of_daephi: "Oracle of Daephi"
+ desc_oracle_of_daephi: "In a secluded temple near the ridge, there is a order of women that train in the mystical arts. Local rulers and peasants alike travel miles to have their fortunes read by the Oracle."
+ great_oracle: "Great Oracle"
+ desc_great_oracle: "Centuries ago an Imperator of Atlantis had heard of the Oracle of Daephi and wished to have her in his court, but she refused to his dismay. Instead he settled for one of the Daephi Order apprentices, whom he declared as the Great Oracle."  
+ birthplace_of_ar: "Birthplace of the Atlantean Renassiance"
+ desc_birthplace_of_ar: "It was in this province that Atlantean painters truly found their inspiration, and ushered in a new dawn of beauty for Atlantis."
+ kituri_shrine: "Kituri Shrine"
+ desc_kituri_shrine: "Kituri is known as the thinest part of the veil between the mortal realm and that of the dragons. Often Luuxin worshippers will commune with the spirits here to ask for boons or protection from bad spirits."
+ 
+ # Oracle Modifiers
+ ORACLE_legitimate: "Legitimate Ruler"
+ ORACLE_boon_of_minrva: "Boon of Minrva"
+ ORACLE_jupiter_and_juno: "Boon of Jupiter and Juno"
+ ORACLE_boon_of_yamm: "Boon of Yamm"
+ ORACLE_given_nothing: "Nothing?!"
+ ORACLE_famine: "Curse of Famine"
+ ORACLE_poor_army: "Curse of Poor Armies"

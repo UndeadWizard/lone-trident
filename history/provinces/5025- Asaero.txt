@@ -1,0 +1,18 @@
+#4676 - Asaero
+
+owner = A22
+controller = A22
+add_core = A22
+is_city = yes
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = glass
+hre = no
+center_of_trade = 1
+
+discovered_by = atlantean

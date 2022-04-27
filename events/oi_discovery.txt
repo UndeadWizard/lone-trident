@@ -1,0 +1,263 @@
+namespace = oi_discovery
+
+# Atlantis
+country_event = {
+	id = oi_discovery.1
+	title = oi_discovery.1.t
+	desc = oi_discovery.1.d
+	picture = NAVAL_MILITARY_eventPicture
+    
+    trigger = {
+        NOT = { technology_group = atlantean }
+        NOT = { has_country_flag = founda_weird_church}
+		
+        any_known_country = {
+			technology_group = atlantean
+			religion = heptarchic
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 12
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = european_discovers_heptarchic
+			set_country_flag = founda_weird_church
+        }
+    }
+    
+	option = {
+		name = oi_discovery.1.a
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				OR = {
+					religion = protestant
+					religion = anglican
+					religion = reformed
+				}
+				factor = 4
+			}
+		}
+		atlantis = {
+			discover_country = ROOT
+		}
+		antillia = {
+			discover_country = ROOT
+		}
+		atlantean_sea_region = {
+			discover_country = ROOT
+		}
+		every_country = { 
+			limit = {
+				religion = heptarchic
+			}
+			reverse_add_opinion	 = {
+					who = ROOT
+				    modifier = antillian_christians
+			}
+		}
+	}
+	
+	option = {
+		name = oi_discovery.1.b
+		ai_chance = { 
+			factor = 2
+			modifier = {
+				OR = {
+					tag = SPA
+					tag = POR
+					tag = CAS
+				}
+				factor = 4
+			}
+		}
+		atlantis = {
+			discover_country = ROOT
+		}
+		antillia = {
+			discover_country = ROOT
+		}
+		atlantean_sea_region = {
+			discover_country = ROOT
+		}
+		every_country = { 
+			limit = {
+				religion = heptarchic
+			}
+			reverse_add_opinion	 = {
+					who = ROOT
+				    modifier = antillian_heretics
+			}
+		}
+	}
+}
+
+country_event = {
+	id = oi_discovery.2
+	title = oi_discovery.2.t
+	desc = oi_discovery.2.d
+	picture = NAVAL_MILITARY_eventPicture
+	
+	 trigger = {
+		technology_group = atlantean
+		has_global_flag = european_discovers_heptarchic
+		culture_group = antillia_group
+		
+		NOT = { has_country_flag = met_the_euros}
+	 }
+	
+     mean_time_to_happen = {
+		months = 12
+	 }
+	 
+	 immediate = {
+        hidden_effect = {
+            set_global_flag = european_antillian_religious_exchange
+			set_country_flag = met_the_euros
+        }
+     }
+	 
+	 option = {
+		name = oi_discovery.2.a
+		atlantean_sea_region = {
+			discover_country = ROOT
+		}
+		iberia_region = {
+			discover_country = ROOT
+		}
+		france_region = {
+			discover_country = ROOT
+		}
+		british_isles_region = {
+			discover_country = ROOT
+		}
+		north_atlantic_area = {
+			discover_country = ROOT
+		}
+		bay_of_biscay_area = {
+			discover_country = ROOT
+		}
+		celtic_sea_area = {
+			discover_country = ROOT
+		}
+		english_channel_area = {
+			discover_country = ROOT
+		}
+		367 = {
+			discover_country = ROOT
+		}
+	 }
+}
+
+country_event = {
+	id = oi_discovery.3
+	title = oi_discovery.3.t
+	desc = oi_discovery.3.d
+	picture = NAVAL_MILITARY_eventPicture
+	
+	 trigger = {
+		technology_group = atlantean
+		has_global_flag = european_discovers_heptarchic
+		culture_group = atlantean_group
+		NOT = { culture = anthrean }
+		NOT = { has_country_flag = met_the_euros}
+	 }
+    
+     mean_time_to_happen = {
+		months = 12
+	 }
+	 
+	 immediate = {
+        hidden_effect = {
+            set_global_flag = european_atlantean_contact
+			set_country_flag = met_the_euros
+        }
+     }
+	 
+	 option = {
+		name = oi_discovery.3.a
+		ai_chance = { 
+			factor = 0
+		}
+		atlantean_sea_region = {
+			discover_country = ROOT
+		}
+		iberia_region = {
+			discover_country = ROOT
+		}
+		france_region = {
+			discover_country = ROOT
+		}
+		british_isles_region = {
+			discover_country = ROOT
+		}
+		north_atlantic_area = {
+			discover_country = ROOT
+		}
+		bay_of_biscay_area = {
+			discover_country = ROOT
+		}
+		celtic_sea_area = {
+			discover_country = ROOT
+		}
+		english_channel_area = {
+			discover_country = ROOT
+		}
+		367 = {
+			discover_country = ROOT
+		}
+	 }
+	 
+	  option = {
+		name = oi_discovery.3.b
+		
+		trigger = {
+			tag = A40 #Trichotos
+		}
+		ai_chance = { 
+			factor = 1
+		}
+		every_country = { 
+			limit = {
+				tag = TUR
+			}
+			reverse_add_opinion	 = {
+					who = ROOT
+				    modifier = victoryofturks
+			}
+		}
+		atlantean_sea_region = {
+			discover_country = ROOT
+		}
+		iberia_region = {
+			discover_country = ROOT
+		}
+		france_region = {
+			discover_country = ROOT
+		}
+		british_isles_region = {
+			discover_country = ROOT
+		}
+		north_atlantic_area = {
+			discover_country = ROOT
+		}
+		bay_of_biscay_area = {
+			discover_country = ROOT
+		}
+		celtic_sea_area = {
+			discover_country = ROOT
+		}
+		english_channel_area = {
+			discover_country = ROOT
+		}
+		151 = {
+			discover_country = ROOT
+		}
+		367 = {
+			discover_country = ROOT
+		}
+	 }
+}

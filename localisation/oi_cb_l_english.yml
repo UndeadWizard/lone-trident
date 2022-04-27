@@ -1,0 +1,19 @@
+﻿l_english: 
+
+ # CB
+ cb_atlantean_wars: "Atlantean Wars"
+ cb_atlantean_wars_desc: "With the Atlantean Empire in shambles, there is a need for a new power to rise from its ashes. Few can dispute a claim won with blood."
+ cb_antillian_superiority: "Antillian Superiority"
+ cb_antillian_superiority_desc: "Truly the only way to ensure the safety of Antillia is to invade the Atlanteans before the Trident rises again."
+ cb_ayadoni_ambitions: "Ayadoni Ambitions"
+ cb_ayadoni_ambitions_desc: "No longer will the Ayadoni kneel to the pretenders in Atlantium. Atlantis belongs to us, a deed written in blood and steel."
+ # Wargoal
+ atlantean_unification: "Atlantean Unification"
+ atlantean_unification_desc:0 "With the Atlantean Empire in shambles, there is a need for a new power to rise from its ashes. Few can dispute a claim won with blood."
+ ATLANTEAN_UNIFICATION_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ Unification War"
+ antillian_invasion: "Antillian Invasion"
+ antillian_invasion_desc: "Truly the only way to ensure the safety of Antillia is to invade the Atlanteans before the Trident rises again."
+ ANTILLIAN_INVASION_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ Invasion"
+ ayadoni_superiority: "Ayadoni Superiority"
+ ayadoni_superiority_desc:0 "It is imperative that an Ayadoni sits on the throne in Atlantium, a claim easily won with steel."
+ AYADONI_SUPERIORITY_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ Superiority War"

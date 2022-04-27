@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = high_atlantean
+capital = 5056
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Naevius"
+		dynasty = "Caudex"
+		adm = 2
+		dip = 4
+		mil = 5
+		birth_date = 1422.4.20
+	}
+
+	heir = {
+		name = "Priscus"
+		dynasty = "Caudex"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1440.2.2
+		death_date = 1498.3.20
+	}
+}

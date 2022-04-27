@@ -1,0 +1,18 @@
+#4701 - Rakkad
+
+owner = A10
+controller = A10
+add_core = A10
+is_city = yes
+
+culture = high_atlantean
+religion = atlanic
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+
+trade_goods = cloth 
+hre = no
+
+discovered_by = atlantean

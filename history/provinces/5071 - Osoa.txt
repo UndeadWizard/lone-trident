@@ -1,0 +1,21 @@
+#4722 - Osoa
+
+owner = A32
+controller = A32
+add_core = A32
+is_city = yes
+
+base_tax = 2
+base_production = 4
+base_manpower = 1
+
+culture = alyshi
+religion = atlanic
+trade_goods = gems
+hre = no
+
+add_permanent_province_modifier = {
+	name = osoa_gemstone_cavern
+	duration = -1
+}
+discovered_by = atlantean

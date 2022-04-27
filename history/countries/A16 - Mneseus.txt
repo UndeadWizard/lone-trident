@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = alyric
+capital = 5028
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Daniel"
+		dynasty = "Gabrielopoulos"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date = 1370.12.12
+	}
+
+	heir = {
+		name = "Antiochos"
+		monarch_name = "Antiochos"
+		dynasty = "Gabrielopoulos"
+		adm = 5
+		dip = 3
+		mil = 4
+		claim = 75
+		birth_date = 1437.9.9
+		death_date = 1507.10.10
+	}
+}

@@ -1,0 +1,21 @@
+#4723 - Nea Telamon
+
+owner = A34
+controller = A34
+add_core = A34
+is_city = yes
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+culture = alyshi
+religion = atlanic
+trade_goods = wool
+hre = no
+
+latent_trade_goods = {
+	coal
+}
+
+discovered_by = atlantean

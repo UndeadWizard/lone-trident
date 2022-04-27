@@ -1,0 +1,17 @@
+#4782 - Helvua
+
+owner = AN6
+controller = AN6
+add_core = AN6
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

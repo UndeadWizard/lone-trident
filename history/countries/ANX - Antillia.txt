@@ -1,0 +1,6 @@
+government = theocracy
+add_government_reform = archbishop_reform
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5131

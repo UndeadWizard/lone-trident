@@ -1,0 +1,41 @@
+﻿l_english:
+ 
+ # Continents
+ atlantis: "Atlantis"
+ 
+ # Regions
+ atlantean_crownlands: "Crownlands"
+ atlantean_southlands: "Albanum"
+ atlantean_midlands: "Charsumia"
+ atlantean_eastlands: "Ayadon"
+ atlantean_westisles: "Nautean Islands"
+ 
+ atlantean_sea_region: "Atlantean Sea"
+ 
+ antillia_region: "Antillia"
+
+ # Superregions
+ atlantean_superregion: "Atlantis"
+ # Tradenodes
+ atlantis_node: "Atlantis"
+ 
+ # Colonial Regions
+ COLONIAL_BRAZIL_Themyscira:0 "Themyscira"
+ COLONIAL_BRAZIL_Themyscira_ADJ:0 "Amazonian"
+ COLONIAL_BRAZIL_Land_Of_True_Cross:0 "Land of the True Cross"
+ COLONIAL_BRAZIL_Land_Of_True_Cross_ADJ:0 "Antillian"
+ COLONIAL_CANADA_Anatla:0 "Anatla"
+ COLONIAL_CANADA_Anatla_ADJ:0 "Anatlan"
+ COLONIAL_CANADA_Kanaila:0 "Kanaila"
+ COLONIAL_CANADA_Kanaila_ADJ:0 "Kanailan"
+ COLONIAL_THE_CARRIBEAN_Antillesa:0 "Antillesa"
+ COLONIAL_THE_CARRIBEAN_Antillesa_ADJ:0 "Antillesan"
+ COLONIAL_THE_CARRIBEAN_Panchaia:0 "Panchaia"
+ COLONIAL_THE_CARRIBEAN_Panchaia_ADJ:0 "Panchaian"
+ COLONIAL_EASTERN_AMERICA_Arcadia:0 "Arcadia"
+ COLONIAL_EASTERN_AMERICA_Arcadia_ADJ:0 "Arcadian"
+ 
+#Trade Companies
+trade_company_atlantis: "Atlantean Charter"
+TRADE_COMPANY_ATLANTIS_Root_Culture_GetName: "[Root.Culture.GetName] Atlantean Trade Company"
+TRADE_COMPANY_ATLANTIS_Atlantic_Trade_Company: "Atlantean Trade Company"

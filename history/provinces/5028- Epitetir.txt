@@ -1,0 +1,17 @@
+#4679 - Epitetir
+
+owner = A16
+controller = A16
+add_core = A16
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = livestock
+hre = no
+
+discovered_by = atlantean

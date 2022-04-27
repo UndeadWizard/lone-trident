@@ -1,0 +1,17 @@
+#4718 - Tadora
+
+owner = A32
+controller = A32
+add_core = A32
+is_city = yes
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+culture = alyshi
+religion = atlanic
+trade_goods = wine
+hre = no
+
+discovered_by = atlantean

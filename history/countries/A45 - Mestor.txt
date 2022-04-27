@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = nautean
+capital = 5105
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Daniel"
+		dynasty = "Aaron"
+		adm = 2
+		dip = 3
+		mil = 4
+		birth_date = 1417.8.20
+	}
+
+	heir = {
+		name = "Irene"
+		monarch_name = "Irene"
+		dynasty = "Aaron"
+		adm = 3
+		dip = 3
+		mil = 3
+		claim = 75
+		birth_date = 1421.1.5
+		death_date = 1458.7.1
+		female = yes
+	}
+}
+

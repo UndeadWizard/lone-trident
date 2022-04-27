@@ -1,0 +1,268 @@
+namespace = oi_oracle
+
+country_event = {
+	id = oi_oracle.0
+	title = oi_oracle.0.t
+	desc = oi_oracle.0.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	hidden = yes
+	
+	trigger = {
+		ROOT = {
+			capital_scope = {
+				has_active_triggered_province_modifier = visited_the_oracle
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		random_list = {
+			25 = {
+				country_event = {
+					id = oi_oracle.1
+					days = 7
+				}
+			}
+			19 = {
+				country_event = {
+					id = oi_oracle.2
+					days = 7
+				}
+			}
+			15 = {
+				country_event = {
+					id = oi_oracle.3
+					days = 7
+				}
+			}
+			15 = {
+				country_event = {
+					id = oi_oracle.4
+					days = 7
+				}
+			}
+			15 = {
+				country_event = {
+					id = oi_oracle.5
+					days = 7
+				}
+			}
+			5 = {
+				country_event = {
+					id = oi_oracle.6
+					days = 7
+				}
+			}	
+			5 = {
+				country_event = {
+					id = oi_oracle.7
+					days = 7
+				}
+			}
+			1 = {
+				country_event = {
+					id = oi_oracle.8
+					days = 7
+				}
+			}	
+		}
+		capital_scope = {
+			remove_province_triggered_modifier = visited_the_oracle
+		}
+	}
+}
+
+# Legitimacy
+country_event = {
+	id = oi_oracle.1
+	title = oi_oracle.1.t
+	desc = oi_oracle.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.1.a
+		add_ruler_modifier = { 
+			name = ORACLE_legitimate 
+			duration = 3650
+		}
+		add_legitimacy = 10
+		add_prestige = 10
+	}
+}
+
+# Warrior
+country_event = {
+	id = oi_oracle.2
+	title = oi_oracle.2.t
+	desc = oi_oracle.2.d
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.2.a
+		add_ruler_modifier = { 
+			name = ORACLE_boon_of_minrva 
+			duration = 3650
+		}
+	}
+}
+
+# Conqueror
+country_event = {
+	id = oi_oracle.3
+	title = oi_oracle.3.t
+	desc = oi_oracle.3.d
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.3.a
+		add_ruler_modifier = {
+			name = ORACLE_jupiter_and_juno
+			duration = 3650
+		}
+	}
+}
+
+# Naval
+country_event = {
+	id = oi_oracle.4
+	title = oi_oracle.4.t
+	desc = oi_oracle.4.d
+	picture = SHIP_SAILING_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.4.a
+		add_ruler_modifier = {
+			name = ORACLE_boon_of_yamm
+			duration = 3650
+		}
+	}
+}
+
+# Nothing
+country_event = {
+	id = oi_oracle.5
+	title = oi_oracle.5.t
+	desc = oi_oracle.5.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.5.a
+		add_ruler_modifier = {
+			name = ORACLE_given_nothing 
+			duration = 3650
+		}
+		#Nothing?!
+	}
+}
+
+# Famine
+
+country_event = {
+	id = oi_oracle.6
+	title = oi_oracle.6.t
+	desc = oi_oracle.6.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.6.a
+		add_ruler_modifier = {
+			name = ORACLE_famine
+			duration = 3650
+		}
+	}
+}
+
+# Poor Army
+country_event = {
+	id = oi_oracle.7
+	title = oi_oracle.7.t
+	desc = oi_oracle.7.d
+	picture = BORDER_TENSIONS_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.7.a
+		add_ruler_modifier = {
+			name = ORACLE_poor_army
+			duration = 3650
+		}
+	}
+}
+
+# Assassinated
+country_event = {
+	id = oi_oracle.8
+	title = oi_oracle.8.t
+	desc = oi_oracle.8.d
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+        hidden_effect = {
+			set_ruler_flag = visited_oracle
+        }
+    }
+	
+	option = {
+		name = oi_oracle.8.a
+		kill_ruler= yes
+	}
+}

@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_seneca_reforms"
+		texturefile = "gfx//interface//government_reform_icons//seneca_reforms.dds"
+	}
+	spriteType = {
+		name = "government_reform_atlantean_warring_state"
+		texturefile = "gfx//interface//government_reform_icons//atlantean_warring_state.dds"
+	}
+	spriteType = {
+		name = "government_reform_ayadoni_rexdom"
+		texturefile = "gfx//interface//government_reform_icons//ayadoni_rexdom.dds"
+	}
+	spriteType = {
+		name = "government_reform_legacy_of_song"
+		texturefile = "gfx//interface//government_reform_icons//legacy_of_song.dds"
+	}
+}

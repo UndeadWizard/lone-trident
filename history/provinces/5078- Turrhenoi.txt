@@ -1,0 +1,17 @@
+#4729 - Turrhenoi
+
+owner = A36
+controller = A36
+add_core = A36
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = alyshi
+religion = atlanic
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

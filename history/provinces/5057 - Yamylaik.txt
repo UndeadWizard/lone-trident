@@ -1,0 +1,17 @@
+#4708 - Yamylaik
+
+owner = A08
+controller = A08
+add_core = A08
+is_city = yes
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = high_atlantean
+religion = atlanic
+trade_goods = grain
+hre = no
+
+discovered_by = atlantean

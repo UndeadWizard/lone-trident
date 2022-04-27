@@ -1,0 +1,71 @@
+antillian_republic = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	duration = 4
+	#legacy_equivalent = antillian_republic_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+			primary_culture = antillian
+			has_reform = antillian_republic
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.03
+		max_absolutism = -10
+		missionaries = 1
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
+patricianship = {
+	icon = "nobleman"
+	allow_normal_conversion = yes
+	duration = 4
+	#legacy_equivalent = patricianship_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+			has_reform = patricianship
+			have_had_reform = patricianship
+		}
+	}
+	modifiers = {
+		state_governing_cost = 0.2
+		production_efficiency = 0.1
+		diplomatic_reputation = 1
+		max_absolutism = 10	
+		global_autonomy = -0.1
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
+council_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	duration = 10
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {
+		tag = A51
+	}
+	modifiers = {
+		global_tax_modifier = 0.05
+		max_absolutism = -10
+		diplomatic_reputation = -1
+		land_morale = 0.1
+		discipline = 0.05
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}

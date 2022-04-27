@@ -1,0 +1,31 @@
+government = tribal
+add_government_reform = tribal_despotism
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = anthrean
+capital = 481
+
+#The Ottomans are rising, somewhere
+1444.1.1 = {
+	monarch = {
+		name = "Kalikios"
+		dynasty = "Pollifemos"
+		adm = 0
+		dip = 2
+		mil = 3
+		birth_date = 1412.3.4
+	}
+
+	heir = {
+		name = "Androsion"
+		monarch_name = "Androsion"
+		dynasty = "Pollifemos"
+		adm = 3
+		dip = 3
+		mil = 3
+		claim = 50
+		birth_date = 1438.1.12
+		death_date = 1481.2.25
+	}
+}

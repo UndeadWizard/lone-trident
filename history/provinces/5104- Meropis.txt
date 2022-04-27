@@ -1,0 +1,17 @@
+#4755 - Meropis
+
+owner = A44
+controller = A44
+add_core = A44
+is_city = yes
+
+base_tax = 3
+base_production = 1
+base_manpower = 5
+
+culture = meropisean
+religion = atlanic
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

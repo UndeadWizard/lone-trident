@@ -1,0 +1,56 @@
+cb_atlantean_wars = {
+	valid_for_subject = no
+
+	prerequisites = {
+		OR = {
+			has_reform = atlantean_warring_state
+			has_reform = crippled_seneca_reforms
+			has_reform = restored_seneca_reforms
+			has_reform = ayadoni_rexdom
+			has_reform = akakios_bureaucracy
+		}
+		is_free_or_tributary_trigger = yes
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+            technology_group = atlantean
+		}
+		is_neighbor_of = FROM
+	}
+
+	war_goal = atlantean_unification
+}
+
+#cb_ayadoni_ambitions = {
+#	valid_for_subject = no
+
+#	prerequisites = {
+#		OR = {
+#			has_reform = ayadoni_rexdom
+#			tag = AYA
+#		}
+#		is_free_or_tributary_trigger = yes
+#		FROM = {
+#			NOT = { is_subject_of = ROOT }
+#           technology_group = atlantean
+#		}
+#		is_neighbor_of = FROM
+#	}
+
+#	war_goal = ayadoni_superiority
+#}
+
+cb_antillian_superiority = {
+	valid_for_subject = no
+	
+	prerequisites = {
+		primary_culture = antillian
+		is_free_or_tributary_trigger = yes
+		has_country_flag = antillian_invading
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+            technology_group = atlantean
+		}
+	}
+	
+	war_goal = antillian_invasion
+}

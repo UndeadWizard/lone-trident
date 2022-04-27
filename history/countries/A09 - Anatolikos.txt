@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = patricianship
+government_rank = 1
+mercantilism = 25
+technology_group = atlantean
+religion = atlanic
+primary_culture = high_atlantean
+capital = 5049
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Antoninus"
+		dynasty = "Arvina"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1385.5.5
+	}
+}

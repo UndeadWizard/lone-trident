@@ -1,0 +1,19 @@
+#4771 - Anhuib
+
+owner = AN4
+controller = AN4
+add_core = AN4
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = wine 
+hre = no
+
+center_of_trade = 1
+
+discovered_by = atlantean

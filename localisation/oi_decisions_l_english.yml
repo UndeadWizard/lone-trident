@@ -1,0 +1,17 @@
+﻿l_english: 
+ #Formable Nations
+ ayadon_nation_title: "Kingdom of the Ayadoni"
+ ayadon_nation_desc: "As long as there has been an Atlantis, there has been a difference between the Atlanteans and the Ayadoni. With the east conslidated it is time for your people to carve their own destiny!"
+ hawaiian_nation_title: "Kingdom of Hawaii"
+ hawaiian_nation_desc: "At first our people were divided, but now we hold our heads up high."
+ #Atlantis
+ visit_the_oracle_title: "Visit the Oracle"
+ visit_the_oracle_desc: "It is custom for every ruler of Atlantis to visit the Oracle."
+ visit_the_oracle_tooltip: "We shall see our fate."
+
+ oi_conversion_catholicism_title: "Convert to Catholicism!"
+ oi_conversion_catholicism_desc: "The times are changing, and having a faith that connects us to other nations is certainly going to be beneficial as those nations' power and influence grows. At worst, it shields us from the risk of conquest. At best, it puts us in their diplomatic table. We trust that Jesus would not let us be led astray if it wasn't meant to be."
+ oi_conversion_orthodox_title: "Convert to Orthodoxy!"
+ oi_conversion_orthodox_desc: "While we were approached by the more Western Christians first, our records of Christianity from the history books, oftentimes sourced by the Trichotans, seem to align more with the teachings of the Orthodox branches more commonly seen in Eastern Europe. By all accounts, it seems to be the "original" Christianity, but we're more likely to see ourselves diplomatically isolated if we take this route."
+ oi_tri_conversion_orthodox_title: "Embrace our old faith!"
+ oi_tri_conversion_orthodox_desc: "Our very rulers used to be faithful members of the one true Christianity, we will honor their ancestors. Orthodoxy shall once rise to be the main faith of our people, and, God willing, all of Atlantis!"

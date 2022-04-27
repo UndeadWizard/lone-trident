@@ -1,0 +1,17 @@
+#4778 - Badijoz 
+
+owner = AN3
+controller = AN3
+add_core = AN3
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+trade_goods = gold 
+hre = no
+
+discovered_by = atlantean

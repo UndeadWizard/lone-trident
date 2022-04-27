@@ -1,0 +1,17 @@
+#4702 - Acens
+
+owner = A01
+controller = A01
+add_core = A01
+is_city = yes
+
+culture = high_atlantean
+religion = atlanic
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = cloth 
+hre = no
+
+discovered_by = atlantean

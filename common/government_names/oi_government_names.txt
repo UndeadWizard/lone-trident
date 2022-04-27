@@ -1,0 +1,132 @@
+patricianship_gov = {
+	rank = {
+		1 = PATRICIANSHIP
+		2 = PATRICIANSHIP
+		3 = PATRICIANSHIP
+	}
+	
+	ruler_male = {
+		1 = PATRICIUS
+		2 = PATRICIUS
+		3 = PATRICIUS
+	}
+	
+	ruler_female = {
+		1 = PATRICIUSA
+		2 = PATRICIUSA
+		3 = PATRICIUSA
+	}
+	
+	trigger = {
+		has_reform = patricianship
+	}
+}
+atlantean_warring_state = {
+	rank = {
+		1 = DUCATUS
+		2 = REGNO
+		3 = IMPERIUM
+	}
+	ruler_male = {
+		1 = DUX 
+		2 = REX
+		3 = IMPERATOR
+	}
+	ruler_female = {
+		1 = DUCISSA
+		2 = REGINA
+		3 = IMPERATRIX
+	}
+	trigger = {
+		has_reform = atlantean_warring_state
+	}
+}
+anthrean_pirates = {
+	rank = {
+		1 = DUCATUS
+		2 = REGNO
+		3 = IMPERIUM
+	}
+	ruler_male = {
+		1 = DUX 
+		2 = REX
+		3 = IMPERATOR
+	}
+	ruler_female = {
+		1 = DUCISSA
+		2 = REGINA
+		3 = IMPERATRIX
+	}
+	trigger = {
+		has_reform = anthrean_pirates
+	}
+}
+ayadoni_rexdom = {
+	rank = {
+		1 = DUCATUS
+		2 = REGNO
+		3 = IMPERIUM
+	}
+	ruler_male = {
+		1 = DUX 
+		2 = REX
+		3 = IMPERATOR
+	}
+	ruler_female = {
+		1 = DUCISSA
+		2 = REGINA
+		3 = IMPERATRIX
+	}
+	trigger = {
+		has_reform = ayadoni_rexdom
+	}
+}
+akakios_bureaucracy  ={
+	rank = {
+		1 = DUCATUS
+		2 = REGNO
+		3 = IMPERIUM
+	}
+	ruler_male = {
+		1 = IMPERATOR
+		2 = IMPERATOR
+		3 = IMPERATOR
+	}
+	ruler_female = {
+		1 = IMPERATRIX
+		2 = IMPERATRIX
+		3 = IMPERATRIX
+	}
+	
+	trigger = {
+		OR = {
+			has_reform = crippled_seneca_reforms
+			has_reform = restored_seneca_reforms
+			has_reform = akakios_bureaucracy
+		}
+	}
+}
+
+archbishop_reform = {
+	rank = {
+		1 = BISHOPRIC
+		2 = ARCHBISHOPRIC
+		3 = PRIME_ARCHBISHOPRIC
+	}
+	
+	ruler_male = {
+		1 = ARCHBISHOP
+		2 = SUPREME_ARCHBISHOP
+		3 = LORD_ARCHBISHOP
+	}
+
+	ruler_female = {
+		1 = BISHOP_fem
+		2 = ARCHBISHOP_fem
+		3 = MATRIARCH
+	}
+	
+	trigger = {
+		has_reform = archbishop_reform
+	}
+}

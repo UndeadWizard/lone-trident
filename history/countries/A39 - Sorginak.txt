@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+primary_culture = ayadoni
+capital = 5096
+
+1444.11.10 = {
+	monarch = {
+		name = "Misra"
+		dynasty = "Maggus"
+		adm = 3
+		dip = 1
+		mil = 4
+		birth_date = 1361.10.10
+	}
+}

@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+primary_culture = alyric
+capital = 5018
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Fidelis"
+		dynasty = "Iunianus"
+		adm = 2
+		dip = 6
+		mil = 1
+		birth_date = 1399.4.2
+	}
+
+	heir = {
+		name = "Crius"
+		dynasty = "Iunianus"
+		adm = 1
+		dip = 5
+		mil = 5
+		birth_date = 1438.10.11
+		death_date = 1478.5.7
+	}
+}

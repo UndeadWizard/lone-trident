@@ -1,0 +1,756 @@
+#Welcome to the Crescent Island! For unique sets
+
+template_ideas = {
+	start = {
+		prestige = 1
+		prestige = 1
+	}
+	bonus = {
+		prestige = 1
+	}
+	trigger = {
+		always = no
+	}
+	free = yes
+	
+	template_1 = {
+		prestige = 1
+	}
+	
+	template_2 = {
+		prestige = 1
+	}
+	
+	template_3 = {
+		prestige = 1
+	}
+	
+	template_4 = {
+		prestige = 1
+	}
+	
+	template_5 = {
+		prestige = 1
+	}
+	
+	template_6 = {
+		prestige = 1
+	}
+	
+	template_7 = {
+		prestige = 1
+	}
+}
+
+hermusa_ideas = {
+	start = {
+		mercenary_cost = -0.20
+		naval_forcelimit_modifier = 0.20
+	}
+	bonus = {
+		ship_durability = 0.10
+	}
+	trigger = {
+		tag = A35
+	}
+	free = yes
+	
+	hermusa_1 = { #Mercenary Reliance
+		mercenary_discipline = 0.10
+		merc_maintenance_modifier = -0.20
+	}
+	
+	hermusa_2 = { #Northern Bastion
+		defensiveness = 0.10
+	}
+	
+	hermusa_3 = { #Planned Financial Expansion
+		build_cost = -0.10
+		inflation_reduction = 0.05
+	}
+	
+	hermusa_4 = { #Developmental Theories
+		development_cost = -0.15
+	}
+	
+	hermusa_5 = { #Innovators by heart
+		idea_cost = -0.10
+	}
+	
+	hermusa_6 = { #Centralization of Trade
+		trade_efficiency = 0.10
+	}
+	
+	hermusa_7 = { #Hermusan Autonomy
+		land_morale = 0.15
+	}
+}
+
+tadipouro_ideas = {
+	start = {
+		prestige_from_land = 0.50
+		ae_impact = -0.10
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.15
+	}
+	trigger = {
+		tag = A32
+	}
+	free = yes
+	
+	tadipouro_1 = { #Gauntlet Warriors
+		discipline = 0.05
+		infantry_cost = -0.10
+	}
+	
+	tadipouro_2 = { #Statesmen
+		improve_relation_modifier = 0.20
+	}
+	
+	tadipouro_3 = { #Black Order
+		global_manpower_modifier = 0.10
+		army_tradition_from_battle = 0.50
+	}
+	
+	tadipouro_4 = { #Large Warships
+		ship_durability = 0.10
+	}
+	
+	tadipouro_5 = { #Dedicated Warrior Class
+		free_leader_pool = 1
+		general_cost = -0.25
+	}
+	
+	tadipouro_6 = { #Mines!
+		production_efficiency = 0.10
+	}
+	
+	tadipouro_7 = { #Army Standardization Effort
+		free_mil_policy = 1
+	}
+}
+
+meropis_ideas = {
+	start = {
+		navy_tradition = 1
+		land_morale = 0.10
+	}
+	bonus = {
+		prestige = 1
+	}
+	trigger = {
+		tag = A44
+	}
+	free = yes
+	
+	meropis_1 = { #Yolo
+		leader_naval_shock = 2
+	}
+	
+	meropis_2 = { #Machimos recruits
+		discipline = 0.05
+	}
+	
+	meropis_3 = { #Eusebes missionaries
+		advisor_cost = -0.20
+	}
+	
+	meropis_4 = { #Destruction of the April Rites
+		global_missionary_strength = 0.02
+		culture_conversion_cost = -0.20
+	}
+	
+	meropis_5 = { #Set Atlantis alight
+		fire_damage = 0.10
+		harsh_treatment_cost = -0.25
+	}
+	
+	meropis_6 = { #Forge a new Empire
+		core_creation = -0.10
+	}
+	
+	meropis_7 = { #Enslave the survivors
+		global_trade_goods_size_modifier = 0.10
+	}
+}
+
+thuler_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+		naval_maintenance_modifier = -0.20
+	}
+	bonus = {
+		prestige = 1
+	}
+	trigger = {
+		tag = THL
+	}
+	free = yes
+	
+	thuler_1 = { #Norse incursions
+		land_maintenance_modifier = -0.10
+	}
+	
+	thuler_2 = { #Irish Endurance
+		shock_damage_received = -0.10
+	}
+	
+	thuler_3 = { #Spreading Catholicism
+		papal_influence = 2
+		tolerance_own = 2
+	}
+	
+	thuler_4 = { #Invite more Irishmen
+		advisor_cost = -0.10
+	}
+	
+	thuler_5 = { #Never falter
+		war_exhaustion = -0.02
+	}
+	
+	thuler_6 = { #Defend our coasts
+		own_coast_naval_combat_bonus = 1.0
+	}
+	
+	thuler_7 = { #We literally only came here to evangelize
+		global_missionary_strength = 0.02
+	}
+}
+
+trichotos_ideas = {
+	start = {
+		core_creation = -0.15
+		ae_impact = -0.20
+	}
+	bonus = {
+		governing_capacity_modifier = 0.25
+	}
+	trigger = {
+		tag = A40
+	}
+	free = yes
+	
+	trichotos_1 = { #Cataphracts in Atlantis
+		cavalry_power = 0.20
+		leader_land_shock = 1
+	}
+	
+	trichotos_2 = { #The New Roman Exiles
+		diplomatic_reputation = 1
+		global_institution_spread = 0.20
+	}
+	
+	trichotos_3 = { #Atlantean Crossbowmen
+		infantry_power = 0.15
+	}
+	
+	trichotos_4 = { #Of Noble Bearing
+		heir_chance = 0.50
+	}
+	
+	trichotos_5 = { #Theme Navies
+		galley_power = 0.20
+	}
+	
+	trichotos_6 = { #Katepanate War Logistics
+		land_attrition = -0.20
+		war_exhaustion = -0.05
+	}
+	
+	trichotos_7 = { #Byzantine-like Bureaucracy
+		state_maintenance_modifier = -0.25
+		yearly_absolutism = 0.5
+	}
+}
+
+philippia_ideas = {
+	start = {
+		naval_morale = 0.15
+		privateer_efficiency = 0.25
+	}
+	bonus = {
+		trade_efficiency = 0.15
+	}
+	trigger = {
+		tag = A46
+	}
+	free = yes
+	
+	philippia_1 = { #Boarding
+		leader_naval_shock = 2
+	}
+	
+	philippia_2 = { #Big bote
+		global_ship_recruit_speed = -0.20
+		sea_repair = yes
+	}
+	
+	philippia_3 = { #Modern bote
+		dip_tech_cost_modifier = -0.10
+	}
+	
+	philippia_4 = { #Talk like a Pirate day
+		prestige = 1
+	}
+	
+	philippia_5 = { #Actual Raids
+		may_perform_slave_raid = yes
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	
+	philippia_6 = { #Obligatory military idea
+		infantry_power = 0.10
+	}
+	
+	philippia_7 = { #Pirates don't care
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+	}
+}
+
+tauryria_ideas = {
+	start = {
+		naval_forcelimit_modifier = 0.15
+		global_sailors_modifier = 0.25
+	}
+	bonus = {
+		naval_morale = 0.15
+	}
+	trigger = {
+		tag = A49
+	}
+	free = yes
+	
+	tauryria_1 = { #Experienced captains
+		leader_naval_manuever = 2
+	}
+	
+	tauryria_2 = { #Defensive fleet doctrine
+		own_coast_naval_combat_bonus = 1.0
+	}
+	
+	tauryria_3 = { #Open up an admiralcy school
+		admiral_cost = -0.25
+		navy_tradition = 1
+	}
+	
+	tauryria_4 = { #Sponsor mercantile endeavors
+		merchants = 1
+		burghers_loyalty_modifier = 0.1
+	}
+	
+	tauryria_5 = { #Askloyite wood
+		ship_durability = 0.10
+		heavy_ship_power = 0.10
+	}
+	
+	tauryria_6 = { #Tauryrian dock complex
+		heavy_ship_cost = -0.10
+	}
+	
+	tauryria_7 = { #big iron
+		artillery_power = 0.10
+		heavy_ship_power = 0.10
+	}
+}
+
+askloy_ideas = {
+	start = {
+		discipline = 0.05
+		leader_naval_shock = 2
+	}
+	bonus = {
+		navy_tradition = 1.5
+	}
+	trigger = {
+		tag = A48
+	}
+	free = yes
+	
+	askloy_1 = { # Marines!
+		global_sailors_modifier = 0.20
+		allowed_marine_fraction = 0.20
+	}
+	
+	askloy_2 = { # Seat of Nautean Power
+		prestige_decay = -0.01
+		nobles_loyalty_modifier = 0.10
+	}
+	
+	askloy_3 = { # Naval Meritocracy
+		naval_morale = 0.10
+		admiral_cost = -0.50
+	}
+	
+	askloy_4 = { # Conserved Seafaring Tradition
+		global_ship_cost = -0.20
+		navy_tradition_decay = -0.02
+	}
+	
+	askloy_5 = { # Doctrinal Flexibility
+		leader_naval_manuever = 2
+	}
+	
+	askloy_6 = { # Crack down on tax evasion
+		global_tax_modifier = 0.15
+	}
+	
+	askloy_7 = { # Tauryrian example
+		leader_naval_fire = 2
+	}
+}
+
+daephi_ideas = {
+	start = {
+		shock_damage = 0.10
+		global_missionary_strength = 0.02
+	}
+	bonus = {
+		warscore_cost_vs_other_religion = -0.20
+	}
+	trigger = {
+		tag = A27
+	}
+	free = yes
+	
+	daephi_1 = { # Expelling the Heptarchic Faith
+		cb_on_religious_enemies = yes
+		land_forcelimit_modifier = 0.10
+	}
+	
+	daephi_2 = { # The Oracle of Daephi
+		missionaries = 1
+		tolerance_own = 2
+	}
+	
+	daephi_3 = { # Visiting Nobility
+		spy_offence = 0.20
+		diplomatic_upkeep = 1
+	}
+	
+	daephi_4 = { # Tithe Duty
+		global_tax_modifier = 0.20
+	}
+	
+	daephi_5 = { # Unity of Faith
+		land_morale = 0.10
+		church_loyalty_modifier = 0.10
+	}
+	
+	daephi_6 = { # Renovate the Oracle's Shrine
+		prestige = 1
+	}
+	
+	daephi_7 = { # Clerical Governance
+		global_unrest = -2
+	}
+}
+
+cannibal_ideas = { #Anthropofagoi!
+	start = {
+		shock_damage = 0.20 #Mouths are an alternative weapon
+		diplomatic_reputation = -3 #No one likes cannibals
+	}
+	bonus = {
+		monarch_military_power = 2
+	}
+	trigger = {
+		tag = A50
+	}
+	free = yes
+	
+	cannibal_1 = { #Easy Access to Supplies... by eating people
+		land_attrition = -0.50
+	}
+	
+	cannibal_2 = { #People are scared of cannibals
+		land_morale = 0.15
+	}
+	
+	cannibal_3 = { #Eat your friends and don't starve during sieges
+		defensiveness = 0.20
+	}
+	
+	cannibal_4 = { #Eat the rebels
+		harsh_treatment_cost = -0.50
+		global_unrest = -2
+	}
+	
+	cannibal_5 = { #Well-nourished builders
+		build_cost = -0.15
+	}
+	
+	cannibal_6 = { #The Army as a method to secure food
+		global_manpower_modifier = 0.25
+	}
+	
+	cannibal_7 = { #Endorse Vore
+		tolerance_own = 4
+	}
+}
+
+artzainoi_ideas = {
+	start = {
+		light_ship_cost = -0.20
+		navy_tradition = 1
+	}
+	bonus = {
+		leader_naval_fire = 1
+	}
+	trigger = {
+		tag = A19
+	}
+	free = yes
+	
+	artzainoi_1 = { #Salarium
+		global_trade_goods_size_modifier = 0.10
+	}
+	
+	artzainoi_2 = { #Anti-Embezzling Audits
+		yearly_corruption = -0.05
+		production_efficiency = 0.10
+	}
+	
+	artzainoi_3 = { #Salt Conservation
+		may_explore = yes
+		naval_attrition = -0.25
+	}
+	
+	artzainoi_4 = { #Atlantean Rediscoveries
+		prestige = 1
+	}
+	
+	artzainoi_5 = { #External Ventures
+		diplomatic_reputation = 2
+	}
+	
+	artzainoi_6 = { #Western Drill Sargeants
+		drill_gain_modifier = 0.50
+		discipline = 0.025
+	}
+	
+	artzainoi_7 = { #Early Firearm Trauma
+		fire_damage_received = -0.10
+	}
+}
+
+zephyria_ideas = { #Yes, I'm this pretentious
+	start = {
+		province_warscore_cost = -0.20
+		leader_siege = 1
+	}
+	bonus = {
+		trade_efficiency = 0.10
+	}
+	trigger = {
+		tag = A38
+	}
+	free = yes
+	
+	zephyria_1 = { # Great Eastern Founders
+		build_cost = -0.15
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	
+	zephyria_2 = { # Zephyrian Forced March
+		movement_speed = 0.20
+	}
+	
+	zephyria_3 = { # Mysian Triangle
+		global_trade_goods_size_modifier = 0.10
+	}
+	
+	zephyria_4 = { # The Zephyrian Dynasty
+		monarch_lifespan = 0.15
+		monarch_admin_power = 1
+	}
+	
+	zephyria_5 = { # Doctrine of Constant Offense
+		siege_ability = 0.20
+	}
+	
+	zephyria_6 = { # Adoption of Gunpowder
+		fire_damage = 0.15
+	}
+	
+	zephyria_7 = { # Rex Ayadonis
+		administrative_efficiency = 0.10
+	}
+}
+
+atla_kingdom_ideas = {
+	start = {
+		infantry_power = 0.10
+		naval_morale = 0.15
+	}
+	bonus = {
+		navy_tradition = 1
+	}
+	trigger = {
+		tag = A00
+	}
+	free = yes
+	
+	atla_kingdom_1 = { #One True Emperor
+		legitimacy = 1
+		stability_cost_modifier = -0.10
+	}
+	
+	atla_kingdom_2 = { #Reintegrate the provinces
+		core_creation = -0.10
+		global_autonomy = -0.025
+	}
+	
+	atla_kingdom_3 = { #Aquila's Loyalty Reforms
+		discipline = 0.05
+	}
+	
+	atla_kingdom_4 = { #Restored Capital
+		build_cost = -0.15
+	}
+	
+	atla_kingdom_5 = { #Trident Navy
+		ship_durability = 0.05
+	}
+	
+	atla_kingdom_6 = { #Atlantean Golden Age (Monarchy)
+		adm_tech_cost_modifier = -0.10
+	}
+	
+	atla_kingdom_7 = { #Authority Restored
+		prestige = 1
+	}
+}
+
+atla_republic_ideas = {
+	start = {
+		infantry_power = 0.10
+		naval_morale = 0.15
+	}
+	bonus = {
+		navy_tradition = 1
+	}
+	trigger = {
+		tag = A50
+	}
+	free = yes
+	
+	atla_republic_1 = { #The Council Triumphs
+		republican_tradition = 0.5
+	}
+	
+	atla_republic_2 = { #Reintegrate the provinces
+		core_creation = -0.10
+		global_autonomy = -0.025
+	}
+	
+	atla_republic_3 = { #Consular Military Reforms
+		shock_damage_received = -0.10
+	}
+	
+	atla_republic_4 = { #Restored Capital
+		build_cost = -0.15
+	}
+	
+	atla_republic_5 = { #Trident Navy
+		ship_durability = 0.05
+	}
+	
+	atla_republic_6 = { #Atlantean Golden Age (Republic)
+		dip_tech_cost_modifier = -0.10
+	}
+	
+	atla_republic_7 = { #Authority Restored
+		prestige = 1
+	}
+}
+
+avalon_ideas = {
+    start = {
+        army_tradition = 0.5
+        diplomatic_reputation = 1
+    }
+    bonus = {
+        discipline = 0.05
+    }
+    trigger = {
+        always = no #Unused
+    }
+    free = yes
+    
+    avalon_1 = {
+        land_morale = 0.15
+    }
+    
+    avalon_2 = {
+        production_efficiency = 0.10
+        trade_efficiency = 0.10
+    }
+    
+    avalon_3 = {
+        technology_cost = -0.05
+        tolerance_heretic = 1
+    }
+    
+    avalon_4 = {
+        global_ship_cost = -0.20
+        naval_attrition = -0.20
+    }
+    
+    avalon_5 = {
+        garrison_size = 0.25
+    }
+    
+    avalon_6 = {
+        culture_conversion_cost = -0.25
+        core_creation = -0.10
+    }
+    
+    avalon_7 = {
+        diplomatic_upkeep = 1
+    }
+}
+
+imperial_atlantean_ideas = {
+	start = {
+		infantry_power = 0.15
+		naval_morale = 0.20
+	}
+	bonus = {
+		administrative_efficiency = 0.10
+	}
+	trigger = {
+		tag = ATL
+	}
+	free = yes
+	
+	imperial_atlantean_1 = { #Rebuild our Legacy
+		development_cost = -0.10
+		build_cost = -0.10
+	}
+	
+	imperial_atlantean_2 = { #Mare Tridentum Clausum
+		trade_efficiency = 0.15
+	}
+	
+	imperial_atlantean_3 = { #Versatile Army Corps
+		discipline = 0.05
+	}
+	
+	imperial_atlantean_4 = { #Atlantic Endeavors
+		leader_naval_manuever = 2
+	}
+	
+	imperial_atlantean_5 = { #Center of the World's Trade
+		technology_cost = -0.10
+	}
+	
+	imperial_atlantean_6 = { #Mythical Empire
+		diplomatic_reputation = 2
+	}
+	
+	imperial_atlantean_7 = { #Beyond the Trident
+		colonists = 1
+	}
+}

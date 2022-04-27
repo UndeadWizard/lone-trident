@@ -1,0 +1,17 @@
+#4783 - Gesovia
+
+owner = AN0
+controller = AN0
+add_core = AN0
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = grain 
+hre = no
+
+discovered_by = atlantean

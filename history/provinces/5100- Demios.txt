@@ -1,0 +1,17 @@
+#4751 - Demios
+
+owner = A43
+controller = A43
+add_core = A43
+is_city = yes
+
+base_tax = 1
+base_production = 3
+base_manpower = 1
+
+culture = poenici
+religion = heptarchic
+trade_goods = wine
+hre = no
+
+discovered_by = atlantean

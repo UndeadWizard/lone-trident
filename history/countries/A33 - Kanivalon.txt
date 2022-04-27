@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+primary_culture = alyshi
+capital = 5062
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Alexandros"
+		dynasty = "Ouranos"
+		adm = 1
+		dip = 3
+		mil = 1
+		birth_date = 1360.4.1
+	}
+
+	heir = {
+		name = "Alexandros"
+		monarch_name = "Alexandros"
+		dynasty = "Ouranos"
+		adm = 1
+		dip = 1
+		mil = 3
+		claim = 25
+		birth_date = 1409.7.1
+		death_date = 1530.6.1
+	}
+}
+

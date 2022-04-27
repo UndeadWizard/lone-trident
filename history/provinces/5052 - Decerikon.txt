@@ -1,0 +1,17 @@
+#4703 - Decerikon
+
+owner = A02
+controller = A02
+add_core = A02
+is_city = yes
+
+culture = high_atlantean
+religion = atlanic
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = glass 
+hre = no
+
+discovered_by = atlantean

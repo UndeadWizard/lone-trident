@@ -1,0 +1,57 @@
+country_decisions = {
+    visit_the_oracle = {
+		potential = {
+			religion = atlanic
+			OR = {
+				NOT = {
+					has_ruler_flag = visited_oracle 
+				}
+				had_ruler_flag = {
+						flag = visited_oracle
+						days = 3650
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = visit_the_oracle_tooltip
+			hidden_effect  = {
+				set_ruler_flag = visited_oracle
+				capital_scope = {
+					add_province_triggered_modifier = visited_the_oracle
+				}
+			}
+		}	
+	}
+	purchase_printingpress = {
+		potential = {
+			OR = {
+				AND = {
+					capital_scope = {
+						superregion = atlantean_superregion
+					}
+					is_year = 1560
+					treasury = 500
+				}
+				AND = {
+					capital_scope = {
+						region = antillia_region
+					}
+					is_year = 1560
+					treasury = 500
+				}
+			}
+			NOT = {
+				has_unembraced_institution = renaissance
+				capital_scope = {
+					printing_press = 50
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = oi_institutions.4
+				days = 2
+			}
+		}
+	}
+}

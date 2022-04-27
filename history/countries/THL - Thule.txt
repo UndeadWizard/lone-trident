@@ -1,0 +1,42 @@
+government = monarchy
+technology_group = western
+religion = catholic
+primary_culture = thuler_irish
+capital = 5140
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Cináed"
+		dynasty = "O'Faoláin"
+		adm = 1
+		dip = 2
+		mil = 1
+		birth_date = 1411.9.22
+	}
+
+	heir = {
+		name = "Niall"
+		monarch_name = "Niall"
+		dynasty = "O'Faoláin"
+		adm = 2
+		dip = 4
+		mil = 4
+		claim = 75
+		birth_date = 1407.12.20
+		death_date = 1527.5.30
+	}
+}
+
+#Fall of Byzantium
+1453.1.1 = {
+	monarch = {
+		name = "Cairell"
+		dynasty = "Kelly"
+		adm = 2
+		dip = 5
+		mil = 5
+		birth_date = 1395.12.10
+	}
+
+}

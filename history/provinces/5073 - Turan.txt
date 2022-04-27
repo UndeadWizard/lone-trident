@@ -1,0 +1,17 @@
+#4724 - Turan
+
+owner = A34
+controller = A34
+add_core = A34
+is_city = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+culture = alyshi
+religion = atlanic
+trade_goods = naval_supplies
+hre = no
+
+discovered_by = atlantean

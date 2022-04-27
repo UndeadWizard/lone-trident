@@ -1,0 +1,17 @@
+#4730 - Maratirath
+
+owner = A37
+controller = A37
+add_core = A37
+is_city = yes
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+culture = ayadoni
+religion = atlanic
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

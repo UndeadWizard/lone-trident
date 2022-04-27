@@ -1,0 +1,17 @@
+#4667 - Erythrarta
+
+owner = A27
+controller = A27
+add_core = A27
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = wool
+hre = no
+
+discovered_by = atlantean

@@ -1,0 +1,17 @@
+#4773 - Con
+
+owner = AN2
+controller = AN2
+add_core = AN2
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = cloth 
+hre = no
+
+discovered_by = atlantean

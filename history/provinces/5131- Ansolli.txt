@@ -1,0 +1,17 @@
+#4777 - Ansoli
+ 
+owner = AN6
+controller = AN6
+add_core = AN6
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = paper 
+hre = no
+
+discovered_by = atlantean

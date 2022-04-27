@@ -1,0 +1,17 @@
+#4742 - Kolpoli
+
+owner = A41
+controller = A41
+add_core = A41
+is_city = yes
+
+base_tax = 1
+base_production = 2
+base_manpower = 2
+
+culture = poenici
+religion = heptarchic
+trade_goods = livestock
+hre = no
+
+discovered_by = atlantean

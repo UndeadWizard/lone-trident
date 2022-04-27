@@ -1,0 +1,18 @@
+#4662 - Maraath
+
+owner = A30
+controller = A30
+add_core = A30
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = naval_supplies
+hre = no
+center_of_trade = 1
+
+discovered_by = atlantean

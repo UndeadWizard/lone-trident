@@ -1,0 +1,23 @@
+archbishop_reform = {
+	potential = {
+		OR = {
+			tag = AN0
+			tag = ANX
+		}
+	}
+
+	modifiers = {
+		prestige_per_development_from_conversion = 0.2
+		warscore_cost_vs_other_religion = -0.1
+		tolerance_heathen = -1
+	}
+	valid_for_nation_designer = no
+	icon = "papacy"
+	allow_normal_conversion = yes
+	allow_convert = no
+	lock_level_when_selected = yes
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "BOOKMARK_OI_ATLANTIS_BOOKMARK"
+	desc = "BOOKMARK_OI_ATLANTIS_BOOKMARK_DESC"
+	date = 1444.11.11
+	center = 5000
+	default = yes
+	country = A00
+	country = A19
+	country = A30
+	country = A32
+	country = A35
+	country = A38
+	country = A40
+	country = A44
+	country = A49
+	country = AN0
+}

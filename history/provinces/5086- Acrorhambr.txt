@@ -1,0 +1,21 @@
+#4737 - Acrorhambr
+
+owner = A39
+controller = A39
+add_core = A39
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+culture = ayadoni
+religion = atlanic
+trade_goods = cloth
+hre = no
+
+latent_trade_goods = {
+	coal
+}
+
+discovered_by = atlantean

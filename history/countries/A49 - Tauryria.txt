@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = nautean
+capital = 5114
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Acnonios"
+		dynasty = "Mento"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1393.6.8
+	}
+
+	heir = {
+		name = "Nereus" 
+		dynasty = "Mento"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1411.9.15
+		death_date = 1456.7.16
+	}
+}

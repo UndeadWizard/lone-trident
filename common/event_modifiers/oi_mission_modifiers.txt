@@ -1,0 +1,47 @@
+### Modifiers for Events
+
+
+atlantean_pride_modifier = {
+	navy_tradition = 0.5
+	recover_navy_morale_speed = 0.1
+}
+
+african_foothold = {
+	local_unrest = -1
+	local_tax_modifier = 0.1
+}
+
+promising_imperator_pretender = {
+	prestige = 1
+	legitimacy = 1
+}
+
+atlantean_west = {
+	prestige = 1
+}
+
+roman_legacy = {
+	discipline = 0.025
+}
+
+all_roads_to_atla = {
+	local_autonomy = -0.05
+	local_friendly_movement_speed = 0.1
+}
+
+new_atlantean_taxsystem = {
+	inflation_reduction = 0.1
+	global_tax_modifier = 0.05
+}
+
+ATL_diplomacy_modifier = {
+	diplomatic_upkeep = 1
+}
+
+ATL_european_goods = {
+	 trade_goods_size_modifier = 0.15
+}
+
+ATL_hidden_property = {
+	production_efficiency = 0.1
+}

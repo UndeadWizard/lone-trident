@@ -1,0 +1,58 @@
+﻿l_english: 
+ atlantean_pagan: "Atlantean"
+ atlanic: "Atlanic"
+ atlanic_religion_desc: "When the IX Legio intitally landed on Ayadon, they brought with them the stories of the Old World. These later took on a life of their own, and soon became a unique mix between Roman, Phoenician, and Barbara beliefs."
+ 
+ heptarchic: "Heptarchic"
+ heptarchic_religion_desc: "Heptarchism has its roots in the Seven Bishops, alternatively known as the Seven Saints, who journeyed from Iberia during the Moorish Invasion. They sport a blend between Hellenistic beliefs, and traditional Catholicism." 
+ HEPTARCHIC_ASPECTS_LONG:0 "Glory of the Seven"
+ HEPTARCHIC_ASPECTS_SHORT:0 "aspects" 
+ 
+ tiki: "Tiki"
+ tiki_religion_desc: "In Maori mythology, Tiki is the first man created."
+ 
+ luuxin: "Luu Xin"
+ 
+ yazdeism: "Yazdeism"
+ nestorian: "Nestorian"
+ 
+ nayaran: "Nayaran"
+ 
+ occultist: "Occultist"
+ # Personal Deities
+ deity_mero: "Mero"
+ deity_mero_desc: "Patron God of Meropis, Reveler of Flames, Scorned of Atlas, God of Supremacy, Roman Emperor made God." 
+ deity_khronos: "Khronos"
+ deity_khronos_desc: "Also known as The Wise Titan and the Guardian of Time. Khronos is known to the Anthreans as a respecter of life, and will worship him by ritually eating the dead so their bodies won't go to waste."
+ deity_jupiter: "Jupiter"
+ deity_jupiter_desc: "King and father of the gods, the ruler of Mount Atlas and the god of the sky, weather, thunder, lightning, law, order, and justice."
+ deity_yamm: "Yamm"
+ deity_yamm_desc: "God of the sea, rivers, floods, droughts, and earthquakes. He is a son of Cronus and Rhea and brother to Jupiter and Haides."
+ deity_haides: "Haides"
+ deity_haides_desc: "King of the underworld and the dead, and god of regret. His consort is Persephone."
+ deity_juno: "Juno"
+ deity_juno_desc: "Queen of the gods and goddess of marriage, women, childbirth, heirs, kings, and empires."
+ deity_minrva: "Minrva"
+ deity_minrva_desc: "Goddess of intelligence, skill, peace, warfare, battle strategy, handicrafts, and wisdom."
+ deity_astarte: "Astarte"
+ deity_astarte_desc: "Goddess of love, beauty, desire, sexuality, and pleasure."
+
+#Cults
+ cthulhu_cult: "Cthulhu Cult"
+ dagon_cult: "Dagon Cult"
+ hastur_cult: "Hastur Cult"
+ nyarlathotep_cult: "Nyarlathotep Cult"
+ yig_cult: "Yig Cult"
+#Heptarchic Aspects
+book_of_preeminence_aspect: "Book of Preeminence"
+desc_book_of_preeminence_aspect: "Even though I walk through the valley of the shadow of death, I fear no evil. Lucifer releaseth thy hound towards thine Messiah; The Son of God demands it."
+book_of_ansis_aspect: "Book of Ansis"
+desc_book_of_ansis_aspect: "And like Moses before him, Ansis was appointed by God to lead the chosen away from Iberia, far from the scourge of the Saracen and the heretic, to Antillia; the Second Holy Land." 
+book_of_bermudo_aspect: "Book of Bermudo"
+desc_book_of_bermudo_aspect: "And on the sixth month of the second year, Bermudo had a vision from God to build a mighty temple in the hills of Antillia."
+edict_of_salvation_aspect: "Edict of Salvation"
+edict_of_tolerance_aspect: "Edict of Tolerance"
+edict_of_the_devout_aspect: "Edict of the Devout"
+decree_of_the_seven_aspect: "Decree of the Seven"
+decree_of_sotiras_aspect: "Decree of Sotiras"
+decree_of_the_righteous_aspect: "Decree of the Righteous"

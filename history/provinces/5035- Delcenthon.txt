@@ -1,0 +1,17 @@
+#4686 - Delcenthon
+
+owner = A18
+controller = A18
+add_core = A18
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = grain
+hre = no
+
+discovered_by = atlantean

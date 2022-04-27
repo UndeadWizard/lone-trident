@@ -1,0 +1,47 @@
+﻿l_english:
+ oi_discovery.1.t: "Strange Christians"
+ oi_discovery.1.d: "Our explorers have sent reports of some of their latest findings in our Atlantic expeditions, and they found themselves unsure how to proceed. In a large island, they did the usual procedures for newly discovered territory: attempt communication with the locals, seek early diplomacy, restock some supplies, evangelize some. Yet, this time, they were caught offguard when they learned the locals already had a grasp on what Christianity is. \nIt turns out they follow the Heptarchic sect, or so they claim; it preaches the word of Jesus much like we do, and shares most saints and a concept of God, but does not have a central authority akin to the Papacy or the Ecumenical Patriarch; they also do not speak of Jesus as a charming pacifist, but as a grand warrior of mythological achievements. We're still unsure with how to proceed with regards to those people..."
+ oi_discovery.1.a: "They're still Christian, right?"
+ oi_discovery.1.b: "What is this heresy?!"
+
+ oi_discovery.2.t: "Familiar Yet Foreign"
+ oi_discovery.2.d: "Explorers from our old land in Europe have arrived at our shores, and they are eager to communicate to some extent. We had a lot to share with each other - how the political landscape of Europe has changed since our departure, how our trip and settling went. For all of our differences, it was a productive exchange that is sure to fill in history books for both of our nations.\nPerhaps most important, however, was a debate over none other than religion itself. While we share our faith in the Lord and his son Jesus Christ, it's clear that distance and time has made us very different. At times, it seemed they couldn't grasp even the basic notions of what being a Christian even is. They denied that Jesus had accomplish his twelve grand feats, for one."
+ oi_discovery.2.a: "Interesting"
+ 
+ oi_discovery.3.t: "Explorers From Europa"
+ oi_discovery.3.d: "We've received news that explorers from Europa somehow reached our shores. It was once the homeland of many of the peoples that came to migrate to Atlantis, and pretty much the entire continent can in one way or another claim heritage to some European group. This is fantastic news, for finally we'll be able to fill in our history books with what actually happened there after the departures of the later groups from Trichotos. They seemed to be equally interested in learning from us how did we even get here, as well as how our society got to this point. A fruitful exchange, to be certain; though they seem fixated on discussing religion. The look of shock in their faces when we showed them a cross and said we were already aware of the concept of "Christianity" was certainly priceless."
+ oi_discovery.3.a: "At last!"
+ oi_discovery.3.b: "So how are the Romans faring?"
+ 
+ oi_institutions.1.t: "Atlantean Renaissance"
+ oi_institutions.1.d: "For ages, Atlantis has not seen grand architecture or artistic expansion, as the Imperial power collapsed and very few were in good enough condition to bring forth grand works, specially due to the lack of centralized funding. But this has been slowly changing - the local warlords seek to legitimize themselves, either as local rulers or candidates for Imperatorship. Some others just want to show off their growing wealth, reminding their peasantry of their position. Regardless of motive, local investments on grander buildings and exquisite pieces of art, from paintings to statues, are a growing trend in Atlantean society. European explorers have catalyzed that twofold by mentioning grand works of their homelands, some of which we are well aware of, albeit always considered mythical, as well as giving us stunned reactions to our prodigious artists, claiming it reminds them of the Greco-Roman styles whose nostalgia has been a growing trend in Europe."
+ oi_institutions.1.a: "It seems we're experiencing a cultural rebirth!"
+ 
+ oi_institutions.2.t: "Rebirth of Atlantis"
+ oi_institutions.2.d: "Our rise as the rightful rulers of all of Atlantis has been a godsend for the artistic communities of the continent. With a central authority estabilished and some semblance of stability in the future, prospectual artists no longer fear starving as they put aside their artistic tools for farming ones. As [Root.Monarch.GetName]'s influence grows, so does our need to have all sorts of glorious mementos; a ruler's artistic legacy cannot be underestimated. At first, it was the maintenance of palaces and creation of new places of worship, but now, we aren't satisfied until those places look absolutely gorgeous, and commissioning the finest paintings and statues we can muster is the logical next step."
+ oi_institutions.2.a: "It seems we're experiencing a cultural rebirth!"
+ 
+ oi_institutions.3.t: "Artworks in Antillia"
+ oi_institutions.3.d: "Our isolationism has been shattering quickly as foreigners start to realize Antillia's existence, in it's secluded corner of the ocean. Contacts from the North have spoken about a golden age of art and philosophy in their homelands, and, needless to say, Antillian clergymen feel jealous. Despite our tradition of clerical rule, Antillia has not had grand churches built to last forever and impress all visitors, a travesty that tarnishes our reputation. We must seek to equate ourselves to these foreigners in cultural development if our legacy is to be permanent."
+ oi_institutions.3.a: "We'll have the grandest of churches built!"
+ 
+ atl_conquest.1.t: "The Crownlands"
+ atl_conquest.1.d: "The Crownlands are were the first Atlanteans were forged from the legendary Romans. Our ancestors survived the trials of Yamm, braving his vicious storms, and were rewarded with the promised lands around Mount Atlas. Time past, and their descendants squabbled much like we do after the Collapse. In 386 CE, Akakios Argyris was the first to unite the Atlanteans through his conquest of the Crownlands, much like we have. Only time will tell what else we have in common with the past. "
+ atl_conquest.1.a: "Promising indeed."
+ 
+ atl_conquest.2.t: "The Gates"
+ atl_conquest.2.d: "The Gates have always served some form of contention for the High Atlanteans for centuries. In 438 CE, the Ayadoni-descendant Ahumm Argyris threw his father's Imperium into chaos when his High Atlantean brother Numitor Argyris was crowned Imperator. The Imperium was split down Ayadoni and Atlantean lines and only ended with the conquest of Atlantium; within a few years a paranoid Ahumm dissolved the Atlantean Senate. In 446 CE, former Senators fearing they that they will soon be executed, ambushed the Imperator Ahumm and stabbed him 32 times; an event now known as the Ides of April."
+ atl_conquest.2.a: "Only the chosen will flourish."
+ 
+ atl_conquest.3.t: "The Islands"
+ atl_conquest.3.d: "The Atlanteans have always had a mixed relationship with the sea; for Yamm gives, and Yamm takes. It is common belief among the peasantry that the Red Plague was a divine punishment from Yamm for the Atlantean neglection of the sea. In 1315 CE, a series of religious reforms were passed by Imperator Amadeus Servati the Heretic to lessen the sway that Atlantean priests had. In 1320 CE, it is fabled that the first appearance of the Red Plague was on a Merchant ship from Meropis. By 1324 CE the plague had spread all across the Atlantean mainland. The 1354 eruption of Mount Atlas was the final nail in the coffin for the Servati family's control of the Imperatorship."
+ atl_conquest.3.a: "Yamm's anger is to be feared."
+ 
+ atl_events.1.t: "Imperator of Atlantis"
+ atl_events.1.d: "It is indisputable, we are the true heirs to Atlantis. The path has been long and hard, and many widows mourn those they've lost. Yet the work continues, there are still those that stand up against us, clinging to a delusion of independence. No matter, you are the Imperator of Atlantis. An ancient title beginning with the great conquest of Atlantis by Akakios Argyis, a feat that your dynasty will surely replicate."
+ atl_events.1.a: "There will be more to conquer."
+ 
+ atl_events.2.t: "Capital in Atlantium?"
+ atl_events.2.d: "There are those in your court that question why the Imperator rules not in Atlantium but in $CAPITAL_CITY$. Perhaps their concerns have merit?"
+ atl_events.2.a: "Yes, an Imperator should rule in Atlantium."
+ atl_events.2.b: "I rule where I please!"

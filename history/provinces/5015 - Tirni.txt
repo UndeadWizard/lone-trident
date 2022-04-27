@@ -1,0 +1,17 @@
+#4666 - Tirni
+
+owner = A17
+controller = A17
+add_core = A17
+is_city = yes
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+culture = alyric
+religion = heptarchic
+trade_goods = livestock
+hre = no
+
+discovered_by = atlantean

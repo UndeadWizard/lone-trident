@@ -1,0 +1,17 @@
+#4762 - Ehiza
+
+owner = A47
+controller = A47
+add_core = A47
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = nautean
+religion = atlanic
+trade_goods = wool
+hre = no
+
+discovered_by = atlantean

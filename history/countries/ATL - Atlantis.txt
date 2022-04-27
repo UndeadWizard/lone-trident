@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 3
+mercantilism = 105
+technology_group = atlantean
+religion = atlanic
+primary_culture = high_atlantean
+capital = 5053

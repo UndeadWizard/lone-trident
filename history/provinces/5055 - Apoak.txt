@@ -1,0 +1,18 @@
+#4706 - Apoak
+
+owner = A06
+controller = A06
+add_core = A06
+is_city = yes
+
+culture = high_atlantean
+religion = atlanic
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+
+trade_goods = grain 
+hre = no
+
+discovered_by = atlantean

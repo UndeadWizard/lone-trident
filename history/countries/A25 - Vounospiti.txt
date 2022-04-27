@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = alyric
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Ignatius"
+		dynasty = "Barbatus"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1403.10.16
+	}
+
+	heir = {
+		name = "Hyginus"
+		dynasty = "Barbatus"
+		adm = 4
+		dip = 6
+		mil = 3
+		birth_date = 1420.12.14
+		death_date = 1458.10.9
+	}
+}

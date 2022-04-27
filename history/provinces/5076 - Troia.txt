@@ -1,0 +1,17 @@
+#4727 - Troia
+
+owner = A36
+controller = A36
+add_core = A36
+is_city = yes
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+culture = alyshi
+religion = atlanic
+trade_goods = grain
+hre = no
+
+discovered_by = atlantean

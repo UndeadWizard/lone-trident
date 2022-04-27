@@ -1,0 +1,51 @@
+country_decisions = {
+	ayadon_nation = {
+		major = yes
+		potential = {
+            normal_or_historical_nations = yes
+            OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+            is_colonial_nation = no
+            OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+            NOT = { exists = AYA }
+			primary_culture = ayadoni
+			
+			NOT = { tag = ATL }
+		}
+		allow = {
+            is_free_or_tributary_trigger = yes
+			is_at_war = no
+            AND = {
+				is_core = 5068
+				is_core = 5089
+				is_core = 5096
+				is_core = 5100
+				is_core = 5103
+			}
+		}
+		effect = {
+			change_tag = AYA
+            set_government_rank = 2
+            
+            add_prestige = 25
+			add_stability = 1
+			add_government_reform = ayadoni_rexdom
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+        }
+		ai_will_do = {
+			factor = 1.0
+		}
+		ai_importance = 400
+	}
+}

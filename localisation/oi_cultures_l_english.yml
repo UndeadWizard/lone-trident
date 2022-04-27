@@ -1,0 +1,58 @@
+﻿l_english: 
+#Atlantean Cultures
+ atlantean_group:0 "Atlantean"
+ high_atlantean:0 "High Atlantean"
+ alyshi:0 "Alyshi"
+ alyric:0 "Alyric"
+ nautean:0 "Nautean"
+ poenici:0 "Poenici"
+ meropisean:0 "Meropisean"
+ ayadoni:0 "Ayadoni"
+ anthrean:0 "Anthrean"
+ anatlan:0 "Anatlan"
+ panchaian:0 "Panchaian"
+ arcadian:0 "Arcadian"
+ amazonian:0 "Amazonian"
+ atlantean_nd:0 "Atlantean" # Nation Designer only
+#Antillian Cultures
+ antillia_group:0 "Antillian"
+ antillian:0 "Antillian"
+ antillian_nd:0 "Atlantean" # Nation Designer only
+#Indo-Lemurian Cultures
+ dravidian_lemurian: "Dravidian Lemurian"
+ indo_lemurian:0 "Indo-Lemurian"
+ tervul:0 "Tervul"
+ pasandhi:0 "Pasandhi"
+ lakan:0 "Lakan"
+ dramil:0 "Dramil"
+ pandiyan:0 "Pandiyan"
+#Afro-Lemurian Cultures
+ afro_lemurian:0 "Afro-Lemurian"
+ kaskazini:0 "Kaskazini"
+ katikati:0 "Katikati"
+ mashariki:0 "Mashariki"
+ #Lemurians
+ lemurian:0 "Lemurian"
+#Polynesian Cultures
+ muror_polynesian_group: "Polynesian"
+ hawaiian:0  "Hawaiian"
+ rapanui:0 "Rapa Nui"
+ savaikian:0 "Savaikian"
+ waponi:0 "Waponi"
+ samoan:0 "Samoan"
+ tongan:0 "Tongan"
+ tahitian:0 "Tahitian"
+ maori:0 "Maori"
+ #Mu Cultures
+ mu_group: "Muror"
+ muror:0 "Muror"
+ mul:0 "Mul"
+ muar:0 "Mu'ar"
+ gulamur:0 "Gulamur"
+ mung:0 "Mung"
+ naacal:0 "Naacal"
+ #Occult Cultures
+ occult_group:0 "Occultist"
+ rlyehian:0 "R'lyehian"
+ #European Cultures
+ thuler_irish:0 "Thuler"

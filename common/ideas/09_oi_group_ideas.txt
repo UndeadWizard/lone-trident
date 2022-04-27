@@ -1,0 +1,282 @@
+#All group sets in OI.
+
+copypaster_ideas = {
+	start = {
+		prestige = 1
+		prestige = 1
+	}
+	bonus = {
+		prestige = 1
+	}
+	trigger = {
+		always = no
+	}
+	free = yes
+	
+	templateset_1 = {
+		prestige = 1
+	}
+	
+	templateset_2 = {
+		prestige = 1
+	}
+	
+	templateset_3 = {
+		prestige = 1
+	}
+	
+	templateset_4 = {
+		prestige = 1
+	}
+	
+	templateset_5 = {
+		prestige = 1
+	}
+	
+	templateset_6 = {
+		prestige = 1
+	}
+	
+	templateset_7 = {
+		prestige = 1
+	}
+}
+
+atlantis_islander_ideas = {
+	start = {
+		naval_morale = 0.15
+		global_own_trade_power = 0.15
+	}
+	bonus = {
+		merchants = 1
+	}
+	trigger = {
+		OR = {
+			tag = A13
+			tag = A20
+			tag = A30
+		}
+	}
+	free = yes
+	
+	atlantis_islander_1 = { #Control of the Atlantean Seas
+		embargo_efficiency = 0.25
+		ship_power_propagation = 0.10
+	}
+	
+	atlantis_islander_2 = { #Coastal Warfare
+		fire_damage = 0.10
+	}
+	
+	atlantis_islander_3 = { #Brain Gain
+		dip_advisor_cost = -0.10
+		admiral_cost = -0.25
+	}
+	
+	atlantis_islander_4 = { #Connections through the Land
+		diplomatic_reputation = 1
+	}
+	
+	atlantis_islander_5 = { #Show our Dominance
+		light_ship_cost = -0.10
+		global_naval_barrage_cost = -0.25
+	}
+	
+	atlantis_islander_6 = { #Mingle with Europe
+		global_institution_spread = 0.20
+	}
+	
+	atlantis_islander_7 = { #BOTE
+		navy_tradition_decay = -0.015
+	}
+}
+
+atlantis_group_ideas = {
+	start = {
+		sailors_recovery_speed = 0.20
+		army_tradition = 0.5
+	}
+	bonus = {
+		technology_cost = -0.10
+	}
+	trigger = {
+		AND = {
+			culture_group = atlantean_group
+			NOT = { primary_culture = nautean }
+			NOT = {
+				OR = {
+					tag = A13
+					tag = A20
+					tag = A30
+				}
+			}
+		}
+	}
+	free = yes
+	
+	atla_gen_1 = { #A Forced Diversity
+		tolerance_heathen = 2
+	}
+	
+	atla_gen_2 = { #Romani
+		shock_damage = 0.10
+	}
+	
+	atla_gen_3 = { #April fertility rites, it's canon now and you can't stop me
+		global_unrest = -1
+		manpower_recovery_speed = 0.10
+	}
+	
+	atla_gen_4 = { #Phoenician shipbuilding
+		ship_durability = 0.05
+		global_ship_repair = 0.20
+	}
+	
+	atla_gen_5 = { #Atlantis' unique goods
+		production_efficiency = 0.10
+	}
+	
+	atla_gen_6 = { #Trade with Europeans
+		global_prov_trade_power_modifier = 0.15
+	}
+	
+	atla_gen_7 = { #Modernize the navy
+		light_ship_power = 0.10
+		global_ship_recruit_speed = -0.10
+	}
+}
+
+nautean_group_ideas = {
+	start = {
+		global_sailors_modifier = 0.10
+		tolerance_heathen = 2
+	}
+	bonus = {
+		trade_efficiency = 0.10
+	}
+	trigger = {
+		primary_culture = nautean
+	}
+	free = yes
+	
+	naut_gen_1 = { #Atlantean Innovativeness
+		adm_tech_cost_modifier = -0.10
+	}
+	
+	naut_gen_2 = { #Sailor peoples
+		naval_forcelimit_modifier = 0.1
+		admiral_cost = -0.10
+	}
+	
+	naut_gen_3 = { #Fertility rites part 2 electric boogaloo
+		global_unrest = -1
+		manpower_recovery_speed = 0.10
+	}
+	
+	naut_gen_4 = { #Hard won autonomy
+		land_morale = 0.10
+	}
+	
+	naut_gen_5 = { #Cheap labor
+		infantry_cost = -0.10
+		development_cost = -0.05
+	}
+	
+	naut_gen_6 = { #Trade with Europeans
+		global_prov_trade_power_modifier = 0.15
+	}
+	
+	naut_gen_7 = { #From beaches to hills
+		defensiveness = 0.15
+	}
+}
+
+antillian_ideas = {
+	start = {
+		leader_naval_fire = 1
+		shock_damage_received = -0.10
+	}
+	bonus = {
+		stability_cost_modifier = -0.20
+	}
+	trigger = {
+		primary_culture = antillian
+		NOT = { has_reform = antillian_republic }
+	}
+	free = yes
+	
+	antillian_1 = { #Theocracies
+		missionaries = 1
+		defensiveness = 0.10
+	}
+	
+	antillian_2 = { #Build bote
+		global_ship_recruit_speed = -0.10
+	}
+	
+	antillian_3 = { #Visigoths!
+		free_mil_policy = 1
+	}
+	
+	antillian_4 = { #Heptarchic stuff
+		tolerance_own = 2
+	}
+	
+	antillian_5 = { #More Heptarchy
+		global_missionary_strength = 0.02
+		army_tradition = 0.5
+	}
+	
+	antillian_6 = { #Collect tithes
+		global_tax_modifier = 0.10
+	}
+	
+	antillian_7 = { #Holy mandates
+		legitimacy = 1
+		devotion = 1
+	}
+}
+
+antillian_republic_ideas = {
+	start = {
+		leader_naval_manuever = 1
+		shock_damage = 0.10
+	}
+	bonus = {
+		prestige_decay = -0.015
+	}
+	trigger = {
+		has_reform = antillian_republic
+	}
+	free = yes
+	
+	antillian_republic_1 = { #Citizenship by Conversion
+		global_missionary_strength = 0.02
+		tolerance_own = 2
+	}
+	
+	antillian_republic_2 = { #Mixed War-Merchant Navy
+		naval_forcelimit_modifier = 0.10
+		global_ship_trade_power = 0.10
+	}
+	
+	antillian_republic_3 = { #Visigothic Roots
+		army_tradition = 0.5
+	}
+	
+	antillian_republic_4 = { #Proselytizing for Popularity
+		missionaries = 1
+	}
+	
+	antillian_republic_5 = { #Planned Cities
+		development_cost = -0.10
+	}
+	
+	antillian_republic_6 = { #Collect tithes
+		global_tax_modifier = 0.10
+	}
+	
+	antillian_republic_7 = { #God's Own Republic
+		republican_tradition = 0.5
+	}
+}

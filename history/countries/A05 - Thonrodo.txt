@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+primary_culture = high_atlantean
+capital = 5060
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Drusus"
+		dynasty = "Ovicula"
+		adm = 3
+		dip = 3
+		mil = 6
+		birth_date = 1383.10.12
+	}
+
+	heir = {
+		name = "Vitus"
+		dynasty = "Ovicula"
+		adm = 1
+		dip = 1
+		mil = 3
+		birth_date = 1434.11.20
+		death_date = 1478.12.30
+	}
+}

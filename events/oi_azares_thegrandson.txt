@@ -1,0 +1,224 @@
+namespace = aza_thegrandson
+
+
+###### ATLANTEAN THE GRANDSON CHAIN
+
+
+# The Grandson
+country_event = {
+	id = aza_thegrandson.1
+	title = aza_thegrandson.1.t
+	desc = aza_thegrandson.1.d
+	picture = DEATH_OF_HEIR_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = aza_newhope
+	}
+	
+	option = {	
+		name = aza_thegrandson.1.a
+		trigger = {
+			A01 = {
+				was_player = no
+			}
+		}
+		ai_chance = { factor = 100 }
+		add_stability = 3
+		5051 = {
+			cede_province = A00
+			add_core = A00
+		}
+		define_general = {
+			name = "Aquila Servati"
+			shock = 4
+			fire = 2
+			manuever = 3
+			siege = 2
+		}
+		kill_ruler= yes
+		remove_country_modifier = "aza_uncertainfuture"
+		hidden_effect = {
+			country_event = {
+				id = aza_thegrandson.2
+				days = 7
+			}
+			
+			country_event = {
+				id = aza_thebishop.1
+				days = 150
+			}	
+			
+			country_event = {
+				id = aza_theemperor.1
+				days = 60
+			}	
+		}
+	}
+
+	option = {	
+		name = aza_thegrandson.1.ap
+		trigger = {
+			A01 = {
+				was_player = yes
+			}
+		}
+		ai_chance = { factor = 100 }
+		add_stability = 3
+		kill_ruler= yes
+		remove_country_modifier = "aza_uncertainfuture"
+		hidden_effect = {
+			country_event = {
+				id = aza_thegrandson.2
+				days = 7
+			}
+			
+			country_event = {
+				id = aza_thebishop.1
+				days = 150
+			}	
+			
+			country_event = {
+				id = aza_theemperor.1
+				days = 60
+			}	
+		}
+	}
+}
+
+# A Wife
+country_event = {
+	id = aza_thegrandson.2
+	title = aza_thegrandson.2.t
+	desc = aza_thegrandson.2.d
+	picture = ROYAL_COUPLE_FUTURE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = aza_newhope
+	}
+	
+	option = { #Wife from Ionmym
+		name = aza_thegrandson.2.a
+		trigger = {
+			A04 = {
+				was_player = no
+			}
+		}
+		ai_chance = { factor = 50 }
+		define_consort = {
+			 name = "Adelpha"
+			 dynasty = "Ulfila"
+			 age = 20
+			 female = yes
+			 country_of_origin = A04
+			 culture = high_atlantean
+			 religion = atlanic
+			 adm = 2
+			 dip = 4
+			 mil = 3
+		}
+		5059 = {
+			cede_province = A00
+			add_core = A00
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_thegrandson.3 #Diaprepes Secedes
+				days = 15
+			}
+		}
+	}
+	option = { #Wife from Diaprepes
+		name = aza_thegrandson.2.b
+		trigger = {
+			A02 = {
+				was_player = no
+			}
+		}
+		ai_chance = { factor = 50 }
+		
+		define_consort = {
+			 name = "Eudocia"
+			 dynasty = "Attaleiates"
+			 age = 22
+			 female = yes
+			 country_of_origin = A02
+			 culture = high_atlantean
+			 religion = atlanic
+			 adm = 5
+			 dip = 2
+			 mil = 3
+		}
+		5052 = {
+			cede_province = A00
+			add_core = A00
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_thegrandson.4 #Ionmym Secedes
+				days = 15
+			}
+		}
+	}
+}
+
+# Diaprepes Secedes
+country_event = { 
+	id = aza_thegrandson.3
+	title = aza_thegrandson.3.t
+	desc = aza_thegrandson.3.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = aza_newhope
+	}
+	
+	option = {
+		name = aza_thegrandson.3.a
+		ai_chance = { factor = 100 }
+		
+		release_all_subjects = yes
+		
+		5052 = {
+			add_claim = A00
+		}
+		5054 = {
+			add_claim = A00
+		}
+	}
+}
+
+# Ionmym Secedes
+country_event = { 
+	id = aza_thegrandson.4
+	title = aza_thegrandson.4.t
+	desc = aza_thegrandson.4.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = aza_newhope
+	}
+	
+	option = {
+		name = aza_thegrandson.4.a
+		ai_chance = { factor = 100 }
+		
+		release_all_subjects = yes
+		
+		5059 = {
+			add_claim = A00
+		}
+		5054 = {
+			add_claim = A00
+		}
+	}
+}

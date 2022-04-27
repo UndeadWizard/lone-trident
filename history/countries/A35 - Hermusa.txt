@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = patricianship
+government_rank = 1
+mercantilism = 25
+technology_group = atlantean
+religion = atlanic
+primary_culture = alyshi
+capital = 5077
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Argus"
+		dynasty = "Strabo"
+		adm = 2
+		dip = 4
+		mil = 4
+		birth_date = 1402.5.10
+	}
+}

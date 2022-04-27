@@ -1,0 +1,179 @@
+#country_decisions = {
+#    oi_conversion_catholicism = {
+#		potential = {
+#			AND = {
+#				OR = {
+#					culture_group = antillia_group
+#					culture_group = atlantean_group
+#				}
+#				OR = {
+#					religion = atlanic
+#					religion = heptarchic
+#				}
+#			}
+#		}
+#		allow = {
+#			OR = {
+#				has_global_flag = european_antillian_religious_exchange
+#				has_global_flag = european_atlantean_contact
+#			}
+#			OR = {
+#				num_of_religion = {
+#					religion = catholic
+#					value = 1
+#				}
+#				num_of_religion = {
+#					religion = orthodox
+#					value = 1
+#				}
+#				num_of_religion = {
+#					religion = heptarchic
+#					value = 1
+#				}
+#			}
+#		}
+#		effect = {
+#			change_religion = catholic
+#			add_stability = -1
+#			every_country = { 
+#				limit = {
+#					religion = catholic
+#					OR = {
+#						capital_scope = {
+#							continent = atlantis
+#						}
+#						capital_scope = {
+#							continent = antillia
+#						}
+#					}
+#				}
+#				reverse_add_opinion	 = {
+#					who = ROOT
+#					modifier = fellow_converts
+#				}
+#			}
+#			add_country_modifier = {
+#				name = "missionary_zeal"
+#				duration = -1
+#			}
+#		}
+#		ai_will_do = {
+#			factor = 0
+#			modifier = {
+#				culture_group = antillia_group
+#				factor = 50
+#			}
+#			modifier = {
+#				AND = {
+#					culture_group = atlantean_group
+#					religion = heptarchic
+#				}
+#				factor = 25
+#			}
+#			modifier = {
+#				religion = atlanic
+#				factor = 10
+#			}
+#			modifier = {
+#				tag = A40
+#				factor = 0
+#			}
+#		}
+#	}		
+
+#	oi_conversion_orthodox = {
+#		potential = {
+#			NOT = { tag = A40 }
+#			OR = {
+#				religion = atlanic
+#				religion = heptarchic
+#			}
+#		}
+#		allow = {
+#			NOT = { tag = A40 }
+#			OR = {
+#				has_global_flag = european_antillian_religious_exchange
+#				has_global_flag = european_atlantean_contact
+#			}
+#			OR = {
+#				num_of_religion = {
+#					religion = catholic
+#					value = 1
+#				}
+#				num_of_religion = {
+#					religion = orthodox
+#					value = 1
+#				}
+#				num_of_religion = {
+#					religion = heptarchic
+#					value = 1
+#				}
+#			}
+#		}
+#		effect = {
+#			change_religion = orthodox
+#			add_stability = -1
+#			add_prestige = -50
+#			add_patriarch_authority = 10
+#			add_country_modifier = {
+#				name = "missionary_zeal"
+#				duration = -1
+#			}
+#        }
+#		ai_will_do = {
+#			factor = 0
+#			modifier = {
+#				culture_group = antillia_group
+#				factor = 50
+#			}
+#			modifier = {
+#				AND = {
+#					culture_group = atlantean_group
+#					religion = heptarchic
+#				}
+#				factor = 25
+#			}
+#			modifier = {
+#				religion = atlanic
+#				factor = 10
+#			}
+#			modifier = {
+#				tag = A40
+#				factor = 0
+#			}
+#			modifier = {
+#				NOT = { prestige = 50 }
+#				factor = 0
+#			}
+#		}
+#	}
+#
+#	oi_tri_conversion_orthodox = {
+#		potential = {
+#			AND = {
+#				tag = A40
+#				NOT = { religion = orthodox }
+#			}
+#		}
+#		allow = {
+#			has_global_flag = european_atlantean_contact
+#		}
+#		effect = {
+#			change_religion = orthodox
+#			add_patriarch_authority = 50
+#			add_prestige = 10
+#			add_country_modifier = {
+#				name = "missionary_zeal"
+#				duration = -1
+#			}
+#        }
+#		ai_will_do = {
+#			factor = 1
+#			modifier = {
+#				NOT = { prestige = 20 }
+#				factor = 0
+#			}
+#		}
+#	}
+#}
+

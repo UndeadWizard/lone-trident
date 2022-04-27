@@ -1,0 +1,683 @@
+atlantean_missions_far_left = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		AND = {
+			culture_group = atlantean_group
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ATL_nautean_expedition = {
+		icon = mission_invade_island
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				area = arrantza_area
+				area = philippi_area
+				area = askloy_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			OR = {
+				arrantza_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				philippi_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				askloy_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		
+		effect = {
+			arrantza_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			philippi_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			askloy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			
+			greater_antilles_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	
+	ATL_cannibal_island = {
+		icon = mission_impaled_soldies
+		required_missions = { ATL_nautean_expedition }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 481
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			is_core = 481
+		}
+		
+		effect = {
+			create_explorer = {
+				tradition = 25
+			}
+		}
+	}
+	
+	ATL_new_world = {
+		icon = mission_iroquois_warriors
+		required_missions = { ATL_cannibal_island }
+		position = 3
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = ATL_new_world_tt
+				OR = {
+					colonial_the_carribean = {
+						has_discovered = ROOT
+					}
+					colonial_brazil = {
+						has_discovered = ROOT
+					}
+					colonial_colombia = {
+						has_discovered = ROOT
+					}
+					colonial_mexico = {
+						has_discovered = ROOT
+					}
+					colonial_louisiana = {
+						has_discovered = ROOT
+					}
+					colonial_eastern_america = {
+						has_discovered = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 7300 #20 Years
+			}
+		}
+	}
+	
+	ATL_second_exile = {
+		icon = mission_colonial
+		required_missions = { ATL_new_world }
+		position = 4
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = ATL_second_exile_tt
+				
+				OR = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5
+						colonial_region = colonial_brazil
+						is_city = yes
+					}
+				
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5
+						colonial_region = colonial_colombia
+						is_city = yes
+					}
+				
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5
+						colonial_region = colonial_mexico
+						is_city = yes
+					}
+				
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5
+						colonial_region = colonial_eastern_america
+						is_city = yes
+					}
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5
+						colonial_region = colonial_the_carribean
+						is_city = yes
+					}
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5
+						colonial_region = colonial_louisiana
+						is_city = yes
+					}
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_colonial_tariffs"
+				duration = -1
+			}
+		}
+	}
+	
+	ATL_closing_the_atlantic = {
+		icon = mission_galleys_in_port
+		required_missions = { ATL_second_exile }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = antillia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			antillia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_no_barriers"
+				duration = -1
+			}
+		}
+	}
+}
+
+atlantean_missions_left = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		AND = {
+			culture_group = atlantean_group
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ATL_the_pride_of_atlantis = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			num_of_heavy_ship = 10
+			navy_size_percentage = 0.9
+		}
+		effect = {
+			add_navy_tradition = 30
+			add_country_modifier = {
+				name = "ATL_atlantean_pride"
+				duration = 7300
+			}
+		}
+	}
+	
+	ATL_island_presence = {
+		icon = mission_hanseatic_city
+		required_missions = { ATL_the_pride_of_atlantis }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = tridentislands_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = ATL_island_presence_tt
+				
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					area = tridentislands_area
+					is_core = ROOT
+				}
+			}
+		}
+		effect = {
+			tridentislands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	
+	ATL_reclaim_the_islands = {
+		icon = mission_invade_island
+		required_missions = { ATL_prepare_imperial_army }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = tridentislands_area
+				area = arrantza_area
+				area = philippi_area
+				area = askloy_area
+				province_id = 5104
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			AND = {
+				tridentislands_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				
+				5104 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				
+				arrantza_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				philippi_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				
+				askloy_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = ATL_aint_nothing_but_a_heartache
+				duration = 9125
+			}
+			hidden_effect = {
+				country_event = {
+					id = atl_conquest.3
+				}
+			}
+		}
+	}
+}
+
+atlantean_missions_middle = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		AND = {
+			culture_group = atlantean_group
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ATL_strengthen_the_army = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			army_size_percentage = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_roman_legacy"
+				duration = 7300
+			}
+		}
+	}
+	
+	ATL_march_to_crownlands = {
+		icon = mission_crusade_for_varna
+		required_missions = { ATL_strengthen_the_army }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				region = atlantean_crownlands
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				region = atlantean_crownlands
+				is_core = ROOT
+			}
+		}
+		effect = {
+			atlantean_crownlands = {
+				add_claim = ROOT
+			}
+			5053 = {
+				add_core = ROOT
+			}
+		}
+	}
+	
+	ATL_the_new_empire = {
+		icon = mission_empire
+		required_missions = { ATL_island_presence ATL_march_to_crownlands ATL_eliminate_rivals }
+		position = 3
+		
+		trigger = {
+			NOT = { exists = ATL }
+		}
+		
+		effect = {
+			hidden_effect = {
+				country_event = {
+					id = atl_events.1
+					days = 1
+				}
+			}
+		}
+	}
+	
+	ATL_prepare_imperial_army = {
+		icon = mission_assemble_an_army
+		required_missions = { ATL_the_new_empire }
+		position = 4
+		
+		trigger = { 
+			army_size = 25
+			manpower = 10
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_renewed_security"
+				duration = 9125
+			}
+		}
+	}
+	
+	ATL_reclaim_the_center = {
+		icon = mission_cannons_firing
+		required_missions = { ATL_prepare_imperial_army }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = atlantean_crownlands
+				region = atlantean_midlands
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			atlantean_crownlands = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+			atlantean_midlands = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = ATL_aint_nothing_but_a_mistake
+				duration = 9125
+			}
+			add_legitimacy = 10
+			hidden_effect = {
+				country_event = {
+					id = atl_conquest.1
+				}
+			}
+		}
+	}
+	
+	ATL_imperium_sine = {
+		icon = mission_early_modern_university
+		required_missions = { ATL_reclaim_the_center }
+		position = 6
+		
+		trigger = { }
+		effect = {
+			add_country_modifier = {
+				name = "ATL_atlantean_bureaucracy"
+				duration = -1
+			}
+		}
+	}
+}
+
+atlantean_missions_right = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		AND = {
+			culture_group = atlantean_group
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	
+	ATL_establish_hegemony = {
+		icon = mission_unite_home_region
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			grown_by_states = 2
+		}
+		
+		effect = {
+			add_prestige = 15
+		}
+	}
+	
+	ATL_eliminate_rivals = {
+		icon = mission_conquer_50_development
+		required_missions = { ATL_establish_hegemony }
+		position = 2
+		
+		
+		trigger = {
+			total_development = 150
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_established_state"
+				duration = 7300 # 20 Years
+			}
+		}
+	}
+	
+	ATL_reclaim_the_gate = {
+		icon = mission_sea_battles
+		required_missions = { ATL_prepare_imperial_army }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = atlantean_southlands
+				region = atlantean_eastlands
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			atlantean_southlands = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			atlantean_eastlands = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = ATL_i_never_wanna_hear_you_say
+				duration = -1
+			}
+			add_country_modifier = {
+				name = ATL_i_want_it_that_way
+				duration = 7300
+			}
+			add_army_tradition = 5
+			add_navy_tradition = 5
+			
+			hidden_effect = {
+				country_event = {
+					id = atl_conquest.2
+				}
+			}
+		}
+	}
+}
+
+atlantean_missions_far_right = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		AND = {
+			culture_group = atlantean_group
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ATL_peace_at_home = {
+		icon = mission_hands_praying
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			stability = 2
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_atlantean_diplomats"
+				duration = 7300 # 20 Years
+			}
+		}
+	}
+	ATL_diplomatic_priority = {
+		icon = mission_alliances
+		required_missions = { ATL_peace_at_home }
+		position = 2
+		
+		trigger = {
+				num_of_allies = 2
+				calc_true_if = {
+					all_ally = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+					amount = 2
+				}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "ATL_open_to_negotiation"
+				duration = 7300 # 20 Years
+				}
+		}
+	}
+	
+	ATL_deal_with_foreigners = {
+		icon = mission_noble_council
+		required_missions = { ATL_diplomatic_priority }
+		position = 3
+		
+		trigger = {
+			calc_true_if = {
+				all_ally = {
+					technology_group = western
+					has_opinion = { 
+						who = ROOT
+						value = 150
+					}
+				}
+				amount = 1
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "ATL_experienced_diplomats"
+				duration = 9125 # 25 Years
+			}
+		}
+	}
+	
+	ATL_european_reforms = {
+		icon = mission_early_game_buildings
+		required_missions = { ATL_deal_with_foreigners }
+		position = 4
+		
+		trigger = {
+			has_institution = renaissance
+			has_institution = new_world_i
+		}
+		effect = {
+			add_prestige = 50
+			add_army_tradition = 20
+			add_navy_tradition = 20	
+		}
+	}
+	
+	ATL_pathway_to_europe = {
+		icon = mission_galleys_in_port
+		required_missions = { ATL_european_reforms }
+		position = 5
+		
+		provinces_to_highlight = {
+			area = macaronesia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			macaronesia_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ATL_path_to_europe"
+				duration = -1
+			}
+		}
+	}
+}

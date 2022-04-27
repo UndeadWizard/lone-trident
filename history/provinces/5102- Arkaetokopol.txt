@@ -1,0 +1,17 @@
+#4753 - Arkaetokopol
+
+owner = A43
+controller = A43
+add_core = A43
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = poenici
+religion = heptarchic
+trade_goods = copper
+hre = no
+
+discovered_by = atlantean

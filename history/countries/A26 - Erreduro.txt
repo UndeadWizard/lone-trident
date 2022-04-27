@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+primary_culture = alyric
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Julius"
+		dynasty = "Rufinus"
+		adm = 3
+		dip = 4
+		mil = 1
+		birth_date = 1380.12.20
+	}
+
+	heir = {
+		name = "Adolphus"
+		dynasty = "Rufinus"
+		adm = 5
+		dip = 3
+		mil = 3
+		birth_date = 1405.7.14
+		death_date = 1478.2.6
+	}
+}

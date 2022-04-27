@@ -1,0 +1,17 @@
+#4733 - Archae Mysaias
+
+owner = A38
+controller = A38
+add_core = A38
+is_city = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+culture = ayadoni
+religion = atlanic
+trade_goods = naval_supplies
+hre = no
+
+discovered_by = atlantean

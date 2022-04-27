@@ -1,0 +1,143 @@
+namespace = aza_anewhope
+
+
+###### ATLANTEAN HOPE CHAIN
+
+# The Old Man on His Deathbed
+country_event = {
+	id = aza_anewhope.1
+	title = aza_anewhope.1.t
+	desc = aza_anewhope.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	fire_only_once = yes
+	
+	
+	trigger = {
+		has_country_modifier = aza_uncertainfuture
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	option = {	
+		name = aza_anewhope.1.a
+		ai_chance = { factor = 100 }
+		add_prestige = -5
+		# Next event
+		hidden_effect = {
+			country_event = {
+				id = aza_anewhope.2
+				days = 3
+			}
+		}
+	}
+}
+
+# A Gamble
+country_event = {
+	id = aza_anewhope.2
+	title = aza_anewhope.2.t
+	desc = aza_anewhope.2.d
+	picture = IMPORTANT_STATUE_eventPicture
+
+	is_triggered_only = yes
+		
+	trigger = {
+		has_country_modifier = aza_uncertainfuture
+	}
+	
+	option = {	
+		name = aza_anewhope.2.a
+		ai_chance = { factor = 90 }
+		add_prestige = -1
+		#Next event
+		hidden_effect = {
+			country_event = {
+				id = aza_anewhope.3
+				days = 7
+			}
+		}
+	}
+	option = {	
+		name = aza_anewhope.2.b
+		ai_chance = { factor = 10 }
+		add_prestige = 1
+		#Next event
+		hidden_effect = {
+			country_event = {
+				id = aza_thecouncil.1
+				days = 12
+			}
+		}
+	}
+}
+
+# Arrival of a Lord
+country_event = {
+	id = aza_anewhope.3
+	title = aza_anewhope.3.t
+	desc = aza_anewhope.3.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = aza_uncertainfuture
+	}
+	
+	option = {	
+		name = aza_anewhope.3.a
+		ai_chance = { factor = 100 }
+		add_stability = -1
+		#Next event
+		hidden_effect = {
+			country_event = {
+				id = aza_anewhope.4
+				days = 7
+			}
+		}
+	}
+}
+
+# An Heir
+country_event = {
+	id = aza_anewhope.4
+	title = aza_anewhope.4.t
+	desc = aza_anewhope.4.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+		
+	trigger = {
+		has_country_modifier = aza_uncertainfuture
+	}
+	
+	option = {	
+		name = aza_anewhope.4.a
+		ai_chance = { factor = 100 }
+		add_country_modifier = {
+			name = "aza_newhope"
+			duration = 1825
+		}
+
+		define_heir = {
+			male = yes
+			dynasty = ROOT
+			name = "Vlassis"
+			birth_date = 1420.7.1
+			claim = 100
+			dip = 3
+			adm = 5
+			mil = 6
+		}
+		#Next event
+		hidden_effect = {
+			country_event = {
+				id = aza_thegrandson.1
+				days = 7
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+#4752 - Marapoas
+
+owner = A43
+controller = A43
+add_core = A43
+is_city = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+culture = poenici
+religion = heptarchic
+trade_goods = livestock
+hre = no
+
+
+discovered_by = atlantean

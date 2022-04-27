@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = antillian_republic
+government_rank = 1
+mercantilism = 25
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5131
+
+1444.1.1 = {
+	monarch = {
+		name = "Ariaric"
+		dynasty = "Stult"
+		birth_date = 1395.8.4
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}

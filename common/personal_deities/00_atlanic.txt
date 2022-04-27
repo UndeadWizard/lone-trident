@@ -1,0 +1,160 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+deity_mero = {
+	discipline = 0.05
+	infantry_power = 0.10
+	
+	allow = {
+		AND = {
+			religion = atlanic
+			primary_culture = meropisean
+		}
+	}
+	sprite = 19
+	
+	ai_will_do = {
+		factor = 4	
+	}
+}
+
+deity_khronos = {
+	global_supply_limit_modifier = 0.25
+	movement_speed = 0.10
+	
+	allow = {
+		AND = {
+			religion = atlanic
+			primary_culture = anthrean
+		}
+	}
+	sprite = 20
+	
+	ai_will_do = {
+		factor = 4	
+	}
+}
+
+deity_jupiter = {
+	prestige = 1
+	war_exhaustion = -0.025
+	
+	allow = { religion = atlanic }
+	sprite = 14
+	
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 3
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}
+	}
+}
+
+deity_yamm= {
+	naval_morale = 0.10
+	navy_tradition = 0.50
+	
+	allow = { religion = atlanic }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}		
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}
+	}
+}
+
+deity_haides = {
+	ae_impact = -0.10
+	shock_damage = 0.1
+	
+	allow = { religion = atlanic }
+	sprite = 15
+	
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+	}
+}
+
+deity_juno = {
+	global_unrest = -1
+	diplomatic_annexation_cost = -0.15
+	
+	allow = { religion = atlanic }
+	sprite = 16
+	
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+	}
+}
+
+deity_minrva = {
+	land_morale = 0.10
+	mil_tech_cost_modifier = -0.05
+	
+	allow = { religion = atlanic }
+	sprite = 17
+	
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+	}
+}
+
+
+deity_astarte = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.25
+	
+	allow = { religion = atlanic }
+	sprite = 18
+	
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}		
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}
+	}
+}

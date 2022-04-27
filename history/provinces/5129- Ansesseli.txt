@@ -1,0 +1,17 @@
+#4775 - Ansesseli
+
+owner = AN5
+controller = AN5
+add_core = AN5
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+trade_goods = glass
+hre = no
+
+discovered_by = atlantean

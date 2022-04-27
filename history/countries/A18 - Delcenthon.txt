@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = alyric
+capital = 5035
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Pluto"
+		dynasty = "Pollio"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1402.4.2
+	}
+
+	heir = {
+		name = "Timotheus"
+		dynasty = "Pollio"
+		adm = 1
+		dip = 2
+		mil = 4
+		birth_date = 1425.5.2
+		death_date = 1478.7.7
+	}
+}

@@ -1,0 +1,18 @@
+#4784 - Ansalli
+
+owner = AN0
+controller = AN0
+add_core = AN0
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = gems 
+hre = no
+center_of_trade = 1
+
+discovered_by = atlantean

@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = patricianship
+government_rank = 2
+mercantilism = 10
+technology_group = atlantean
+religion = atlanic
+primary_culture = high_atlantean
+capital = 5053

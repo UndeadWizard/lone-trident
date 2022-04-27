@@ -1,0 +1,192 @@
+namespace = oi_institutions
+
+# Atlantean Renaissance
+country_event = {
+	id = oi_institutions.1
+	title = oi_institutions.1.t
+	desc = oi_institutions.1.d
+	picture = NAVAL_MILITARY_eventPicture
+    
+	fire_only_once = yes
+	
+	trigger = {
+		technology_group = atlantean
+		is_year = 1460
+		NOT = { exists = ATL }
+		NOT = { has_global_flag = atlantean_renaissance }
+		capital_scope = {
+			continent = atlantis
+		}
+		any_known_country = {
+			technology_group = western
+        }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.80
+			total_development = 150
+		}
+		modifier = {
+			factor = 0.75
+			total_development = 200
+		}
+		modifier = {
+			factor = 0.80
+			is_great_power = yes
+		}
+		
+		modifier = {
+			factor = 0.80
+			capital_scope = {
+				development = 25
+			}
+		}
+		modifier = {
+			factor = 0.40
+			tag = AYA
+		}
+		modifier = {
+			factor = 0.80
+			capital_scope = {
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+	}
+	
+	option = {
+		name = oi_institutions.1.a
+		set_global_flag = atlantean_renaissance
+		capital_scope = {
+			add_institution_embracement = {
+					which = renaissance
+					value = 100
+			}
+			add_province_triggered_modifier = birthplace_of_ar
+		}
+		add_prestige = 10
+	}
+ }
+ 
+# Rebirth of Atlantis
+country_event = {
+	id = oi_institutions.2
+	title = oi_institutions.2.t
+	desc = oi_institutions.2.d
+	picture = NAVAL_MILITARY_eventPicture
+    
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ATL
+		NOT = { has_global_flag = atlantean_renaissance}
+		is_institution_enabled = renaissance
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = oi_institutions.2.a
+		set_global_flag = atlantean_renaissance
+		capital_scope = {
+			add_institution_embracement = {
+					which = renaissance
+					value = 100
+			}
+			add_province_triggered_modifier = birthplace_of_ar
+		}
+		add_prestige = 10
+	}
+}
+
+# Artworks in Antillia
+country_event = {
+	id = oi_institutions.3
+	title = oi_institutions.3.t
+	desc = oi_institutions.3.d
+	picture = NAVAL_MILITARY_eventPicture
+    
+	fire_only_once = yes
+	
+	trigger = {
+		capital_scope = {
+			continent = antillia
+		}
+		OR = {
+			has_global_flag = atlantean_renaissance
+			any_known_country = {
+				technology_group = western
+			}
+		}
+		OR = {
+				is_year = 1465			
+				tag = ANX
+		}
+		is_institution_enabled = renaissance
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.80
+			tag = ANX
+		}
+		
+		modifier = {
+			factor = 0.80
+			capital_scope = {
+				development = 25
+			}
+		}
+		
+		modifier = {
+			factor = 0.80
+			capital_scope = {
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+	}
+	
+	option = {
+		name = oi_institutions.3.a
+		capital_scope = {
+			add_institution_embracement = {
+					which = renaissance
+					value = 100
+			}
+		}
+		add_prestige = 10
+	}
+}
+
+# Atlantean Purchase of Printing Press
+country_event = {
+	id = oi_institutions.4
+	title = oi_institutions.4.t
+	desc = oi_institutions.4.d
+	picture = NAVAL_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = oi_institutions.4.a
+		if = {
+			capital_scope = {
+				add_institution_embracement = {
+					which = printing_press
+					value = 75
+				}
+				add_permanent_province_modifier = {
+					name = bought_printing_press
+					duration = 3600
+				}
+			}
+			add_treasury = -1000
+		}
+	}
+}

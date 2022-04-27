@@ -1,0 +1,17 @@
+#4734 - Vescleves
+
+owner = A38
+controller = A38
+add_core = A38
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = ayadoni
+religion = atlanic
+trade_goods = wine
+hre = no
+
+discovered_by = atlantean

@@ -1,0 +1,92 @@
+﻿l_english:
+ aza_countryevents.1.t:0 "Imperator of the Atlanteans"
+ aza_countryevents.1.d:0 "Imperator Herakleios stood on the balcony of his palace, surveying his once-mighty domain. Atlantium at its height was a sight to behold, but now many homes lie empty, a sullen monument to the Red Plague that ravaged the land merely decades before. Herakleios coughs, his Court Physican had swore to him days ago that the ailment wasn't anything to worry about. Yet since then he had only gotten worse. Herakleios feared for himself, and even worse yet Herakleios feared for his people."
+ aza_countryevents.1.a:0 "I don't feel so good."
+ 
+ aza_anewhope.1.t:0 "The Old Man on his Deathbed"
+ aza_anewhope.1.d:0 "In a matter of days, Herakleios is imprisoned to his bed; A burning fever plagues him, and strange misshapen growths have begun emerging from his flesh. In fear of the affliction spreading, his council voted to quarantine their Imperator to his chambers, against Herakleios's wishes. There was only so much time left for him to change the fate of Atlantis, yet his own people conspired against him. If that wasn't enough, rumours of his illness have spread beyond his Palace, brewing a poisonous concoction of fear and rebellion among the populace. Even as he laid in his bed, the traitors who call themselves Rexes prepared to claim all of Atlantis for their Houses. The future of Atlantis looked grim, and Herakleios was powerless to stop it."
+ aza_anewhope.1.a:0 "Has the Red Plague come once more to claim another victim?" 
+ aza_anewhope.2.t:0 "A Gamble"
+ aza_anewhope.2.d:0 "With Herakleios on his deathbed, he realized there was only one that could be trusted with saving Atlantis. He and the Lord of Acens have butted heads on more than one occasion, but Aquila was a childhood friend, and loyal to a fault. If there was a man that could ensure Herakleios's successor ascends to the throne unfettered then it would be the 'Eagle of Acens'. However, there remains the issue of summoning him to his side. The council's quarantine imprisoned him in his chambers, but his Chamberlain regularly was allowed entry to give updates on the affairs of his palace. Herakleios could easily give him the summons to bring Aquila to Atlantium, but there was a nagging feeling at the back of Herakleios's mind. While the quarantine was for supposedly altruistic reasons,  it also gave unprecedented power to the council; power that wouldn't be so easily given up. An Antillian maid regularly came by to clean his chambers, he could slip the summons to her and have it delivered to a trusted outrider."
+ aza_anewhope.2.a:0 "The Antillian Maid"
+ aza_anewhope.2.b:0 "My Chamberlain"
+ aza_anewhope.3.t:0 "Arrival of a Lord"
+ aza_anewhope.3.d:0 "In his chambers, Herakleios was isolated from the world, but he still managed to catch a rumour or two. From the scraps he gathered from his Maid, the Council is in a uproar due to the unexpected arrival of Aquila of Acens. They had barred the Lord from having an audience with Herakleios, citing that the Imperator himself was too frail and sickly to discuss matters of the realm. Herakleios's resolve was fortified, he now knew for sure that there was a conspiracy among the Council. If that was not enough, his Chamberlain also looked visibly displeased at the news of Aquila's arrival. Perhaps he is also among the conspirators?"
+ aza_anewhope.3.a:0 "I was wise to send my Maid."
+ aza_anewhope.4.t:0 "An Heir"
+ aza_anewhope.4.d:0 "When Herakleios awoke that morning, he noticed a small boy who sat bored in a chair next to his bed. 'Water?', Herakleios’ voice cracked. The boy immediately perked up and nodded, 'Right away m'lord'. The boy slid out of his chair, and went to fetch the water. Herakleios could feel his eyes growing heavy, and he drifted off to sleep once more. When he awoke again, he noticed that someone was sitting beside him once again. Except this time it was a tall, stern looking warrior. \n\n'My Imperator, you're finally awake.' said the warrior. \n'Aquila, you're looking blood-soaked as ever.' \n'Your Council dogs made sure of that.' \n'And how are they?' \n'Dead as stones.' \n\nHerakleios smiles for a moment, but quickly changes to a pout. \n\n'My friend, I'm not long for this world. You need to be the guiding hand that secures the future of Atlantis or else all is lost.' \n\nHerakleios coughs into his hand, coating it in a thin mist of blood, as Aquila looks on with a grimace.  \n\n'I will do as you ask, but who shall be the next Imperator of Atlantis?'"
+ aza_anewhope.4.a:0 "My Grandson, Vlassis"
+ 
+ aza_thegrandson.1.t:0 "The Grandson"
+ aza_thegrandson.1.d:0 "Over the course of the next few days Aquila led an investigation that concluded that Imperator Herakleios was not inflicted by the Red Plague but instead was poisoned by the Court Physician appointed by the Council. Council-Loyalists were promptly rounded up and executed for treason against the Crown, although many fled to neighboring Atlantean kingdoms for refugee. It was decreed by Herakleios via Aquila that Vlassis shall be the successor to the throne, which was publicly protested by the Chrysa family - who desired the Atlantean Imperatorship to go to one of their members. \n\nThe poison, supposedly no longer administered, still had taken a significant toll on Herakleios' body. Story has it that when the first light of Spring touched Atla, Herakleios died during the sunrise with a grin on his face. For despite ruling a collapsing empire and facing on seditious plot after the other, he had persevered every trial. Vlassis, now known as Imperator Vlassis, was coronated in the Grand Temple of Jupiter and anointed with the ten oils of Atlas."
+ aza_thegrandson.1.a:0 "A New Era Begins."
+ aza_thegrandson.1.ap:0 "A New Era Begins."
+
+ aza_thegrandson.2.t: "A Wife"
+ aza_thegrandson.2.d: "Vlassis, though young, was not naive. He knew many of his vassals bore no love for him. After all, he came from the family that ruled Atlantis during the Collapse; to them he represented the old, the corrupted, and the incapable. But there was something he could do to stabilize the realm. Despite having the heart of many a maiden (among other things), he was still unmarried. This meant that,in sacrifice of his bachelorhood, he could marry one of the close relatives of the Lords of Ionmym or of Diaprepes. However, marrying one would mean making the enemy of the other."
+ aza_thegrandson.2.a: "The Fair and Noble Lady, Adelpha Ulfila, from Ionmym"
+ aza_thegrandson.2.b: "The Red-Haired Beauty, Eudocia Attaleiates, from Diaprepes."
+ 
+ aza_thegrandson.3.t: "Traitor Lords"
+ aza_thegrandson.3.d: "At dawn, a small detachment led by a minor Chrysa noble arrived at the gates of Atlantium. A small commotion broke out as it became increasingly clear that the Lord of Chryososes has refused to recognize the sovereignty of Imperator Vlassis, claiming that Aquila had placed him on the throne as a Acenian puppet. Even worse yet the Lord of Diaprepes has joined the Chyrsa in their treason, and both now ruling their territories as independent kings."
+ aza_thegrandson.3.a: "I will have their heads!"
+ 
+ aza_thegrandson.4.t: "Traitor Lords"
+ aza_thegrandson.4.d: "At dawn, a small detachment led by a minor Chrysa noble arrived at the gates of Atlantium. A small commotion broke out as it became increasingly clear that the Lord of Chryososes has refused to recognize the sovereignty of Imperator Vlassis, claiming that Aquila had placed him on the throne as a Acenian puppet. Even worse yet the Lord of Ionmym has joined the Chyrsa in their treason, and both now ruling their territories as independent kings."
+ aza_thegrandson.4.a: "I will have their heads!"
+ 
+ aza_theemperor.1.t: "Revitalizing Atlantium"
+ aza_theemperor.1.d: "Atlantium has seen better days in the past: The canals once filled with sparkling clear water are now muddled with all kinds of filth, homes lie empty and crumbling throughout the city center, and even the Grand Palace is lined with cracks infested with overgrown vines. The ascension of Imperator Vlassis has seen a considerable rise in the power of Atlantium, but it is still not enough. A Empire cannot be built if its capital does not shine with its inherent splendor. Aquila of Acens advises that the way forward is to invite destitute farmers and their sons to live and maintain in empty homes, as well as pay them wages to act as laborers. This will cost a significant sum, but will significantly improve the infrastructure of Atlantium. Alternatively, a Aterpean merchant has proposed granting trading licences to less established merchants from the southern-republic. This will upset many of your local merchants, but end up gathering a considerable sum for your treasury."
+ aza_theemperor.1.a: "I shall invite the destitute to build anew."
+ aza_theemperor.1.b: "The Aterpean Merchants will be granted licences."
+
+ aza_theemperor.2.t: "Atlantean Industry"
+ aza_theemperor.2.d: "Atlantium's economy has been struggling for nearly a century. The rapid depopulation brought on by the Red Plague reduced demand for Atlantean silk to new historical lows, as most nobles have switched to wearing more dependable materials. However, with the onset of the Atlantean warlords, silk has been steadily becoming as a sign of legitimacy for their positions. While we do not publicly recognize these Warlords as truly independent, we could spend resources to expand the Silk District; funding our future war efforts. Alternatively, a buck-toothed mammoth of a man by the name of Castor Nassos has proposed the reconstruction of the deprecated Atlantean gladiator pits under his stewardship. According to your advisers, Castor is a powerful merchant that already controls 20% of Atlantium's industry. Giving him control over the gladiator pits will certainly bring new wealth to Atlantium, but will diminish your control over its industry."
+ aza_theemperor.2.a: "The traitors shall fund their own demise through our silk!"
+ aza_theemperor.2.b: "I look forward to a good showing by the Gladiators."
+
+aza_theemperor.3.t: "Walls of Atlantium"
+aza_theemperor.3.d: "The walls surrounding Atlantium have served as a bulwark against the Ayadoni Barbaroi before the Latin Conquest, but since then they have served more of a decoration than as a defense. Ever since the Red Plague, cracks line many of its great stones, and parts of the wall have already collapsed. With the state of the Atlantean Empire, it is arguably advantageous to repair the walls now to secure your position in Atlantium. You have also been given offers from entrepreneurial merchants wishing to reuse the wall-material to expand their existing businesses, while you'll surely benefit monetarily, rebuilding the walls in the future will be more expensive."
+aza_theemperor.3.a: "The walls of Atlantium shall stand as tall as they did during the Latin Era."
+aza_theemperor.3.b: "Relics of the past are better suited for the pursuit of more wealth."
+
+aza_theemperor.4.t: "A Royal Decree"
+aza_theemperor.4.d: "With the reconstruction of Atlantium going well, it is time to look outwards. Your advisers have been urging you to issue a royal decree on the fate of the other Atlantean lords, reasoning that you are not truly seen as the Imperator until you have issued judgement. Many of the warriors in your court eager for a great reconquest have steadfastly argued for the execution of every traitor against Atlantis. While the Priests have taken a more pacifistic approach, reasoning that many of the lords nearby are already wavering and would be more than happy to accept an absolution to serve under you once more. This debate has been waging for months now, and before it escalates any further there is a need to make a decision."
+aza_theemperor.4.a: "Issue the Amen Magna (Great Absolution)"
+aza_theemperor.4.b: "Issue the Magna Poena (Great Punishment)"
+
+aza_theemperor.5.t: "Offered Absolution"
+aza_theemperor.5.d: "An envoy from the so-called Imperator in Atla has offered an absolution for your 'rebellion' against the 'rightful' lord of Atlantis. If you swear fealty to them now, no harm or punishment will come to you or your family."
+aza_theemperor.5.a: "It is time to come back into the fold."
+aza_theemperor.5.b: "This jester isn't very funny."
+
+aza_theemperor.6.t: "No Quarter from the Imperator"
+aza_theemperor.6.d: "An envoy from the so-called Imperator in Atla has declared that all traitors to the throne of Atlantis will be executed for their treason. While this is of no-concern to your kingdom what the hollowed-husk of a emperor has to say, some in your court are worried."
+aza_theemperor.6.a: "Ho oh? Then the Imperator can come as close as he'd like."
+
+aza_thebishop.1.t:0 "The Bishop"
+aza_thebishop.1.d:0 "A Holy Man wrapped in the finest Atlantean silk and speaking with an Antillian accent has been in Vlassis' court for months now preaching the word of 'God'. Some of your court has been swayed by his words and have converted to the faith of the Antillians, Heptarchicism; much to the dismay of your Priests. Some have petitioned you to exile the Heptarchics from your lands, before their influence grows too strong. While the Holy Man has approached you with an offer to teach you the specifics of his faith. Perhaps this new faith is what the Atlantean empire truly needs to be whole again?"
+aza_thebishop.1.a:0 "This foolery has gone on long enough. Begone Bishop!"
+aza_thebishop.1.b:0 "Tell me more of Jesus and his battle with Cerberus?"
+ 
+aza_thebishop.2.t:0 "Status of the Pagans"
+aza_thebishop.2.d:0 "Upon Vlassis' conversion to the Heptarchic faith, many of your Atlanic subjects and priests grew worried. After all their Imperator now speaks of God, the Holy Virgin, and how Saint Peter and Jesus worked together to slay the Jerusalem Lion. Your newly appointed Bishop has spoken at length of how to save your subject's souls. If they do not stray from their heathenous beliefs they are doomed to Hell, a gaping abyss where the wicked and demons are punished for all of eternity. The Atlanic priests in your court however have suggested the passage of a "Freedom of Faith" decree, proposing that as long as a citizen pays their taxes they are free to worship however they please."
+aza_thebishop.2.a:0 "As long as taxes are paid, they are free to do as they wish."
+aza_thebishop.2.b:0 "To save the souls of my Empire, I require the strongest will."
+
+aza_thebishop.3.t:0 "Missionary from Atla"
+aza_thebishop.3.d:0 "Upon the conversion of the so-called Imperator to the Heptarchic faith there has been a recent flood of missionaries coming into our borders asking if we've heard of their 'Lord and Savior Jesus Christ'. While annoying to many, there may be merit to their words."
+aza_thebishop.3.a:0 "Close the gate and pretend no one's home!"
+aza_thebishop.3.b:0 "Jesus wrangled a herd of flesh-eating Judean Horses?!"
+ 
+#Council Branch
+
+aza_thecouncil.1.t:0 "Death of an Imperator"
+aza_thecouncil.1.d:0 "In the dead of night, Herakleios awoke. There was a soft dripping sound that was coming closer, and a slow creak of the floorboards. Herakleios turned to look, and saw the unmistakable figure of a man creeping towards him. Although the shadows masked their face, Herakleios recognized his family heraldry on his chest, a brazen black octopus wielding a trident. An assassin who snuck in? A guard bought to hasten his demise? Herakleios could make out a dagger in the dim light, slick with blood. Did he kill the guards in the quarantine? Is this how it ends? The man was standing over him now. Herakleios could feel a pillow be removed from under him. A feeling that could only be the finest Atlantean silk touched his face in a firm embrace. Then the rising tide of pain as his lungs struggled for air. And finally the gentle, sweet release of darkness."
+aza_thecouncil.1.a:0 "An Imperator that outlives his empire is a tragedy."
+ 
+aza_thecouncil.2.t:0 "Rise of the Council"
+aza_thecouncil.2.d:0 "The sudden death of Imperator Herakleios threw Atlantium into a state of anarchy. While there were plenty of pretenders to the throne of Atlantis, it was no simple task picking one. The wrong choice and the realm is thrown into civil war. For this reason, the head of the Council Dix Proditi self-appointed himself as the Chief Justiciar of Atlantium. However, as time went on, it became overwhelmingly clear the members of the Council had no interest in ceding power. The few remaining vassals that stayed loyal under Herakleios refused to recognize the sovereignty of the Council and seceded from the Empire. \nThe charade came to end when Dix Proditi announced the foundation of a new republic, one beholden to the interests of the people and not the elite. Council-Loyalists rounded up whichever nobles had not fled Atlantium and publicly executed them for being enemies against the state. The Argyis octopus once present throughout all the halls of Alantium were ripped down and replaced with the symbol of the Council, Daedalus' labyrinth."
+aza_thecouncil.2.a:0 "The Atlantean Empire is Dead!"
+ 
+ 

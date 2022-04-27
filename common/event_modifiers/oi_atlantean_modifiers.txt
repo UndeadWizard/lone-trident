@@ -1,0 +1,134 @@
+### Modifiers for Provinces
+
+atla_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+losrorham_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+acionas_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+osoa_gemstone_cavern = {
+	trade_goods_size = 2
+}
+
+salt_city = {
+	trade_goods_size = 3
+}
+
+hermus_glass = {
+	trade_goods_size = 1
+}
+### Modifiers for Atlanic
+
+spreading_atlanic_rituals = {
+	global_missionary_strength = 0.02
+	religion = yes
+}
+
+#Atlantean Missions
+
+ATL_colonial_tariffs = {
+	global_tariffs = 0.2
+}
+
+ATL_no_barriers = {
+	trade_efficiency = 0.05
+}
+
+ATL_atlantean_pride = {
+	navy_tradition = 0.5
+	recover_navy_morale_speed = 0.1
+}
+
+ATL_roman_legacy = {
+	discipline = 0.025
+}
+
+ATL_renewed_security = {
+	years_of_nationalism = -5
+}
+
+ATL_atlantean_bureaucracy = {
+	core_creation = -0.10
+}
+
+ATL_established_state = {
+	army_tradition = 1
+}
+
+ATL_atlantean_diplomats = {
+	diplomatic_reputation = 1
+}
+
+ATL_open_to_negotiation = {
+	ae_impact = -0.15
+}
+
+ATL_experienced_diplomats = {
+	improve_relation_modifier = 0.2	
+}
+
+ATL_path_to_europe = {
+	trade_efficiency = 0.05
+}
+
+ATL_aint_nothing_but_a_heartache = {
+	navy_tradition = 1
+}
+
+ATL_aint_nothing_but_a_mistake = {
+	prestige = 1
+}
+
+ATL_i_never_wanna_hear_you_say = {
+	embargo_efficiency = 0.25
+}
+
+ATL_i_want_it_that_way = {
+	blockade_efficiency = 0.10
+}
+
+#Oracle Modifiers
+
+ORACLE_legitimate = {
+
+}
+
+ORACLE_boon_of_minrva = {
+	land_morale = 0.05
+}
+
+ORACLE_jupiter_and_juno = {
+	core_creation = -0.1	
+}
+
+ORACLE_boon_of_yamm = {
+	naval_morale = 0.1	
+}
+
+ORACLE_given_nothing = {
+
+}
+
+ORACLE_famine = {
+	development_cost =  0.1
+	global_tax_modifier = -0.05	
+}
+
+ORACLE_poor_army = {
+	discipline = -0.1	
+}
+
+#Atlantean Events
+
+bought_printing_press = {
+	institution_growth = 10
+}

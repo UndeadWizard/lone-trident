@@ -1,0 +1,282 @@
+namespace = aza_theemperor
+
+###### The Emperor Event Chain
+
+country_event = { #Revitalizing Atlantium
+	id = aza_theemperor.1
+	title = aza_theemperor.1.t
+	desc = aza_theemperor.1.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {	
+		name = aza_theemperor.1.a	
+		add_treasury = -20	
+		add_country_modifier = {
+			name = "aza_farmer_immigrants"
+			duration = 9125 #25 years
+		}
+		5053 = {
+			add_base_manpower = 3
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.2
+				days = 120
+			}	
+		}
+	}
+	option = {
+		name = aza_theemperor.1.b
+		add_treasury = 20
+		
+		add_country_modifier = {
+			name = "aza_traders_monopolies"
+			duration = 9125 #25 years
+		}
+		
+		
+		5053 = {
+			add_base_tax = 1
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.2
+				days = 120
+			}	
+		}
+	}
+}
+
+country_event = { #Atlantean Industry
+	id = aza_theemperor.2
+	title = aza_theemperor.2.t
+	desc = aza_theemperor.2.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {	
+		name = aza_theemperor.2.a	
+		add_treasury = -30
+		5053 = {
+			add_permanent_province_modifier = {
+				name = aza_expanded_silk_district
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.3
+				days = 160
+			}	
+		}
+	}
+
+	option = {	
+		name = aza_theemperor.2.b
+		add_treasury = 10
+		add_manpower = -3
+		5053 = {
+			add_permanent_province_modifier = {
+				name = aza_azaresi_gladiators
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.3
+				days = 160
+			}	
+		}
+	}
+}
+
+country_event = { #Atlantean Industry
+	id = aza_theemperor.3
+	title = aza_theemperor.3.t
+	desc = aza_theemperor.3.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {	
+		name = aza_theemperor.3.a
+		add_treasury = -50
+		5053 = {
+			add_base_manpower = 2
+			add_building = fort_15th
+		}
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.4
+				days = 360
+			}	
+		}
+	}
+	option = {
+		name = aza_theemperor.3.b
+		add_treasury = 10
+		5053 = {
+			add_base_tax = 1
+			add_building = marketplace
+		}
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.4
+				days = 360
+			}	
+		}
+	}
+}
+
+country_event = { #A Royal Decree
+	id = aza_theemperor.4
+	title = aza_theemperor.4.t
+	desc = aza_theemperor.4.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {  #Great Absolution
+		name = aza_theemperor.4.a
+		set_global_flag = magna_amen
+		add_prestige = -10
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.5
+				days = 60
+			}	
+		}
+	}
+	
+	option = {  #Great Punishment
+		name = aza_theemperor.4.b
+		set_global_flag = magna_poena 
+		add_prestige = 10
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.6
+				days = 60
+			}	
+		}
+	}	
+}
+
+country_event = { #Great Absolution
+	id = aza_theemperor.5
+	title = aza_theemperor.5.t
+	desc = aza_theemperor.5.d
+	picture = GREAT_BUILDING_eventPicture
+	
+    trigger = {
+		primary_culture = high_atlantean
+		NOT = {
+			tag = A00
+			tag = A02
+			tag = A03
+			tag = A04
+		}
+		has_global_flag = magna_amen
+		NOT = { has_country_flag = responded_to_offer }
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+		name = aza_theemperor.5.a
+		ai_chance = { factor = 5 }
+		A00 = {
+			vassalize = ROOT
+		}
+		add_prestige = -5
+		every_country = { 
+			limit = {
+				primary_culture = high_atlantean
+			}
+			reverse_add_opinion	 = {
+					who = A00
+				    modifier = forgiving_imperator
+			}
+		}
+		set_country_flag = responded_to_offer
+	}
+	
+	option = {
+		name = aza_theemperor.5.b
+		ai_chance = { factor = 95 }
+		add_prestige = 10
+		every_country = { 
+			limit = {
+				primary_culture = high_atlantean
+			}
+			reverse_add_opinion	 = {
+					who = ROOT
+				    modifier = forgiving_imperator
+			}
+		}
+		set_country_flag = responded_to_offer
+	}
+}
+
+country_event = { #Great Punishment
+	id = aza_theemperor.6
+	title = aza_theemperor.6.t
+	desc = aza_theemperor.6.d
+	picture = GREAT_BUILDING_eventPicture
+	
+    trigger = {
+		primary_culture = high_atlantean
+		NOT = {
+			tag = A00
+			tag = A02
+			tag = A03
+			tag = A04
+		}
+		has_global_flag = magna_poena
+		NOT = { has_country_flag = responded_to_offer }
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+		name = aza_theemperor.6.a
+		every_country = { 
+			limit = {
+				culture_group = atlantean_group
+				NOT = {
+					primary_culture = anthrean
+					primary_culture = high_atlantean
+				}
+			}
+			reverse_add_opinion	 = {
+					who = ROOT
+				    modifier = vengeful_imperator
+			}
+		}
+		set_country_flag = responded_to_offer
+	}
+}	

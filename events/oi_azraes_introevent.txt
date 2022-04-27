@@ -1,0 +1,27 @@
+namespace = aza_countryevents
+
+
+###### Introduction
+
+country_event = {
+	id = aza_countryevents.1
+	title = aza_countryevents.1.t
+	desc = aza_countryevents.1.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+    trigger = {
+		tag = A00
+		NOT = { is_year = 1445 }
+	}
+	
+	option = {	
+		name = aza_countryevents.1.a
+		add_country_modifier = {
+			name = "aza_uncertainfuture"
+			duration = -1
+		}
+	}
+}

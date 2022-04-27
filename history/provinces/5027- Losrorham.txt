@@ -1,0 +1,22 @@
+#4678 - Losrorham
+
+owner = A16
+controller = A16
+add_core = A16
+is_city = yes
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = alyric
+religion = atlanic
+trade_goods = naval_supplies
+hre = no
+
+discovered_by = atlantean
+
+add_permanent_province_modifier = {
+	name = losrorham_estuary_modifier
+	duration = -1
+}

@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5125
+
+1444.1.1 = {
+	monarch = {
+		name = "Selenas V"
+		birth_date = 1380.2.8
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}

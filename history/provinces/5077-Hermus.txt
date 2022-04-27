@@ -1,0 +1,23 @@
+#4728 - Hermus
+
+owner = A35
+controller = A35
+add_core = A35
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+culture = alyshi
+religion = atlanic
+trade_goods = glass
+hre = no
+center_of_trade = 1
+
+add_permanent_province_modifier = {
+	name = hermus_glass
+	duration = -1
+}
+
+discovered_by = atlantean

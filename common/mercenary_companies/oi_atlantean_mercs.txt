@@ -1,0 +1,94 @@
+merc_tridenti_custodia = {
+    regiments_per_development = 0.04
+    cavalry_weight = 0.2
+	artillery_weight = 0.1
+    cost_modifier = 0.25
+	home_province = 5053
+	
+	trigger = {
+		capital_scope = {
+			province_id = 5053
+		}
+	}
+	modifier = {
+		land_morale = 0.2
+		discipline = 0.05
+	}
+}
+
+merc_phoinikos_stratos = {
+    regiments_per_development = 0.02
+    cavalry_weight = 0.4
+	artillery_weight = 0.1
+    cost_modifier = 0.50
+	home_province = 5068
+	trigger = {
+		capital_scope = {
+			province_id = 5068
+		}
+	}
+	modifier = {
+		fire_damage_received = -0.05
+		discipline = 0.05
+	}
+}
+
+merc_trianja_stratos = {
+	regiments_per_development = 0.08
+    cavalry_weight = 0.1
+	artillery_weight = 0.1
+    cavalry_cap = 4
+    home_province = 5096
+	trigger = {
+		OR = {
+			capital_scope = { 
+				OR = {
+					region = atlantean_eastlands
+					region = atlantean_midlands	
+				}
+			}
+		}
+	}
+}
+
+merc_exercitus_cyclopeus = {
+	regiments_per_development = 0.05
+    cavalry_weight = 0.2
+	artillery_weight = 0.1
+    cavalry_cap = 4
+    home_province = 5026
+	trigger = {
+		OR = {
+			capital_scope = { 
+				OR = {
+					region = atlantean_crownlands
+					region = atlantean_southlands	
+				}
+			}
+		}
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+
+merc_exercitus_hydrae = {
+	regiments_per_development = 0.03
+	cavalry_weight = 0.1
+	artillery_weight = 0.3
+	cavalry_cap = 2
+    home_province = 5108
+	trigger = {
+		OR = {
+			capital_scope = { 
+				OR = {
+					region = atlantean_westisles
+				}
+			}
+		}
+	}
+	modifier = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+}

@@ -1,0 +1,18 @@
+#4774 - Aira
+
+owner = AN3
+controller = AN3
+add_core = AN3
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 1
+base_production = 2
+base_manpower = 2
+
+trade_goods = iron 
+hre = no
+add_province_triggered_modifier = bermudo_temple
+
+discovered_by = atlantean

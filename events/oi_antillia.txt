@@ -1,0 +1,81 @@
+namespace = anx_events
+
+
+###### Flavor Events
+
+# After formation of Antillia
+country_event = {
+	id = anx_events.1
+	title = anx_events.1.t
+	desc = anx_events.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	fire_only_once = yes
+	
+	
+	trigger = {
+		tag = ANX
+	}
+	
+	mean_time_to_happen = {
+		days = 45
+	}
+
+	option = {	
+		name = anx_events.1.a
+		ai_chance = { factor = 90}
+		add_country_modifier = {
+			name = "ANX_colonial_aspirations"
+			duration = -1
+		}
+		grao_para_area = {
+			discover_country = ROOT
+		}
+		amapa_area = {
+			discover_country = ROOT
+		}
+		coast_of_guyana_area = {
+			discover_country = ROOT
+		}
+	}
+	option = {	
+		name = anx_events.1.b
+		ai_chance = { factor = 10}
+		add_prestige = 25
+		set_country_flag = antillian_invading
+	}
+}
+
+
+# Forming Antillia event
+country_event = {
+	id = anx_events.2
+	title = anx_events.2.t
+	desc = anx_events.2.d
+	picture = KING_SICK_IN_BED_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { tag = ANX }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = anx_events.2.a
+		
+		change_tag = ANX
+		set_government_rank = 2
+        add_prestige = 10
+		antillia_region = {
+			limit = {
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		country_event = { id = ideagroups.1 }
+	}
+}

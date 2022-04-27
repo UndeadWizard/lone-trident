@@ -1,0 +1,31 @@
+namespace = aya_events
+
+
+###### Flavor Events
+
+# After formation of Ayadon
+country_event = {
+	id = aya_events.1
+	title = aya_events.1.t
+	desc = aya_events.1.d
+	picture = GREAT_BUILDING_eventPicture
+
+	fire_only_once = yes
+	
+	
+	trigger = {
+		tag = AYA
+	}
+	
+	mean_time_to_happen = {
+		days = 45
+	}
+
+	option = {	
+		name = aya_events.1.a
+		ai_chance = { factor = 90}
+		capital_scope = {
+			add_province_triggered_modifier = rex_of_the_ayadoni
+		}
+	}
+}

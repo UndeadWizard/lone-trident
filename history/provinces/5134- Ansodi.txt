@@ -1,0 +1,17 @@
+#4780 - Ansodi
+
+owner = AN1
+controller = AN1
+add_core = AN1
+
+culture = antillian
+religion = heptarchic
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = glass
+hre = no
+
+discovered_by = atlantean

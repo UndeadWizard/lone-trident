@@ -1,0 +1,67 @@
+### Modifiers for Antillian Missions
+
+ANX_lowered_maintenance = {
+	land_maintenance_modifier = -0.1	
+}
+
+ANX_defused_tensions = {
+	ae_impact = -0.1
+}
+
+ANX_morale_boost = {
+	land_morale = 0.1
+}
+
+ANX_settler_growth = {
+	global_colonial_growth = 30	
+}
+
+ANX_antillian_glory = {
+	legitimacy = 1
+	devotion = 1
+	republican_tradition = 0.5
+}
+
+ANX_dip_rep = {
+	diplomatic_reputation = 1
+}
+
+ANX_carribean_goods = {
+	trade_goods_size_modifier = 0.1
+}
+
+ANX_reconnected_roots = {
+	global_missionary_strength = 0.02
+}
+
+ANX_nahua_gold = {
+	inflation_reduction = -0.05
+}
+
+ANX_dominate_traders = {
+	trade_efficiency = 0.05
+}
+
+ANX_intervening_atlantis = {
+	land_morale = 0.05
+}
+
+ANX_imperial_antillia = {
+	core_creation = -0.1
+}
+
+ANX_pushing_east = {
+	merchants = 1	
+}
+
+ANX_global_trade = {
+	trade_efficiency = 0.1
+}
+
+ANX_brazil_trade = {
+	global_trade_power = 0.1	
+}
+
+ANX_colonial_aspirations = {
+	colonists = 1
+}

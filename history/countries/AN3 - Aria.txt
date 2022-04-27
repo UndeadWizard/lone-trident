@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = atlantean
+religion = heptarchic
+primary_culture = antillian
+capital = 5128
+
+1444.1.1 = {
+	monarch = {
+		name = "Cnivida III"
+		dynasty = "Habesburg"
+		birth_date = 1388.9.10
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

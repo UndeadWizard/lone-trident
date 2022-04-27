@@ -1,0 +1,18 @@
+#4725 - Enschaens
+
+owner = A34
+controller = A34
+add_core = A34
+is_city = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+culture = alyshi
+religion = atlanic
+trade_goods = paper
+hre = no
+
+
+discovered_by = atlantean

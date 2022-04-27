@@ -1,0 +1,18 @@
+#4719 - Estu
+
+owner = A38
+controller = A38
+add_core = A38
+is_city = yes
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+culture = ayadoni
+religion = atlanic
+trade_goods = cloth
+hre = no
+center_of_trade = 1
+
+discovered_by = atlantean

@@ -1,0 +1,17 @@
+#4675 - Rhammlostir
+
+owner = A23
+controller = A23
+add_core = A23
+is_city = yes
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+culture = alyric
+religion = atlanic
+trade_goods = grain
+hre = no
+
+discovered_by = atlantean

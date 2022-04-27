@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = alyric
+capital = 5025
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Philippus"
+		dynasty = "Asiagenus"
+		adm = 4
+		dip = 4
+		mil = 1
+		birth_date = 1400.7.23
+	}
+
+	heir = {
+		name = "Aristodemus"
+		dynasty = "Asiagenus"
+		adm = 5
+		dip = 1
+		mil = 5
+		birth_date = 1411.1.1
+		death_date = 1478.4.18
+	}
+}

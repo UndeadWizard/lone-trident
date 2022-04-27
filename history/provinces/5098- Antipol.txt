@@ -1,0 +1,17 @@
+#4749 - Antipol
+
+owner = A42
+controller = A42
+add_core = A42
+is_city = yes
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+culture = poenici
+religion = heptarchic
+trade_goods = naval_supplies
+hre = no
+
+discovered_by = atlantean

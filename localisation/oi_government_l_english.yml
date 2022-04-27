@@ -1,0 +1,80 @@
+﻿l_english:
+
+IMPERIUM: "Imperium"
+IMPERATOR: "Imperator"
+IMPERATRIX: "Imperatrix"
+
+REGNO: "Regno"
+REX: "Rex"
+REGINA: "Regina"
+
+PATRICIANSHIP: "Patricianship"
+PATRICIUS: "Patricius"  
+PATRICIUSA:"Patriciusa"
+
+
+DUCATUS: "Ducatus"
+DUX: "Dux"
+DUCISSA: "Ducissa"
+
+LORD_ARCHBISHOP: "Lord Archbishop"
+SUPREME_ARCHBISHOP: "Supreme Archbishop"
+
+PRIME_ARCHBISHOPRIC: "Prime Archbishopric"
+
+LUQAYAN: "Luqayan"
+LUQAYATUN: "Luqayatun"
+
+LUQAN: "Luqan"
+LUQANTUN: "Luqantun"
+
+LUAND: "Luand"
+LUANDTUN: "Luandtun"
+
+#Monarchies
+atlantean_warring_state: "Warlord State"
+atlantean_warring_state_desc: "After the Collapse, many Atlantean states adopted a strictly militarized form of government consolidated under a single ruler. However, such a system led to more autonomous regions."
+
+crippled_seneca_reforms: "Crippled Seneca Reforms"
+crippled_seneca_reforms_desc: "Though in ages past the Atlantean Empire ran like a well-oiled machine, the decay has left it a withered husk of itself."
+
+restored_seneca_reforms: "Restored Seneca Reforms"
+restored_seneca_reforms_desc: "In 1030 CE, the Atlantean Imperator Seneca Chrysa divided the Atlantean Empire into administrative sections each ruled by its respective 'Rex'. This served to satisfy the growing want for autonomy in certain regions of the Empire, while also reducing the load on the Imperator."
+
+akakios_bureaucracy: "Akakios Bureaucracy"
+akakios_bureaucracy_desc: "A stronger Imperator means a stronger Atlantis, no more shall the scourge of the noble infringe on your divine right to Atlantis. Instead we will rule like the great conquerer Akakios who ruled as he pleased, with no opposition from the Senate."
+
+ayadoni_rexdom: "Ayadoni Rexdom"
+ayadoni_rexdom_desc: "The Ayadoni infighting is no longer heralding a new age of prosperity, under the one true Rex, the throne of Atlantis will be Ayadoni."
+
+dragon_empire: "Luqayan Mandate"
+dragon_empire_desc: "A governmental form where worship of the Dragon Gods is innate."
+
+dragon_noble: "Luqanate"
+dragon_noble_desc: "Hail the Dragon Emperor"
+
+dragon_king: "Luandate"
+dragon_king_desc: "The Dragon Emperor is not infallible."
+
+legacy_of_song: "Legacy of Song"
+legacy_of_song_desc: "Ever since the Mongol invasion of the Song in 1276, the Song Navy had traveled to the Muror to seek aid from the Mu Emperor. Settling down in the western lands of Mu, the descendants of the Song have established a foothold."
+
+occult_kingdom: "Occult Kingdom"
+occult_kingdom_desc: "A Kingdom of the Occult"
+
+anthrean_pirates: "Anthrean Pirates"
+anthrean_pirates_desc: "Taking advantage of The Collapse in 1340 CE, then Peregrini Acnonios Pollifemos overthrew the local-Anthrean government and self-styled himself as a Dux. His descendants would later turn to the piracy the Anthrean people are now known for." 
+
+#Republics
+patricianship: "Patricianship"
+patricianship_desc: "A governmental form where power lies in the hands of a rotating circuit of noble rulers. All families share in the power, carefully electing one of their own to reign for life so that no family will grow too powerful."
+
+antillian_republic: "Antillian Republic"
+antillian_republic_desc: "A Republic divided into three legislative districts composing of the Merchants, the People, and the Clergy."
+
+council_reform: "The Council"
+council_reform_desc: "The tyranny of the Imperator shall be no more, for all that stands in Atlantium is only and will only be the Council."
+
+#Theocracies
+archbishop_reform: "Supreme Archdiocese"
+archbishop_reform_desc: "Descended from a long line of Supreme Archbishops beginning with Ansis, they are kings in their own right; dictating affairs of state under the divine mandate of God."
