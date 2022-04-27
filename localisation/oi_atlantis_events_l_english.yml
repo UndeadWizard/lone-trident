@@ -25,6 +25,10 @@
  oi_institutions.3.d: "Our isolationism has been shattering quickly as foreigners start to realize Antillia's existence, in it's secluded corner of the ocean. Contacts from the North have spoken about a golden age of art and philosophy in their homelands, and, needless to say, Antillian clergymen feel jealous. Despite our tradition of clerical rule, Antillia has not had grand churches built to last forever and impress all visitors, a travesty that tarnishes our reputation. We must seek to equate ourselves to these foreigners in cultural development if our legacy is to be permanent."
  oi_institutions.3.a: "We'll have the grandest of churches built!"
  
+ oi_institutions.4.t: "Purchasing a Printing Press"
+ oi_institutions.3.d: "We've purchased a printing press from a local European merchant, we will go about reverse-engineering it!"
+ oi_institutions.3.a: "It was expensive though."
+ 
  atl_conquest.1.t: "The Crownlands"
  atl_conquest.1.d: "The Crownlands are were the first Atlanteans were forged from the legendary Romans. Our ancestors survived the trials of Yamm, braving his vicious storms, and were rewarded with the promised lands around Mount Atlas. Time past, and their descendants squabbled much like we do after the Collapse. In 386 CE, Akakios Argyris was the first to unite the Atlanteans through his conquest of the Crownlands, much like we have. Only time will tell what else we have in common with the past. "
  atl_conquest.1.a: "Promising indeed."
