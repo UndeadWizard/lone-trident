@@ -19,9 +19,9 @@
  template_7_desc: ""
 
  #Atlantean Generic
- atlantis_group_ideas: "Atlantean (group) Ideas"
- atlantis_group_ideas_start: "Atlantean (group) Traditions"
- atlantis_group_ideas_bonus: "Atlantean (group) Ambition"
+ atlantis_group_ideas: "Atlantean Minor Ideas"
+ atlantis_group_ideas_start: "Atlantean Minor Traditions"
+ atlantis_group_ideas_bonus: "Atlantean Minor Ambition"
  atla_gen_1: "A Forced Diversity"
  atla_gen_1_desc: "Our ancestors come from several tribes from the East that landed and settled in Atlantean land. At first, they were divided and fought over simple matters of faith or land, but through blood and iron they were conquered under Emperor Akakio. However, they weren't truly united until the differences between them simply became what made Atlanteans who they are. The scar still remains from those turbulent times, but so does a valuable lesson in tolerance."
  atla_gen_2: "Romani"
@@ -95,9 +95,9 @@
  meropis_7_desc: "And any Atlanteans we find alive after we're done are going straight to work camps to bolster our economy!"
  
  #Antillia
- antillian_ideas: "Antillian Group Ideas"
- antillian_ideas_start: "Antillian Group Traditions"
- antillian_ideas_bonus: "Antillian Group Ambition"
+ antillian_ideas: "Antillian Minor Ideas"
+ antillian_ideas_start: "Antillian Minor Traditions"
+ antillian_ideas_bonus: "Antillian Minor Ambition"
  antillian_1: "Theocratic Rule"
  antillian_1_desc: "Antillia has a history of clerical domination ever since it's establishment. It has worked very well thus far, and will remain so for the rest of our history."
  antillian_2: "Centralized Navy"

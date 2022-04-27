@@ -9,7 +9,7 @@ capital = 5134
 
 1444.1.1 = {
 	monarch = {
-		name = "António"
+		name = "Antonio"
 		dynasty = "Langus"
 		birth_date = 1400.4.10
 		adm = 3
