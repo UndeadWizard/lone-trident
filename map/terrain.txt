@@ -131,6 +131,17 @@ categories =  {
 			4831 4832 # Mandala
 
 			2774 2775 2794 2796 #South Somalia
+			
+			5050 5051 5052 5053 #Crownlands
+			
+			5068 5083 #Zephyria
+			
+			5025 5027 5028 #Asaero
+			
+			5077 #Hermus
+			5039 # Ayadon
+			
+			5129 5131 #Antillia
 		}		
 	}
 	
@@ -228,6 +239,9 @@ categories =  {
 			4840 # Mandala
 			
 			4856
+			
+			5016 5019 5021 5034 5035 5037 5054 5067 5071 5080 5126  #Atlantis
+			5138 #Antillia
 		}
 	}
 
@@ -298,6 +312,11 @@ categories =  {
 			4766 4767 4768 4770
 			
 			4853 4852 4864
+			
+			5059 #Crownlands
+			5084 5090 5094 5096 #Ayadon
+			5022 5023 5024 5030 5032 5033 #Albanum
+			5109 5110 #Nautean
 		}
 	}
 	
@@ -513,6 +532,9 @@ categories =  {
 			362 #Egypt
 			2702 #Philippines
 			4706 # 1.30 Greece and Bulgaria
+			
+			5014 5015 5020 #Albanum
+			5073 5074 #Charsum
 		}
 	}
 	
@@ -604,6 +626,13 @@ categories =  {
 			4815 # Mandala
 			
 			2728
+			
+			5009 5010 5011 5104 #Trident Islands
+			5012 5038 #Albanum
+			5089 5101 # Ayadon
+			5078 5079 5081 5092 # Charsum
+			5031 5049 #Crownlands
+			5105 5106 5111 5112 #Nautean Island
 		}
 	}	
 	
@@ -703,6 +732,9 @@ categories =  {
 			4422 4436 4464 #Central India
 			4561 4566 4553 # new provinces 1.28
 			4669 4701 4699 4780 # 1.30 Greece and Bulgaria
+			
+			5091 5095 5098 5100 5102 #Ayadon
+			5055 5056 5057 #Crownlands
 		}
 	}
 
