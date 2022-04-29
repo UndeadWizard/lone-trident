@@ -1,4 +1,4 @@
-great_temple_jupiter	 = {
+great_temple_jupiter = {
 	# province it starts in
 	start = 5053
 	
@@ -58,8 +58,9 @@ great_temple_jupiter	 = {
 	on_built = {
 		if = {
 			limit = { 
-				has_global_flag =  parthenon_now_mosque
+				has_global_flag = parthenon_now_mosque 
 			}
+			show_ambient_object = parthenon_minaret
 		}
 		else = {
 			show_ambient_object = parthenon
