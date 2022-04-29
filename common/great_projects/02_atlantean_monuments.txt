@@ -1,6 +1,6 @@
 great_temple_jupiter	 = {
 	# province it starts in
-	start = 5599
+	start = 5053
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 537.01.01
