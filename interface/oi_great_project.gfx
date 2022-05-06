@@ -4,3 +4,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_great_temple_jupiter.dds"
 	}
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_great_project_asaero_guardians"	
+		texturefile = "gfx//interface//great_projects//great_project_asaero_guardians.dds"
+	}
+}
