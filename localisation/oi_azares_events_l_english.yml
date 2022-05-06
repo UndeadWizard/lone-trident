@@ -30,11 +30,14 @@
  aza_thegrandson.3.t: "Traitor Lords"
  aza_thegrandson.3.d: "At dawn, a small detachment led by a minor Chrysa noble arrived at the gates of Atlantium. A small commotion broke out as it became increasingly clear that the Lord of Chryososes has refused to recognize the sovereignty of Imperator Vlassis, claiming that Aquila had placed him on the throne as a Acenian puppet. Even worse yet the Lord of Diaprepes has joined the Chyrsa in their treason, and both now ruling their territories as independent kings."
  aza_thegrandson.3.a: "I will have their heads!"
+ aza_thegrandson.3.b: "They will pay....in time."
  diaprepes_secedes_tooltip: "Azares declares war on the traitor lords, seeking to restore imperial rule of the endless gold mines of Chyrsa and the glasswares of Decerikon once and for all."
+ imperator_waits_for_revenge_tooltip: "While not giving up their rightful claims over the territory of the traitor lords, the Imperator has decided to wait for a more oppportune time."
  
  aza_thegrandson.4.t: "Traitor Lords"
  aza_thegrandson.4.d: "At dawn, a small detachment led by a minor Chrysa noble arrived at the gates of Atlantium. A small commotion broke out as it became increasingly clear that the Lord of Chryososes has refused to recognize the sovereignty of Imperator Vlassis, claiming that Aquila had placed him on the throne as a Acenian puppet. Even worse yet the Lord of Ionmym has joined the Chyrsa in their treason, and both now ruling their territories as independent kings."
  aza_thegrandson.4.a: "I will have their heads!"
+ aza_thegrandson.4.b: "They will pay....in time."
  ionmym_secedes_tooltip: "Azares declares war on the traitor lords, seeking to restore imperial rule of the endless gold mines of Chyrsa and the vineyards of Ionmym once and for all."
  
  aza_theemperor.1.t: "Revitalizing Atlantium"

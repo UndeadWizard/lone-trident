@@ -203,6 +203,20 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = aza_thegrandson.3.b
+		ai_chance = { factor = 0 }
+		custom_tooltip = imperator_waits_for_revenge_tooltip
+		hidden_effect = {
+			release_all_subjects = yes
+			5052 = {
+				add_claim = A00
+			}
+			5054 = {
+				add_claim = A00
+			}	
+		}
+	}
 }
 
 # Ionmym Secedes
@@ -240,6 +254,20 @@ country_event = {
 				who = A03
 				casus_belli = cb_atlantean_wars
 			}
+		}
+	}
+	option = {
+		name = aza_thegrandson.4.b
+		ai_chance = { factor = 0 }
+		custom_tooltip = imperator_waits_for_revenge_tooltip
+		hidden_effect = {
+			release_all_subjects = yes
+			5059 = {
+				add_claim = A00
+			}
+			5054 = {
+				add_claim = A00
+			}	
 		}
 	}
 }
