@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_great_temple_jupiter"	
-		texturefile = "gfx//interface//great_projects//great_project_parthenon.dds"
+		texturefile = "gfx//interface//great_projects//great_project_great_temple_jupiter.dds"
 	}
 }

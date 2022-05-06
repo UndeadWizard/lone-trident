@@ -69,7 +69,9 @@ technology = {
 	enable = aboriginal_boomerang
 	enable = aboriginal_warrior
 	enable = pacific_spearman
-	
+	#########
+	###OI###
+	#########
     enable = atla_infantry_1a # 1
     enable = atla_infantry_1b # 1
     enable = atla_cavalry_1a # 1
@@ -170,7 +172,9 @@ technology = {
 	enable = aboriginal_infantry
 	enable = aboriginal_reformed_boomerang
 	enable = pacific_reformed_spearman
-	
+	#########
+	###OI###
+	#########
     enable = atla_infantry_5a # 5
     enable = atla_infantry_5b # 5
     enable = lemurian_infantry_5_a # 5
@@ -214,7 +218,9 @@ technology = {
 	enable = high_american_horsemen
 	enable = aboriginal_horseman	
 	enable = pacific_horseman
-	
+	#########
+	####OI###
+	#########
 	enable = atla_cavalry_6 # 6
     enable = lemurian_cavalry_6_a # 6
     enable = muror_cavalry_6_a # 6
@@ -238,6 +244,9 @@ technology = {
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
+	#########
+	####OI###
+	#########
 	enable = atla_infantry_7
 }
 
@@ -281,6 +290,9 @@ technology = {
 	enable = steppe_raiders
 	enable = ha_xiuhtecuhtli_soldier
     
+	#########
+	####OI###
+	#########
     enable = atla_infantry_9 # 9
     enable = lemurian_infantry_9_a # 9
     enable = lemurian_infantry_9_b # 9
@@ -328,7 +340,9 @@ technology = {
 	enable = aboriginal_cavalry
 	enable = pacific_island_warriors
 	enable = pacific_cavalry
-    
+    #########
+	####OI###
+	#########
     enable = atla_cavalry_10 # 10
     enable = lemurian_cavalry_10_a # 10
     enable = muror_cavalry_10_a # 10
@@ -386,7 +400,9 @@ technology = {
 	enable = ethiopian_mountain_warfare		
 	enable = steppe_footmen
 	enable = ha_xiuhtecuhtlian_infantry
-    
+    #########
+	####OI###
+	#########
     enable = atla_infantry_12 # 12
     enable = lemurian_infantry_12_a # 12
     enable = lemurian_infantry_12_b # 12
@@ -455,7 +471,9 @@ technology = {
 	enable = aboriginal_tasmanian_arquebusier
 	enable = pacific_hussar
 	enable = pacific_arquebusier
-	
+	#########
+	####OI###
+	#########
     enable = atla_cavalry_14 # 14
     enable = lemurian_cavalry_14_a # 14
     enable = muror_cavalry_14_a # 14
@@ -491,7 +509,9 @@ technology = {
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
-    
+    #########
+	####OI###
+	#########
     enable = atla_infantry_15 # 15
     enable = polynesian_infantry_15_a # 15
     enable = polynesian_infantry_15_b # 15
@@ -538,7 +558,9 @@ technology = {
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
 	enable = african_swarm
-    
+    #########
+	####OI###
+	#########
     enable = lemurian_cavalry_17_a # 17
     enable = muror_cavalry_17_a # 17
     enable = polynesian_cavalry_17_a # 17
@@ -617,7 +639,9 @@ technology = {
 	enable = high_american_swarm
 	enable = aboriginal_riflemen
 	enable = pacific_riflemen
-	
+	#########
+	####OI###
+	#########
     enable = atla_infantry_19 # 19
 }
 
@@ -683,10 +707,14 @@ technology = {
 
 	
 	enable = polish_winged_hussar	
-	enable = muscovite_cossack	
+	enable = muscovite_cossack
+	
+	enable = coehorn_mortar	
+	#########
+	####OI###
+	#########
 	enable = atla_cavalry_22
 
-	enable = coehorn_mortar		
 }
 
 technology = {
@@ -734,7 +762,9 @@ technology = {
 	enable = high_american_dragoon
 	enable = aboriginal_dragoon
 	enable = pacific_dragoon
-	
+	#########
+	####OI###
+	#########
     enable = atla_infantry_23 # 23
     enable = lemurian_infantry_23_a # 23
     enable = lemurian_cavalry_23_a # 23
@@ -835,7 +865,9 @@ technology = {
 	enable = ha_reformed_influenced_infantry
     enable = aboriginal_guerrillas
 	enable = pacific_guerrillas
-	
+	#########
+	####OI###
+	#########
     enable = atla_infantry_26 # 26
     enable = lemurian_infantry_26_a # 26
     enable = muror_infantry_26_a # 26
@@ -900,7 +932,9 @@ technology = {
 	enable = french_impulse
 	enable = british_square
 	enable = steppe_uhlans
-    
+    #########
+	####OI###
+	#########
     enable = atla_cavalry_28 # 28
     enable = lemurian_cavalry_28_a # 28
     enable = lemurian_cavalry_28_b # 28
@@ -964,7 +998,9 @@ technology = {
 	enable = reformed_westernized_incan		
 	enable = reformed_steppe_rifles
 	enable = ha_reformed_xoloti
-    
+    #########
+	####OI###
+	#########
     enable = atla_infantry_30 # 30
     enable = lemurian_infantry_30_a # 30
     enable = muror_infantry_30_a # 30
@@ -1010,6 +1046,8 @@ technology = {
 	military_tactics	=	0.25
 	artillery_shock		=	0.1
 	artillery_fire		=	2.0	
-	
+	#########
+	####OI###
+	#########
 	enable = atla_infantry_32 # 32
 }
