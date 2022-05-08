@@ -50,8 +50,8 @@ country_event = {
 	
 	option = {	
 		name = aza_anewhope.2.a
+		custom_tooltip = onetrueheirpath_tooltip
 		ai_chance = { factor = 90 }
-		add_prestige = -1
 		#Next event
 		hidden_effect = {
 			country_event = {
@@ -62,8 +62,8 @@ country_event = {
 	}
 	option = {	
 		name = aza_anewhope.2.b
+		custom_tooltip = councilpath_tooltip
 		ai_chance = { factor = 10 }
-		add_prestige = 1
 		#Next event
 		hidden_effect = {
 			country_event = {
