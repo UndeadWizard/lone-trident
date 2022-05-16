@@ -49,11 +49,6 @@ country_event = {
 				id = aza_thebishop.1
 				days = 150
 			}	
-			
-			country_event = {
-				id = aza_theemperor.1
-				days = 60
-			}	
 		}
 	}
 
@@ -77,11 +72,6 @@ country_event = {
 			country_event = {
 				id = aza_thebishop.1
 				days = 150
-			}	
-			
-			country_event = {
-				id = aza_theemperor.1
-				days = 60
 			}	
 		}
 	}
@@ -186,6 +176,7 @@ country_event = {
 		custom_tooltip = diaprepes_secedes_tooltip
 		hidden_effect = {
 			release_all_subjects = yes
+			set_country_flag = traitor_lords_war
 			set_country_flag = chrysos_secedes
 			set_country_flag = diaprepes_secedes
 			5052 = {
@@ -214,7 +205,11 @@ country_event = {
 			}
 			5054 = {
 				add_claim = A00
-			}	
+			}
+			country_event = {
+				id = aza_theemperor.1
+				days = 60
+			}
 		}
 	}
 }
@@ -239,6 +234,7 @@ country_event = {
 		
 		hidden_effect = {
 			release_all_subjects = yes
+			set_country_flag = traitor_lords_war
 			set_country_flag = chrysos_secedes
 			set_country_flag = ionmym_secedes
 			5059 = {
@@ -285,11 +281,7 @@ country_event = {
 			A00 = {
 				owns = 5054
 			}
-			OR = {
-				has_country_flag = chrysos_secedes
-				has_country_flag = diaprepes_secedes
-				has_country_flag = ionmym_secedes
-			}
+			has_country_flag = chrysos_secedes
 		}
 	}
 	
@@ -368,5 +360,38 @@ country_event = {
 			add_core = ROOT	
 		}
 		clr_country_flag = ionmym_secedes
+	}
+}
+
+country_event = {
+	id = aza_thegrandson.8
+	title = aza_thegrandson.8.t
+	desc = aza_thegrandson.8.d
+	picture = BORDER_TENSION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			tag = A00
+			is_at_war = no
+			has_country_flag = traitor_lords_war
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		hidden_effect = {
+			clr_country_flag = traitor_lords_war
+			
+			
+			country_event = {
+				id = aza_theemperor.1
+				days = 60
+			}
+		}
 	}
 }
