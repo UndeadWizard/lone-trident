@@ -1,0 +1,74 @@
+namespace = aza_rebuild
+
+###### The Rebuilding Event Chain
+
+country_event = { #Revitalizing Atlantium
+	id = aza_rebuild.1
+	title = aza_rebuild.1.t
+	desc = aza_rebuild.1.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {	
+		name = aza_rebuild.1.a	
+		add_treasury = -20	
+		add_country_modifier = {
+			name = "aza_farmer_immigrants"
+			duration = 9125 #25 years
+		}
+		5053 = {
+			add_base_manpower = 3
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.2
+				days = 120
+			}	
+		}
+	}
+	option = {
+		name = aza_rebuild.1.b
+		add_treasury = 20
+		
+		add_country_modifier = {
+			name = "aza_traders_monopolies"
+			duration = 9125 #25 years
+		}
+		
+		
+		5053 = {
+			add_base_tax = 1
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_theemperor.2
+				days = 120
+			}	
+		}
+	}
+}
+
+country_event = { #Farmer Immigrants
+}
+
+country_event = { #New Traders
+}
+
+country_event = { #Repair The Walls!
+}
+
+country_event = { #Reconstruction of the Gladiator Pits
+}
+
+country_event = { #Expansion of the Atlantium Silk District
+}
+
+country_event = { #Atlantean Tattoos
+}

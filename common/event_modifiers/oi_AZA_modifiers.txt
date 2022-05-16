@@ -30,3 +30,9 @@ aza_expanded_silk_district = {
 aza_azaresi_gladiators = {
 	tax_income = 1
 }
+
+aza_ai_bonuses = {
+	global_tax_income = 24
+	land_forcelimit_modifier = 0.25
+	manpower_recovery_speed = 0.10 
+}
