@@ -207,7 +207,7 @@ country_event = {
 				add_claim = A00
 			}
 			country_event = {
-				id = aza_theemperor.1
+				id = aza_rebuild.1
 				days = 60
 			}
 		}
@@ -278,8 +278,8 @@ country_event = {
 	
 	trigger = {
 		AND = {
-			A00 = {
-				owns = 5054
+			5054 = {
+				controlled_by = A00
 			}
 			has_country_flag = chrysos_secedes
 		}
@@ -294,6 +294,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 		
 		5054 = {
+			cede_province = ROOT
 			add_core = ROOT
 		}
 		clr_country_flag = chrysos_secedes
@@ -310,8 +311,8 @@ country_event = {
 	
 	trigger = {
 		AND = {
-			A00 = {
-				owns = 5052
+			5052 = {
+				controlled_by = A00
 			}
 			has_country_flag = diaprepes_secedes
 		}
@@ -326,6 +327,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 		
 		5052 = {
+			cede_province = ROOT
 			add_core = ROOT
 		}
 		clr_country_flag = diaprepes_secedes
@@ -341,8 +343,8 @@ country_event = {
 	
 	trigger = {
 		AND = {
-			A00 = {
-				owns = 5059
+			5059 = {
+				controlled_by = A00
 			}
 			has_country_flag = ionmym_secedes
 		}
@@ -357,6 +359,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 		
 		5059 = {
+			cede_province = ROOT
 			add_core = ROOT	
 		}
 		clr_country_flag = ionmym_secedes
@@ -389,7 +392,7 @@ country_event = {
 			
 			
 			country_event = {
-				id = aza_theemperor.1
+				id = aza_rebuild.1
 				days = 60
 			}
 		}

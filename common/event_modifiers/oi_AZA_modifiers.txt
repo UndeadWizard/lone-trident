@@ -15,12 +15,42 @@ freedom_of_religion_decree = {
 	global_tax_modifier = 0.05	
 }
 
+### Modifiers for Rebuild Chain
+
 aza_farmer_immigrants = {
 	build_cost = -0.1	
 }
+aza_license_deal_minor = {
+	light_ship_cost = -0.05 
+	build_cost = -0.05
+	global_own_trade_power = -0.05
+}
+aza_license_deal = {
+	light_ship_cost = -0.05
+	galley_cost = -0.05	
+	build_cost = -0.05
+	global_own_trade_power = -0.1
+}
 
-aza_traders_monopolies = {
+aza_license_deal_major = {
+	global_ship_cost = -0.1	
+	build_cost = -0.05
+	global_own_trade_power = -0.15
+}
+
+aterpean_traders_licenses_minor= {
+	global_tax_income = 12
 	trade_efficiency = 0.05
+}
+
+aterpean_traders_licenses= {
+	global_tax_income = 24
+	trade_efficiency = 0.1
+}
+
+aterpean_traders_licenses_major= {
+	global_tax_income = 36
+	trade_efficiency = 0.15
 }
 
 aza_expanded_silk_district = {
@@ -30,6 +60,8 @@ aza_expanded_silk_district = {
 aza_azaresi_gladiators = {
 	tax_income = 1
 }
+
+### Modifiers for AI
 
 aza_ai_bonuses = {
 	global_tax_income = 24

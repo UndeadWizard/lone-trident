@@ -7,7 +7,11 @@
  forgiving_imperator: "Forgiving Imperator"
  vengeful_imperator: "Vengeful Imperator"
  fellow_converts: "Fellow Converts"
-
+ aterpean_deal_minor: "Aterpean License Deal"
+ aterpean_deal: "Aterpean License Deal"
+ aterpean_deal_major: "Aterpean License Deal"
+ aterpean_deal_revoked: "Revoked our Licenses"
+ 
 #Antillian Modifiers
  ANX_lowered_maintenance: "Antillian Reforms"
  ANX_defused_tensions: "Stabilizing Antillia"
@@ -38,6 +42,12 @@
  ATL_open_to_negotiation: "Open to Negotiation"
  ATL_experienced_diplomats: "Experienced Diplomats"
  ATL_path_to_europe: "Path to Europe"
+ aza_license_deal_minor: "Aterpean License Deal"
+ aza_license_deal: "Aterpean License Deal"
+ aza_license_deal_major: "Aterpean License Deal"
+ aterpean_traders_licenses_minor: "Aterpean License Deal"
+ aterpean_traders_licenses: "Aterpean License Deal"
+ aterpean_traders_licenses_major: "Aterpean License Deal"
  
  #ATL continued; added by Zeph
  ATL_aint_nothing_but_a_heartache: "Unified the Islands"

@@ -1,4 +1,5 @@
 country_decisions = {
+	#Generic Atlantean Decisions
     visit_the_oracle = {
 		potential = {
 			religion = atlanic
@@ -54,4 +55,39 @@ country_decisions = {
 			}
 		}
 	}
+	#AZA Decisions
+	cancel_aterpean_deal = {
+		potential = {
+			has_country_flag = aza_aterpea_deal
+		}
+		effect = {
+			ai_chance = { factor = 0 }
+			remove_country_modifier = aza_license_deal_minor
+			remove_country_modifier = aza_license_deal
+			remove_country_modifier = aza_license_deal_major
+			A20 = {
+				remove_country_modifier = aterpean_traders_licenses_minor
+				remove_country_modifier = aterpean_traders_licenses
+				remove_country_modifier = aterpean_traders_licenses_major
+				remove_opinion = {
+					who = A00
+					modifier = aterpean_deal_minor
+				}
+				remove_opinion = {
+					who = A00
+					modifier = aterpean_deal
+				}
+				remove_opinion = {
+					who = A00
+					modifier = aterpean_deal_major
+				}
+				add_opinion = {
+					who = A00
+					modifier = aterpean_deal_revoked
+				}
+			}
+			clr_country_flag = aza_aterpea_deal
+		}
+	}
+	
 }

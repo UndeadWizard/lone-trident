@@ -1,28 +1,45 @@
 antillian_heretics = {
 	opinion = -40
-	months = 300
+	yearly_decay = 2
 }
 
 antillian_christians = {
 	opinion = 25
-	months = 240
+	yearly_decay = 2
 }
 
 victoryofturks = {
 	opinion = -150
-	months = 300
+	yearly_decay = 2
 }
 
 forgiving_imperator = {
 	opinion = 10
-	months = 180
+	yearly_decay = 2
 }
 
 vengeful_imperator = {
 	opinion = -30
-	months = 180
+	yearly_decay = 2
 }
 
 fellow_converts = {
 	opinion = 10
+}
+
+aterpean_deal_minor = {
+	opinion = 10
+}
+
+aterpean_deal = {
+	opinion = 30
+}
+
+aterpean_deal_major = {
+	opinion = 75
+}
+
+aterpean_deal_revoked = {
+	opinion = -100
+	yearly_decay = 2
 }

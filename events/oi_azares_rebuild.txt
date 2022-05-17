@@ -15,32 +15,150 @@ country_event = { #Revitalizing Atlantium
 	}
 	
 	option = {	
-		name = aza_rebuild.1.a	
+		name = aza_rebuild.1.a
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.2
+				days = 240
+			}	
+		}
+	}
+}
+
+country_event = { #Farmer Immigrants
+	id = aza_rebuild.2
+	title = aza_rebuild.2.t
+	desc = aza_rebuild.2.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {	
+		name = aza_rebuild.2.a	
 		add_treasury = -20	
 		add_country_modifier = {
 			name = "aza_farmer_immigrants"
 			duration = 9125 #25 years
 		}
 		5053 = {
-			add_base_manpower = 3
+			add_base_tax = 1
+		}
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.3
+				days = 365
+			}	
+		}
+	}
+	option = {	
+		name = aza_rebuild.2.b	
+		add_treasury = -20	
+		add_country_modifier = {
+			name = "aza_farmer_immigrants"
+			duration = 9125 #25 years
+		}
+		
+		5053 = {
+			add_base_production = 1
 		}
 		
 		hidden_effect = {
 			country_event = {
-				id = aza_theemperor.2
-				days = 120
+				id = aza_rebuild.3
+				days = 365
 			}	
 		}
 	}
-	option = {
-		name = aza_rebuild.1.b
-		add_treasury = 20
-		
+	option = {	
+		name = aza_rebuild.2.c	
+		add_treasury = -20	
 		add_country_modifier = {
-			name = "aza_traders_monopolies"
+			name = "aza_farmer_immigrants"
 			duration = 9125 #25 years
+		} 
+		
+		5053 = {
+			add_base_manpower = 1
 		}
 		
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.3
+				days = 365
+			}
+		}
+	}
+}
+
+country_event = { #New Traders
+	id = aza_rebuild.3
+	title = aza_rebuild.3.t
+	desc = aza_rebuild.3.desc
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+		exists = A20
+	}
+	option = {
+		name = aza_rebuild.3.a
+	}
+	
+	option = {
+		name = aza_rebuild.3.b
+		add_treasury = -15
+		set_country_flag = aza_aterpea_deal
+		
+		A20 = {
+			add_country_modifier = {
+				name = "aterpean_traders_licenses_minor"
+				duration = -1
+			}
+			add_opinion	 = {
+					who = A00
+				    modifier = aterpean_deal_minor
+			}
+		}
+		
+		add_country_modifier = {
+			name = "aza_license_deal_minor"
+			duration = -1
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.4
+				days = 365
+			}	
+		}
+	}
+	
+	option = {
+		name = aza_rebuild.3.c
+		add_treasury = -50
+		set_country_flag = aza_aterpea_deal
+		
+		A20 = {
+			add_country_modifier = {
+				name = "aterpean_traders_licenses"
+				duration = -1
+			}
+			add_opinion	 = {
+					who = A00
+				    modifier = aterpean_deal
+			}
+		}
+		
+		add_country_modifier = {
+			name = "aza_license_deal"
+			duration = -1
+		}
 		
 		5053 = {
 			add_base_tax = 1
@@ -48,27 +166,150 @@ country_event = { #Revitalizing Atlantium
 		
 		hidden_effect = {
 			country_event = {
-				id = aza_theemperor.2
-				days = 120
+				id = aza_rebuild.4
+				days = 365
+			}	
+		}
+	}
+	
+	option = {
+		name = aza_rebuild.3.d
+		add_treasury = -75
+		set_country_flag = aza_aterpea_deal
+		
+		A20 = {
+			add_country_modifier = {
+				name = "aterpean_traders_licenses_major"
+				duration = -1
+			}
+			add_opinion	 = {
+					who = A00
+				    modifier = aterpean_deal_major
+			}
+		}
+		
+		add_country_modifier = {
+			name = "aza_license_deal_major"
+			duration = -1
+		}
+		
+		5053 = {
+			add_base_tax = 2
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.4
+				days = 365
 			}	
 		}
 	}
 }
 
-country_event = { #Farmer Immigrants
-}
-
-country_event = { #New Traders
-}
-
 country_event = { #Repair The Walls!
+	id = aza_rebuild.4
+	title = aza_rebuild.4.t
+	desc = aza_rebuild.4.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
+	option = {
+		name = aza_rebuild.4.a
+		add_treasury = -125
+		5053 = {
+			add_building = fort_15th
+		}
+	}
 }
 
 country_event = { #Reconstruction of the Gladiator Pits
+	id = aza_rebuild.5
+	title = aza_rebuild.5.t
+	desc = aza_rebuild.5.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
 }
 
 country_event = { #Expansion of the Atlantium Silk District
+	id = aza_rebuild.6
+	title = aza_rebuild.6.t
+	desc = aza_rebuild.6.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+	
 }
 
 country_event = { #Atlantean Tattoos
+	id = aza_rebuild.7
+	title = aza_rebuild.7.t
+	desc = aza_rebuild.7.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		tag = A00
+	}
+}
+
+country_event = {
+	id = aza_rebuild.8
+	title = aza_rebuild.8.t
+	desc = aza_rebuild.8.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR  = {
+			NOT = { exists = A20 }
+			offensive_war_with = A20
+		}
+	}
+	
+	option = {
+		name = aza_rebuild.8.a
+		
+		remove_country_modifier = aza_license_deal_minor
+		remove_country_modifier = aza_license_deal
+		remove_country_modifier = aza_license_deal_major
+		A20 = {
+			remove_country_modifier = aterpean_traders_licenses_minor
+			remove_country_modifier = aterpean_traders_licenses
+			remove_country_modifier = aterpean_traders_licenses_major
+			remove_opinion = {
+				who = A00
+				modifier = aterpean_deal_minor
+			}
+			remove_opinion = {
+				who = A00
+				modifier = aterpean_deal
+			}
+			remove_opinion = {
+				who = A00
+				modifier = aterpean_deal_major
+			}
+			add_opinion = {
+				who = A00
+				modifier = aterpean_deal_revoked
+			}
+		}
+		clr_country_flag = aza_aterpea_deal
+	}
 }
