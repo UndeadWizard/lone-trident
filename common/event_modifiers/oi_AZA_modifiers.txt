@@ -64,7 +64,7 @@ aza_azaresi_gladiators = {
 ### Modifiers for AI
 
 aza_ai_bonuses = {
-	global_tax_income = 24
+	global_tax_income = 36
 	land_forcelimit_modifier = 0.25
 	manpower_recovery_speed = 0.10 
 }
