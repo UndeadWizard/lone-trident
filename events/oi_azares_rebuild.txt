@@ -268,7 +268,7 @@ country_event = { #Atlantean Tattoos
 	}
 }
 
-country_event = {
+country_event = { #Aterpean deal cancel event
 	id = aza_rebuild.8
 	title = aza_rebuild.8.t
 	desc = aza_rebuild.8.d
@@ -277,6 +277,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		has_country_flag = aza_aterpea_deal
 		OR  = {
 			NOT = { exists = A20 }
 			offensive_war_with = A20

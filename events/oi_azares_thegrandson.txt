@@ -387,6 +387,7 @@ country_event = {
 	}
 	
 	option = {
+	name = aza_thegrandson.8.a
 		hidden_effect = {
 			clr_country_flag = traitor_lords_war
 			
