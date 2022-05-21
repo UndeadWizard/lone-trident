@@ -53,12 +53,13 @@ aterpean_traders_licenses_major= {
 	trade_efficiency = 0.15
 }
 
-aza_expanded_silk_district = {
+aza_expanded_silkworks = {
 	trade_goods_size = 2
 }
 
 aza_azaresi_gladiators = {
 	tax_income = 1
+	local_unrest = -5
 }
 
 ### Modifiers for AI

@@ -12,6 +12,7 @@ atlantean_warring_state = {
 				}
 				has_reform = atlantean_warring_state
 			}
+			NOT = { tag = AZA }
 			NOT = { tag = ATL }
 			NOT = { tag = AYA }
 		}
@@ -36,6 +37,7 @@ anthrean_pirates = {
 	nation_designer_cost = 0
 	potential = {
 		religion = atlanic
+		tag = A50
 	}
 	modifiers = {
 		naval_forcelimit_modifier = 0.25

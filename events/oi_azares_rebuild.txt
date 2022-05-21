@@ -224,6 +224,21 @@ country_event = { #Repair The Walls!
 		5053 = {
 			add_building = fort_15th
 		}
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.5
+				days = 365
+			}	
+		}
+	}
+	option = {
+		name = aza_rebuild.4.b
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.5
+				days = 365
+			}	
+		}
 	}
 }
 
@@ -238,10 +253,28 @@ country_event = { #Reconstruction of the Gladiator Pits
     trigger = {
 		tag = A00
 	}
-	
+	option = {
+		name = aza_rebuild.5.a
+		set_country_flag = atlantium_gladiator_pits
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.6
+				days = 365
+			}
+		}
+	}
+	option = {
+		name = aza_rebuild.5.b
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.6
+				days = 365
+			}
+		}
+	}
 }
 
-country_event = { #Expansion of the Atlantium Silk District
+country_event = { #Expansion of the Atlantium Silkworks
 	id = aza_rebuild.6
 	title = aza_rebuild.6.t
 	desc = aza_rebuild.6.d
@@ -252,7 +285,16 @@ country_event = { #Expansion of the Atlantium Silk District
     trigger = {
 		tag = A00
 	}
-	
+	option = {
+		name = aza_rebuild.6.a
+		set_country_flag = atlantium_silkworks
+		hidden_effect = {
+			country_event = {
+				id = aza_rebuild.7
+				days = 365
+			}
+		}
+	}
 }
 
 country_event = { #Atlantean Tattoos
@@ -265,6 +307,15 @@ country_event = { #Atlantean Tattoos
 	
     trigger = {
 		tag = A00
+	}
+	option = {
+		name = aza_rebuild.7.a
+	}
+	option = {
+		name = aza_rebuild.7.b
+	}
+	option = {
+		name = aza_rebuild.7.c
 	}
 }
 

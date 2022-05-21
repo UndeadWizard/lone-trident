@@ -33,30 +33,30 @@
  aza_thegrandson.3.d: "At dawn, a small detachment led by a minor Chrysa noble arrived at the gates of Atlantium. A small commotion broke out as it became increasingly clear that the Lord of Chryososes has refused to recognize the sovereignty of Imperator Vlassis, claiming that Aquila had placed him on the throne as a Acenian puppet. Even worse yet the Lord of Diaprepes has joined the Chyrsa in their treason, both now ruling their territories as independent kings."
  aza_thegrandson.3.a: "I will have their heads!"
  aza_thegrandson.3.b: "They will pay....in time."
- diaprepes_secedes_tooltip: "§YAzares declares war on the traitor lords, seeking to restore imperial rule of the endless gold mines of Chyrsa and the glasswares of Decerikon once and for all.§"
+ diaprepes_secedes_tooltip: "§YAzares declares war on the traitor lords, seeking to restore imperial rule of the endless gold mines of Chyrsa and the vineyards of Decerikon once and for all.§"
  imperator_waits_for_revenge_tooltip: "§YWhile not giving up their rightful claims over the territory of the traitor lords, the Imperator has decided to wait for a more oppportune time.§"
  
  aza_thegrandson.4.t: "Traitor Lords"
  aza_thegrandson.4.d: "At dawn, a small detachment led by a minor Chrysa noble arrived at the gates of Atlantium. A small commotion broke out as it became increasingly clear that the Lord of Chryososes has refused to recognize the sovereignty of Imperator Vlassis, claiming that Aquila had placed him on the throne as a Acenian puppet. Even worse yet the Lord of Ionmym has joined the Chyrsa in their treason, and both now ruling their territories as independent kings."
  aza_thegrandson.4.a: "I will have their heads!"
  aza_thegrandson.4.b: "They will pay....in time."
- ionmym_secedes_tooltip: "§YAzares declares war on the traitor lords, seeking to restore imperial rule of the endless gold mines of Chyrsa and the vineyards of Ionmym once and for all.§"
+ ionmym_secedes_tooltip: "§YAzares declares war on the traitor lords, seeking to restore imperial rule of the endless gold mines of Chyrsa and the glasswares of Ionmym once and for all.§"
  
  aza_thegrandson.5.t: "Fall of the Chyrsa"
- aza_thegrandson.5.d: ""
- aza_thegrandson.5.a: ""
+ aza_thegrandson.5.d: "Though once a mighty family in their own right, the power of the Chyrsa weakened with the fall of the Atlantean Empire. This petty rebellion of theirs was simply the last gasp of a dying dynasty."
+ aza_thegrandson.5.a: "Good riddance"
 
  aza_thegrandson.6.t: "Diaprepes Destruction"
  aza_thegrandson.6.d: ""
- aza_thegrandson.6.a: ""
+ aza_thegrandson.6.a: "If you need me I will be in my studies."
  
  aza_thegrandson.7.t: "Forests of Ionmym "
  aza_thegrandson.7.d: ""
- aza_thegrandson.7.a: ""
+ aza_thegrandson.7.a: "Some good lumber eh?"
  
  aza_thegrandson.8.t: "Execution of the Traitors"
- aza_thegrandson.8.d: ""
- aza_thegrandson.8.a: ""
+ aza_thegrandson.8.d: "They were hung at dawn, no traitors to Atlantis will live to hinder her again."
+ aza_thegrandson.8.a: "Goodbye."
  
  aza_theemperor.1.t: "Revitalizing Atlantium"
  aza_theemperor.1.d: "Atlantium has seen better days in the past: The canals once filled with sparkling clear water are now muddled with all kinds of filth, homes lie empty and crumbling throughout the city center, and even the Grand Palace is lined with cracks infested with overgrown vines. The ascension of Imperator Vlassis has seen a considerable rise in the power of Atlantium, but it is still not enough. A Empire cannot be built if its capital does not shine with its inherent splendor. Aquila of Acens advises that the way forward is to invite destitute farmers and their sons to live and maintain in empty homes, as well as pay them wages to act as laborers. This will cost a significant sum, but will significantly improve the infrastructure of Atlantium. Alternatively, a Aterpean merchant has proposed granting trading licences to less established merchants from the southern-republic. This will upset many of your local merchants, but end up gathering a considerable sum for your treasury."
@@ -64,7 +64,7 @@
  aza_theemperor.1.b: "The Aterpean Merchants will be granted licences."
 
  aza_theemperor.2.t: "Atlantean Industry"
- aza_theemperor.2.d: "Atlantium's economy has been struggling for nearly a century. The rapid depopulation brought on by the Red Plague reduced demand for Atlantean silk to new historical lows, as most nobles have switched to wearing more dependable materials. However, with the onset of the Atlantean warlords, silk has been steadily becoming as a sign of legitimacy for their positions. While we do not publicly recognize these Warlords as truly independent, we could spend resources to expand the Silk District; funding our future war efforts. Alternatively, a buck-toothed mammoth of a man by the name of Castor Nassos has proposed the reconstruction of the deprecated Atlantean gladiator pits under his stewardship. According to your advisers, Castor is a powerful merchant that already controls 20% of Atlantium's industry. Giving him control over the gladiator pits will certainly bring new wealth to Atlantium, but will diminish your control over its industry."
+ aza_theemperor.2.d: "Atlantium's economy has been struggling for nearly a century. The rapid depopulation brought on by the Red Plague reduced demand for Atlantean silk to new historical lows, as most nobles have switched to wearing more dependable materials. However, with the onset of the Atlantean warlords, silk has been steadily becoming as a sign of legitimacy for their positions. While we do not publicly recognize these Warlords as truly independent, we could spend resources to expand the Silkworks; funding our future war efforts. Alternatively, a buck-toothed mammoth of a man by the name of Castor Nassos has proposed the reconstruction of the deprecated Atlantean gladiator pits under his stewardship. According to your advisers, Castor is a powerful merchant that already controls 20% of Atlantium's industry. Giving him control over the gladiator pits will certainly bring new wealth to Atlantium, but will diminish your control over its industry."
  aza_theemperor.2.a: "The traitors shall fund their own demise through our silk!"
  aza_theemperor.2.b: "I look forward to a good showing by the Gladiators."
 
@@ -107,19 +107,22 @@
  aza_rebuild.4.t: "Walls of Atlantium"
  aza_rebuild.4.d: "The walls surrounding Atlantium have served as a bulwark against the Ayadoni Barbaroi before the Latin Conquest, but since then they have served more of a decoration than as a defense. Ever since the Red Plague, cracks line many of its great stones, and parts of the wall have already collapsed. With the state of the Atlantean Empire, it is arguably advantageous to repair the walls now to secure your position in Atlantium."
  aza_rebuild.4.a: "The walls of Atlantium shall stand as tall as they did during the Latin Era."
+ aza_rebuild.4.b: "Who needs walls"
  
  aza_rebuild.5.t: "Gladiator Pits"
- aza_rebuild.5.d: ""
- aza_rebuild.5.a: ""
+ aza_rebuild.5.d: "A buck-toothed mammoth of a man by the name of Castor Nassos has proposed the reconstruction of the deprecated Atlantean gladiator pits under his stewardship. According to your advisers, Castor is a powerful merchant that already controls 20% of Atlantium's industry. Giving him control over the gladiator pits will certainly bring new wealth to Atlantium, but will diminish your control over its industry."
+ aza_rebuild.5.a: "I look forward to a good showing by the Gladiators."
  
  aza_rebuild.6.t: "Atlantean Industry"
- aza_rebuild.6.d: ""
- aza_rebuild.6.a: ""
+ aza_rebuild.6.d: "Atlantium's economy has been struggling for nearly a century. The rapid depopulation brought on by the Red Plague reduced demand for Atlantean silk to new historical lows, as most nobles have switched to wearing more dependable materials. However, with the onset of the Atlantean warlords, silk has been steadily becoming as a sign of legitimacy for their positions. While we do not publicly recognize these Warlords as truly independent, we could spend resources to expand the Silkworks; funding our future war efforts."
+ aza_rebuild.6.a: "The traitors shall fund their own demise through our silk!"
  
  aza_rebuild.7.t: "Atlantean Tattoos"
  aza_rebuild.7.d: ""
- aza_rebuild.7.a: ""
- 
+ aza_rebuild.7.a: "A Kraken"
+ aza_rebuild.7.b: "A Shark"
+ aza_rebuild.7.c: "A Whale"
+   
  aza_rebuild.8.t: "Aterpean Deal Canceled"
  aza_rebuild.8.d: ""
  aza_rebuild.8.a: ""
