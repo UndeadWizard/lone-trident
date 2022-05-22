@@ -12,7 +12,7 @@ atlantean_warring_state = {
 				}
 				has_reform = atlantean_warring_state
 			}
-			NOT = { tag = AZA }
+			NOT = { tag = A00 }
 			NOT = { tag = ATL }
 			NOT = { tag = AYA }
 		}
@@ -58,10 +58,7 @@ crippled_seneca_reforms = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	potential = {
-		OR = {
-			tag = A00
-			tag = ATL
-		}
+		tag = A00
 	}
 	modifiers = {
 		global_tax_modifier = 0.1	
@@ -83,9 +80,7 @@ restored_seneca_reforms = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	potential = {
-		OR = {
-			tag = ATL
-		}
+		tag = ATL
 	}
 	modifiers = {
 		global_tax_modifier = 0.1	
@@ -106,9 +101,7 @@ akakios_bureaucracy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	potential = {
-		OR = {
-			tag = ATL
-		}
+		tag = ATL
 	}
 	modifiers = {
 		global_autonomy = -0.05
@@ -118,7 +111,7 @@ akakios_bureaucracy = {
 	}
 		
 	ai = {
-		factor = 5
+		factor = 25
 	}
 }
 

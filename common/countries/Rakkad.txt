@@ -92,7 +92,7 @@ monarch_names = {
 	"Zona #0" = -1
 }
 
-monarch_names = { leader_names = {		
+leader_names = {		
 	Acnonios Aeacides Aenias Aesillas Agathocles Agelaos Alcetas Aleos Alexander Ameinias Amynandros Amyntus Apollonides Aratos Archelaus Argaeus 
 	Arganos Aristomides Ariston Aristonous Aristophanes Aristotle Asklepiodorus Athineos Damasias Demetrius Dioedas Diophantus Echemos 
 	Ehnon Ephron Euclid Eudicus Eudoridas Euripides Eurycrates Helladius Hero Hippocrates Ikesios Isocrates Kleandros Kleitos Leonidas

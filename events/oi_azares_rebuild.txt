@@ -221,6 +221,7 @@ country_event = { #Repair The Walls!
 	option = {
 		name = aza_rebuild.4.a
 		add_treasury = -125
+		add_prestige = 15
 		5053 = {
 			add_building = fort_15th
 		}
@@ -233,6 +234,8 @@ country_event = { #Repair The Walls!
 	}
 	option = {
 		name = aza_rebuild.4.b
+		add_treasury = 60
+		add_prestige = -15
 		hidden_effect = {
 			country_event = {
 				id = aza_rebuild.5

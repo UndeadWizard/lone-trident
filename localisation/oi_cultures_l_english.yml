@@ -2,8 +2,8 @@
 #Atlantean Cultures
  atlantean_group:0 "Atlantean"
  high_atlantean:0 "High Atlantean"
- alyshi:0 "Ayate"
- alyric:0 "Alban"
+ alyshi:0 "Ayatean"
+ alyric:0 "Albani"
  nautean:0 "Nautean"
  poenici:0 "Poenici"
  meropisean:0 "Meropisean"
@@ -14,6 +14,7 @@
  arcadian:0 "Arcadian"
  amazonian:0 "Amazonian"
  atlantean_nd:0 "Atlantean" # Nation Designer only
+
 #Antillian Cultures
  antillia_group:0 "Antillian"
  antillian:0 "Antillian"

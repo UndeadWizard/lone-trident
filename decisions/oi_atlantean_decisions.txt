@@ -60,8 +60,11 @@ country_decisions = {
 		potential = {
 			has_country_flag = aza_aterpea_deal
 		}
+		ai_will_do = {
+				factor = 0
+		}
 		effect = {
-			ai_chance = { factor = 0 }
+			
 			remove_country_modifier = aza_license_deal_minor
 			remove_country_modifier = aza_license_deal
 			remove_country_modifier = aza_license_deal_major
@@ -96,8 +99,10 @@ country_decisions = {
 		allow = {
 			treasury = 50
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		effect = {
-			ai_chance = 100
 			add_treasury = -50
 			clr_country_flag = atlantium_gladiator_pits
 			5053 = {
@@ -116,8 +121,10 @@ country_decisions = {
 			adm_power = 100
 			treasury = 150
 		}
+		ai_will_do = {
+			factor = 1
+		}
 		effect = {
-			ai_chance = 100
 			add_adm_power = -100
 			add_treasury = -150
 			clr_country_flag = atlantium_silkworks
