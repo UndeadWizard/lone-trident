@@ -1,4 +1,4 @@
-namespace = aza_thegrandson
+namespace = aza_the_grandson
 
 
 ###### ATLANTEAN THE GRANDSON CHAIN
@@ -6,9 +6,9 @@ namespace = aza_thegrandson
 
 # The Grandson
 country_event = {
-	id = aza_thegrandson.1
-	title = aza_thegrandson.1.t
-	desc = aza_thegrandson.1.d
+	id = aza_the_grandson.1
+	title = aza_the_grandson.1.t
+	desc = aza_the_grandson.1.d
 	picture = DEATH_OF_HEIR_eventPicture
 
 	is_triggered_only = yes
@@ -18,7 +18,7 @@ country_event = {
 	}
 	
 	option = {	
-		name = aza_thegrandson.1.a
+		name = aza_the_grandson.1.a
 		trigger = {
 			A01 = {
 				was_player = no
@@ -41,7 +41,7 @@ country_event = {
 		remove_country_modifier = "aza_uncertainfuture"
 		hidden_effect = {
 			country_event = {
-				id = aza_thegrandson.2
+				id = aza_the_grandson.2
 				days = 7
 			}
 			
@@ -53,7 +53,7 @@ country_event = {
 	}
 
 	option = {	
-		name = aza_thegrandson.1.ap
+		name = aza_the_grandson.1.ap
 		trigger = {
 			A01 = {
 				was_player = yes
@@ -65,7 +65,7 @@ country_event = {
 		remove_country_modifier = "aza_uncertainfuture"
 		hidden_effect = {
 			country_event = {
-				id = aza_thegrandson.2
+				id = aza_the_grandson.2
 				days = 7
 			}
 			
@@ -79,9 +79,9 @@ country_event = {
 
 # A Wife
 country_event = {
-	id = aza_thegrandson.2
-	title = aza_thegrandson.2.t
-	desc = aza_thegrandson.2.d
+	id = aza_the_grandson.2
+	title = aza_the_grandson.2.t
+	desc = aza_the_grandson.2.d
 	picture = ROYAL_COUPLE_FUTURE_eventPicture
 
 	is_triggered_only = yes
@@ -91,7 +91,7 @@ country_event = {
 	}
 	
 	option = { #Wife from Ionmym
-		name = aza_thegrandson.2.a
+		name = aza_the_grandson.2.a
 		trigger = {
 			A04 = {
 				was_player = no
@@ -117,13 +117,13 @@ country_event = {
 		
 		hidden_effect = {
 			country_event = {
-				id = aza_thegrandson.3 #Diaprepes Secedes
+				id = aza_the_grandson.3 #Diaprepes Secedes
 				days = 15
 			}
 		}
 	}
 	option = { #Wife from Diaprepes
-		name = aza_thegrandson.2.b
+		name = aza_the_grandson.2.b
 		trigger = {
 			A02 = {
 				was_player = no
@@ -150,7 +150,7 @@ country_event = {
 		
 		hidden_effect = {
 			country_event = {
-				id = aza_thegrandson.4 #Ionmym Secedes
+				id = aza_the_grandson.4 #Ionmym Secedes
 				days = 15
 			}
 		}
@@ -159,9 +159,9 @@ country_event = {
 
 # Diaprepes Secedes
 country_event = { 
-	id = aza_thegrandson.3
-	title = aza_thegrandson.3.t
-	desc = aza_thegrandson.3.d
+	id = aza_the_grandson.3
+	title = aza_the_grandson.3.t
+	desc = aza_the_grandson.3.d
 	picture = BORDER_TENSION_eventPicture
 	
 	is_triggered_only = yes
@@ -171,7 +171,7 @@ country_event = {
 	}
 	
 	option = {
-		name = aza_thegrandson.3.a
+		name = aza_the_grandson.3.a
 		ai_chance = { factor = 100 }
 		custom_tooltip = diaprepes_secedes_tooltip
 		hidden_effect = {
@@ -195,7 +195,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = aza_thegrandson.3.b
+		name = aza_the_grandson.3.b
 		ai_chance = { factor = 0 }
 		custom_tooltip = imperator_waits_for_revenge_tooltip
 		hidden_effect = {
@@ -216,9 +216,9 @@ country_event = {
 
 # Ionmym Secedes
 country_event = { 
-	id = aza_thegrandson.4
-	title = aza_thegrandson.4.t
-	desc = aza_thegrandson.4.d
+	id = aza_the_grandson.4
+	title = aza_the_grandson.4.t
+	desc = aza_the_grandson.4.d
 	picture = BORDER_TENSION_eventPicture
 	
 	is_triggered_only = yes
@@ -228,7 +228,7 @@ country_event = {
 	}
 	
 	option = {
-		name = aza_thegrandson.4.a
+		name = aza_the_grandson.4.a
 		ai_chance = { factor = 100 }
 		custom_tooltip = ionmym_secedes_tooltip
 		
@@ -253,7 +253,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = aza_thegrandson.4.b
+		name = aza_the_grandson.4.b
 		ai_chance = { factor = 0 }
 		custom_tooltip = imperator_waits_for_revenge_tooltip
 		hidden_effect = {
@@ -269,9 +269,9 @@ country_event = {
 }
 #Add Core Events
 country_event = { 
-	id = aza_thegrandson.5
-	title = aza_thegrandson.5.t
-	desc = aza_thegrandson.5.d
+	id = aza_the_grandson.5
+	title = aza_the_grandson.5.t
+	desc = aza_the_grandson.5.d
 	picture = BORDER_TENSION_eventPicture
 	
 	fire_only_once = yes
@@ -290,7 +290,7 @@ country_event = {
 	}
 	
 	option = {
-		name = aza_thegrandson.5.a
+		name = aza_the_grandson.5.a
 		ai_chance = { factor = 100 }
 		
 		5054 = {
@@ -302,9 +302,9 @@ country_event = {
 }
 
 country_event = { 
-	id = aza_thegrandson.6
-	title = aza_thegrandson.6.t
-	desc = aza_thegrandson.6.d
+	id = aza_the_grandson.6
+	title = aza_the_grandson.6.t
+	desc = aza_the_grandson.6.d
 	picture = BORDER_TENSION_eventPicture
 	
 	fire_only_once = yes
@@ -323,7 +323,7 @@ country_event = {
 	}
 	
 	option = {
-		name = aza_thegrandson.6.a
+		name = aza_the_grandson.6.a
 		ai_chance = { factor = 100 }
 		
 		5052 = {
@@ -334,9 +334,9 @@ country_event = {
 	}
 }
 country_event = { 
-	id = aza_thegrandson.7
-	title = aza_thegrandson.7.t
-	desc = aza_thegrandson.7.d
+	id = aza_the_grandson.7
+	title = aza_the_grandson.7.t
+	desc = aza_the_grandson.7.d
 	picture = BORDER_TENSION_eventPicture
 	
 	fire_only_once = yes
@@ -355,7 +355,7 @@ country_event = {
 	}
 	
 	option = {
-		name = aza_thegrandson.7.a
+		name = aza_the_grandson.7.a
 		ai_chance = { factor = 100 }
 		
 		5059 = {
@@ -367,9 +367,9 @@ country_event = {
 }
 
 country_event = {
-	id = aza_thegrandson.8
-	title = aza_thegrandson.8.t
-	desc = aza_thegrandson.8.d
+	id = aza_the_grandson.8
+	title = aza_the_grandson.8.t
+	desc = aza_the_grandson.8.d
 	picture = BORDER_TENSION_eventPicture
 	
 	fire_only_once = yes
@@ -387,7 +387,7 @@ country_event = {
 	}
 	
 	option = {
-	name = aza_thegrandson.8.a
+	name = aza_the_grandson.8.a
 		hidden_effect = {
 			clr_country_flag = traitor_lords_war
 			

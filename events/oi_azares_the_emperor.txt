@@ -1,0 +1,26 @@
+namespace = aza_the_emperor
+
+###### The Emperor Event Chain
+
+country_event = { #Vassalize 
+	id = aza_the_emperor.1
+	title = aza_the_emperor.1.t
+	desc = aza_the_emperor.1.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	fire_only_once = yes
+	
+    trigger = {
+		tag = A00
+		exists = A09
+		had_country_flag = {
+			flag = vlassis_inherits
+			days = 720
+		}
+	}
+	
+	option = {
+		name = aza_the_emperor.1.a
+		vassalize = A09
+	}
+}

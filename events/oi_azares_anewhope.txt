@@ -117,11 +117,12 @@ country_event = {
 	option = {	
 		name = aza_anewhope.4.a
 		ai_chance = { factor = 100 }
+		set_country_flag = vlassis_inherits
 		add_country_modifier = {
 			name = "aza_newhope"
 			duration = 1825
 		}
-
+		
 		define_heir = {
 			male = yes
 			dynasty = ROOT
@@ -135,7 +136,7 @@ country_event = {
 		#Next event
 		hidden_effect = {
 			country_event = {
-				id = aza_thegrandson.1
+				id = aza_the_grandson.1
 				days = 7
 			}
 		}
