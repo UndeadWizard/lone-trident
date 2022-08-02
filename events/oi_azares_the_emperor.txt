@@ -23,4 +23,8 @@ country_event = { #Vassalize
 		name = aza_the_emperor.1.a
 		vassalize = A09
 	}
+	
+	option = {
+		name = aza_the_emperor.1.b
+	}
 }

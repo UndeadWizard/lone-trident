@@ -117,6 +117,8 @@
  aza_thebishop.3.a:0 "Close the gate and pretend no one's home!"
  aza_thebishop.3.b:0 "Jesus wrangled a herd of flesh-eating Judean Horses?!"
  
+ atl_ai.1.t: "Azarean AI Bonuses"
+ atl_ai.1.d: "Gives bonuses to Azares"
 #Council Branch
 
  aza_thecouncil.1.t:0 "Death of an Imperator"

@@ -6,6 +6,7 @@ country_decisions = {
 			OR = {
 				NOT = {
 					has_ruler_flag = visited_oracle 
+					has_country_modifier = aza_uncertainfuture
 				}
 				had_ruler_flag = {
 						flag = visited_oracle

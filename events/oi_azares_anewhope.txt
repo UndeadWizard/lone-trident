@@ -122,7 +122,7 @@ country_event = {
 			name = "aza_newhope"
 			duration = 1825
 		}
-		
+		remove_country_modifier = "aza_uncertainfuture"
 		define_heir = {
 			male = yes
 			dynasty = ROOT

@@ -38,7 +38,6 @@ country_event = {
 			siege = 2
 		}
 		kill_ruler= yes
-		remove_country_modifier = "aza_uncertainfuture"
 		hidden_effect = {
 			country_event = {
 				id = aza_the_grandson.2
