@@ -15,6 +15,10 @@ cb_atlantean_wars = {
             technology_group = atlantean
 		}
 		is_neighbor_of = FROM
+		development_in_provinces = {
+			value = 30
+			continent = atlantis
+		}
 	}
 
 	war_goal = atlantean_unification

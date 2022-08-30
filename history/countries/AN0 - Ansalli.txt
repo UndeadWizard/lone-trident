@@ -1,5 +1,7 @@
 government = theocracy
 add_government_reform = archbishop_reform
+historical_rival = AN1
+historical_rival = AN6
 technology_group = atlantean
 religion = heptarchic
 primary_culture = antillian

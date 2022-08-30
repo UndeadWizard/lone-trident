@@ -205,10 +205,10 @@ country_event = {
 			5054 = {
 				add_claim = A00
 			}
-			country_event = {
-				id = aza_rebuild.1
-				days = 60
-			}
+			#country_event = {
+			#	id = aza_rebuild.1
+			#	days = 60
+			#}
 		}
 	}
 }
@@ -391,10 +391,10 @@ country_event = {
 			clr_country_flag = traitor_lords_war
 			
 			
-			country_event = {
-				id = aza_rebuild.1
-				days = 60
-			}
+			#country_event = {
+			#	id = aza_rebuild.1
+			#	days = 60
+			#}
 		}
 	}
 }

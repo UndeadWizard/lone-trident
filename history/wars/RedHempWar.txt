@@ -1,0 +1,14 @@
+name = "Red Hemp War"
+war_goal = {
+	type = atlantean_unification
+	casus_belli = cb_atlantean_wars
+	tag = A37
+}
+
+
+
+# The Rex of Zephyria invades the Duxdom of Sagarro
+1442.4.16 = {
+	add_attacker = A38
+	add_defender = A37
+}

@@ -132,3 +132,12 @@ ORACLE_poor_army = {
 bought_printing_press = {
 	institution_growth = 10
 }
+
+
+### Modifiers for AI
+
+a38_ai_bonuses = {
+	global_tax_income = 24
+	land_forcelimit_modifier = 0.25
+	manpower_recovery_speed = 0.10 
+}

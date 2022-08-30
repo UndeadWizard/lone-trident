@@ -1,5 +1,6 @@
 government = monarchy
 add_government_reform = atlantean_warring_state
+historical_rival = A38
 technology_group = atlantean
 religion = atlanic
 primary_culture = ayadoni
