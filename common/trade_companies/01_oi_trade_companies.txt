@@ -29,3 +29,26 @@ trade_company_atlantis={
 		name = "TRADE_COMPANY_ATLANTIS_Atlantic_Trade_Company"
 	}
 }
+
+trade_company_antillia={
+	color = { 255 102 102 }
+	
+	provinces = {
+	5124 5125 5126 5127 5128 5129 5130 5131 5132 5133 5134
+	5135 5136 5137 5138 5139
+	}
+	# Specific
+	names = {
+		trigger = {
+			culture_group = antillia_group
+		}
+		name = "TRADE_COMPANY_ANTILLIA_Atlantic_Trade_Company"
+	}
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_ANTILLIA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_ANTILLIA_Atlantic_Trade_Company"
+	}
+}

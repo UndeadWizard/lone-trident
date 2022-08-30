@@ -39,3 +39,7 @@
 trade_company_atlantis: "Atlantean Charter"
 TRADE_COMPANY_ATLANTIS_Root_Culture_GetName: "[Root.Culture.GetName] Atlantean Trade Company"
 TRADE_COMPANY_ATLANTIS_Atlantic_Trade_Company: "Atlantean Trade Company"
+
+trade_company_antillia: "Antillian Charter"
+TRADE_COMPANY_ANTILLIA_Root_Culture_GetName: "[Root.Culture.GetName] Antillian Trade Company"
+TRADE_COMPANY_ANTILLIA_Atlantic_Trade_Company: "Antillian Trade Company"

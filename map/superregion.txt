@@ -6,6 +6,7 @@ atlantean_superregion = {
 	atlantean_midlands
 	atlantean_eastlands
 	atlantean_westisles
+	antillia_region
 }
 
 # A region can only belong to one super region.
