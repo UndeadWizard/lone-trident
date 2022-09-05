@@ -27,6 +27,7 @@ atlantean_crownlands = {
 		areas = {
 			rakkad_area
 			atla_area
+			voreias_area
 			telamon_area
 		}
 }
@@ -49,8 +50,6 @@ atlantean_midlands = {
 		hermus_area
 		pialisdau_area
 		turan_area
-		voreias_area
-		vescleves_areas
 		meropisa_area
 	}
 }
@@ -61,6 +60,7 @@ atlantean_eastlands = {
 		iyolaci_area
 		kuwarra_area
 		voreinisi_area
+		vescleves_areas
 	}
 }
 
