@@ -48,4 +48,98 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	argenta_nation = {
+		major = yes
+		potential = {
+            normal_or_historical_nations = yes
+            OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+            is_colonial_nation = no
+            OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+            NOT = { exists = AGT }
+			primary_culture = argentini
+			
+			NOT = { tag = ATL }
+		}
+		allow = {
+            is_free_or_tributary_trigger = yes
+			is_at_war = no
+            AND = {
+				is_core = 5025
+				is_core = 5018
+				is_core = 5038
+				is_core = 5028
+			}
+		}
+		effect = {
+			change_tag = AGT
+            set_government_rank = 2
+            
+            add_prestige = 25
+			add_stability = 1
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+        }
+		ai_will_do = {
+			factor = 1.0
+		}
+		ai_importance = 400
+	}
+	arsumia_nation = {
+		major = yes
+		potential = {
+            normal_or_historical_nations = yes
+            OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+            is_colonial_nation = no
+            OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+            NOT = { exists = ASM }
+			primary_culture = arsini
+			
+			NOT = { tag = ATL }
+		}
+		allow = {
+            is_free_or_tributary_trigger = yes
+			is_at_war = no
+            AND = {
+				is_core = 5077
+				is_core = 5074
+				is_core = 5062
+				is_core = 5092
+			}
+		}
+		effect = {
+			change_tag = ASM
+            set_government_rank = 2
+            
+            add_prestige = 25
+			add_stability = 1
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+        }
+		ai_will_do = {
+			factor = 1.0
+		}
+		ai_importance = 400
+	}
 }

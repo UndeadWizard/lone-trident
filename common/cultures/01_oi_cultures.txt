@@ -64,7 +64,7 @@ atlantean_group = {
 		}
 	}
 	
-	alyshi = {
+	arsini = {
 
 		dynasty_names = {
 			Achillos Agamemnois Agire Duggas Staurakio Vazilino Theoko Ajaxes Diomedoi Odussoi Nestoroi Alcetid Apollonid Aratid Helladid Omirid Peithid Peneid Philonid Proctid Pytheid Sosiclid Therid Theronid Timolid Xenonid
@@ -87,7 +87,7 @@ atlantean_group = {
 			Ptolema Sofia Sostrate Stratonice Thais Theophila Thetima Thessaloniki Thorakis Timo Xanthe Xene Xenia Zoe Zona
 		}
 	}
-	alyric = {
+	argentini = {
 	
 		dynasty_names = {
 			Theoko Hektoroi Vazilino Maggus Machitis Hartavazde Vataka Priamoi Parisoi Aenoi Alcetid Apollonid Aratid Helladid Omirid Peithid Peneid Philonid Proctid Pytheid Sosiclid Therid Theronid Timolid Xenonid

@@ -4,7 +4,7 @@ government_rank = 1
 mercantilism = 25
 technology_group = atlantean
 religion = atlanic
-primary_culture = alyric
+primary_culture = argentini
 capital = 5010
 
 #Shattered Trident

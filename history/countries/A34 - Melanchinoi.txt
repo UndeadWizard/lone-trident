@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = atlantean_warring_state
 technology_group = atlantean
 religion = atlanic
-primary_culture = alyshi
+primary_culture = arsini
 capital = 5074
 
 #Shattered Trident

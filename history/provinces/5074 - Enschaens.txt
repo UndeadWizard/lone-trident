@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 4
 
-culture = alyshi
+culture = arsini
 religion = atlanic
 trade_goods = paper
 hre = no
