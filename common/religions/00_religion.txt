@@ -775,7 +775,7 @@ christian = {
 	}
 	nestorian = {
 		color = { 178 38 76 } #129 88 183  173 91 141
-		icon = 31
+		icon = 38
 		allowed_conversion = {
 			orthodox
 		}

@@ -10,15 +10,21 @@
  
  tiki: "Tiki"
  tiki_religion_desc: "In Maori mythology, Tiki is the first man created."
+ kolu: "Kolu"
  
  luuxin: "Luu Xin"
  
+ dhmaric_zoroastrian: "Lemurian"
  yazdeism: "Yazdeism"
+   
  nestorian: "Nestorian"
  
+ naacal_pagan: "Naacal"
  nayaran: "Nayaran"
  
+ occult: "Occult"
  occultist: "Occultist"
+ 
  # Personal Deities
  deity_mero: "Mero"
  deity_mero_desc: "Patron God of Meropis, Reveler of Flames, Scorned of Atlas, God of Supremacy, Roman Emperor made God." 
