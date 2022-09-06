@@ -33,7 +33,6 @@ feudalism = {
 					continent = south_america
 					continent = oceania
 					continent = atlantis
-					continent = antillia
 					
 				}
 				owner = {
@@ -629,7 +628,6 @@ new_world_i = {
 			continent = asia
 			continent = africa
 			continent = atlantis
-			continent = antillia
 		}
 		has_port = yes
 		is_island = no
@@ -719,7 +717,7 @@ new_world_i = {
 				owner = {
 					capital_scope = {
 						OR = {
-							continent = antillia
+							region = antillia_region
 						}
 					}
 				}

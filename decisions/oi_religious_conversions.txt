@@ -42,9 +42,6 @@
 #						capital_scope = {
 #							continent = atlantis
 #						}
-#						capital_scope = {
-#							continent = antillia
-#						}
 #					}
 #				}
 #				reverse_add_opinion	 = {

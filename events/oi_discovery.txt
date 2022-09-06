@@ -44,9 +44,6 @@ country_event = {
 		atlantis = {
 			discover_country = ROOT
 		}
-		antillia = {
-			discover_country = ROOT
-		}
 		atlantean_sea_region = {
 			discover_country = ROOT
 		}
@@ -75,9 +72,6 @@ country_event = {
 			}
 		}
 		atlantis = {
-			discover_country = ROOT
-		}
-		antillia = {
 			discover_country = ROOT
 		}
 		atlantean_sea_region = {

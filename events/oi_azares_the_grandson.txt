@@ -345,6 +345,9 @@ country_event = {
 			5059 = {
 				controlled_by = A00
 			}
+			5059 = {
+				owned_by = A03
+			}
 			has_country_flag = ionmym_secedes
 		}
 	}

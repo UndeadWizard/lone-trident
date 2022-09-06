@@ -1,0 +1,31 @@
+namespace = heptarchic_events
+
+
+###### Flavor Events
+
+# Legacy of Ansis Aspect
+country_event = {
+	id = heptarchic_events.1
+	title = heptarchic_events.1.t
+	desc = heptarchic_events.1.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	
+		name = heptarchic_events.1.a
+	}
+}
+# Book of Bermudo Aspect
+country_event = {
+	id = heptarchic_events.2
+	title = heptarchic_events.2.t
+	desc = heptarchic_events.2.d
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	
+		name = heptarchic_events.2.a
+	}
+}

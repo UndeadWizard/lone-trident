@@ -52,17 +52,12 @@ christian = {
 			local_missionary_strength = -0.01
 		}
 		
-		uses_church_power = yes				# Uses church power/aspect mechanics
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			book_of_preeminence_aspect
-			book_of_ansis_aspect
+			legacy_of_ansis_aspect
 			book_of_bermudo_aspect
-			edict_of_salvation_aspect
-			edict_of_tolerance_aspect
-			edict_of_the_devout_aspect
-			decree_of_the_seven_aspect
-			decree_of_sotiras_aspect
-			decree_of_the_righteous_aspect
+			stability_aspect
 		}
 		aspects_name = HEPTARCHIC_ASPECTS
 	}

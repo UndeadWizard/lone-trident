@@ -1,160 +1,75 @@
 book_of_preeminence_aspect = {
-	cost = 100
-	modifier = { 
-		discipline = 0.03
+	sprite = "GFX_divorce_consort_icon"
+	cost = 50
+	
+	effect = {
+		create_general = { tradition = 40 }
 	}
+	
 	ai_will_do = {
-		factor = 12
+		factor = 8
 		modifier = {
-			factor = 2
-			is_at_war = yes
+			factor = 0
+			num_of_generals = 2
 		}
 	}
 }
-
-book_of_ansis_aspect = {
+legacy_of_ansis_aspect = {
+	sprite = "GFX_divorce_consort_icon"
 	cost = 100
-	modifier = {
-		global_colonial_growth = 10
+	
+	effect = {
+		country_event = { id = heptarchic_events.1 }
 	}
+	
 	ai_will_do = {
-		factor = 10
+		factor = 8
 		modifier = {
-			factor = 2
-			num_of_colonies = 1
-		}
-		modifier = {
-			factor = 2
-			num_of_colonists = 2
+			factor = 0
 		}
 	}
 }
-
 book_of_bermudo_aspect = {
+	sprite = "GFX_divorce_consort_icon"
 	cost = 100
-	modifier = { 
-		production_efficiency = 0.05
-		development_cost = -0.05
+	
+	effect = {
+		country_event = { id = heptarchic_events.2 }
+	}
+	
+	ai_will_do = {
+		factor = 8
+		modifier = {
+			factor = 0
+			num_of_generals = 2
+		}
+	}
+}
+
+stability_aspect = {
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 200
+	trigger = {
+		NOT = {
+			stability = 3
+		}
+	}
+	effect = {
+		add_stability = 1
 	}
 	ai_will_do = {
-		factor = 17
+		factor = 3
 		modifier = {
 			factor = 0.5
-			treasury = 500
+			stability = 0
 		}
 		modifier = {
-			factor = 0
-			treasury = 2500
-		}
-	}
-}
-
-edict_of_salvation_aspect = {
-	cost = 100
-	modifier = { 
-		global_missionary_strength = 0.02
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			NOT = { religious_unity = 0.8 }
+			factor = 0.5
+			stability = 1
 		}
 		modifier = {
-			factor = 0
-			NOT = {
-				any_owned_province = {
-					has_owner_religion = no
-				}
-			}
-		}
-	}
-}
-
-edict_of_tolerance_aspect = {
-	cost = 100
-	modifier = {
-		tolerance_heathen = 1	
-	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 2
-			unrest = 2
-		}
-		modifier = {
-			factor = 2
-			num_of_rebel_controlled_provinces = 1
-		}	
-	}
-}
-
-edict_of_the_devout_aspect = {
-	cost = 100
-	modifier = { 
-		naval_morale = 0.10
-		manpower_recovery_speed = 0.1
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			is_at_war = yes
-		}
-	}
-}
-
-decree_of_the_seven_aspect = {
-	cost = 100
-	modifier = { 
-		idea_cost = -0.05
-	}
-	ai_will_do = {
-		factor = 15
-	}
-}
-
-decree_of_sotiras_aspect = {
-	cost = 100
-	modifier = {
-		range = 0.1
-		prestige = 0.25	
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			NOT = { prestige = -40 }
-		}
-	}
-}
-
-decree_of_the_righteous_aspect = {
-	cost = 100
-	modifier = {
-		stability_cost_modifier = -0.05
-		legitimacy = 0.25
-		devotion = 0.25
-		horde_unity = 0.25
-		republican_tradition = 0.1
-	}
-	ai_will_do = {
-		factor = 6
-		modifier = {
-			factor = 2
-			NOT = { legitimacy_equivalent = 80 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { legitimacy_equivalent = 60 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { legitimacy_equivalent = 40 }
-		}
-		modifier = {
-			factor = 0
-			legitimacy_equivalent = 95
+			factor = 0.5
+			stability = 2
 		}
 	}
 }
