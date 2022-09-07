@@ -16,32 +16,36 @@ book_of_preeminence_aspect = {
 }
 legacy_of_ansis_aspect = {
 	sprite = "GFX_divorce_consort_icon"
-	cost = 100
+	cost = 200
 	
 	effect = {
 		country_event = { id = heptarchic_events.1 }
 	}
 	
 	ai_will_do = {
-		factor = 8
+		factor = 0
 		modifier = {
-			factor = 0
+			factor 8
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
 		}
 	}
 }
 book_of_bermudo_aspect = {
 	sprite = "GFX_divorce_consort_icon"
-	cost = 100
+	cost = 200
 	
 	effect = {
 		country_event = { id = heptarchic_events.2 }
 	}
 	
 	ai_will_do = {
-		factor = 8
+		factor = 2
 		modifier = {
-			factor = 0
-			num_of_generals = 2
+			factor = 8
+			is_at_war = yes 
 		}
 	}
 }

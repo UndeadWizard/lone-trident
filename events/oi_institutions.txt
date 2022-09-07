@@ -16,6 +16,7 @@ country_event = {
 		NOT = { has_global_flag = atlantean_renaissance }
 		capital_scope = {
 			continent = atlantis
+			NOT = { region = antillia_region }
 		}
 		any_known_country = {
 			technology_group = western

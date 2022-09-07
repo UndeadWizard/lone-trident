@@ -65,3 +65,12 @@ ANX_brazil_trade = {
 ANX_colonial_aspirations = {
 	colonists = 1
 }
+
+#Heptarchic Bonuses
+legacy_of_ansis = {
+		global_colonial_growth = 25
+}
+
+book_of_bermudo_aspect = {
+	discipline = 0.025
+}

@@ -279,6 +279,7 @@ country_event = {
 		AND = {
 			5054 = {
 				controlled_by = A00
+				owned_by = A03
 			}
 			has_country_flag = chrysos_secedes
 		}
@@ -312,6 +313,7 @@ country_event = {
 		AND = {
 			5052 = {
 				controlled_by = A00
+				owned_by = A02
 			}
 			has_country_flag = diaprepes_secedes
 		}
@@ -329,6 +331,9 @@ country_event = {
 			cede_province = ROOT
 			add_core = ROOT
 		}
+		5059 = {
+				owned_by = A04
+			}
 		clr_country_flag = diaprepes_secedes
 	}
 }
@@ -344,9 +349,7 @@ country_event = {
 		AND = {
 			5059 = {
 				controlled_by = A00
-			}
-			5059 = {
-				owned_by = A03
+				owned_by = A04
 			}
 			has_country_flag = ionmym_secedes
 		}
