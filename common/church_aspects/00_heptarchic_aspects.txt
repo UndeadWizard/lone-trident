@@ -25,7 +25,7 @@ legacy_of_ansis_aspect = {
 	ai_will_do = {
 		factor = 0
 		modifier = {
-			factor 8
+			factor = 8
 			OR = {
 				has_idea_group = exploration_ideas
 				has_idea_group = expansion_ideas

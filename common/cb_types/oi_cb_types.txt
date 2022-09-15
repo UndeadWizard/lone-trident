@@ -10,7 +10,6 @@ cb_atlantean_wars = {
 			has_reform = akakios_bureaucracy
 		}
 		is_free_or_tributary_trigger = yes
-		ai_peace_desire = -25
 		FROM = {
 			NOT = { is_subject_of = ROOT }
             technology_group = atlantean
