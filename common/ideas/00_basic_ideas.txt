@@ -763,7 +763,7 @@ exploration_ideas = {
 				tag = ANX
 				tag = A46
 				tag = A49
-				tag = A48
+				tag = A45
 			}
 		}
 		modifier = {

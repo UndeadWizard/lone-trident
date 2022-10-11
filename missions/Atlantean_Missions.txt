@@ -4,7 +4,7 @@ atlantean_missions_far_left = {
 	ai = yes
 	potential = {
 		AND = {
-			culture_group = atlantean_group
+			culture = high_atlantean
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -230,8 +230,8 @@ atlantean_missions_left = {
 		position = 1
 		
 		trigger = {
-			num_of_heavy_ship = 10
-			navy_size_percentage = 0.9
+			num_of_light_ship = 15
+			navy_size_percentage = 0.75
 		}
 		effect = {
 			add_navy_tradition = 30
