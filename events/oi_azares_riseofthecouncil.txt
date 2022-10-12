@@ -18,13 +18,18 @@ country_event = {
 		has_country_modifier = aza_uncertainfuture
 	}
 	
+	immediate = {
+		hidden_effect = {
+			remove_country_modifier = "aza_uncertainfuture"
+			add_country_modifier = {
+				name = "aza_brokendreams"
+				duration = 1825
+			}
+		}
+	}
+	
 	option = {	
 		name = aza_thecouncil.1.a
-		remove_country_modifier = "aza_uncertainfuture"
-		add_country_modifier = {
-			name = "aza_brokendreams"
-			duration = 1825
-		}
 		release_all_subjects = yes
 		define_heir = {
 			male = yes
@@ -57,8 +62,8 @@ country_event = {
 	trigger = {
 		has_country_modifier = aza_brokendreams
 	}
-	
-	option = {	
+
+	option = {
 		name = aza_thecouncil.2.a
 		change_tag = A51
 		change_government = republic
