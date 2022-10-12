@@ -1,5 +1,4 @@
 namespace = oi_oracle
-
 country_event = {
 	id = oi_oracle.0
 	title = oi_oracle.0.t
