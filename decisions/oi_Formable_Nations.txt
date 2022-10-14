@@ -142,4 +142,52 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	nautea_nation = {
+		major = yes
+		potential = {
+            normal_or_historical_nations = yes
+            OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+            is_colonial_nation = no
+            OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+            NOT = { exists = NAU }
+			primary_culture = nautean
+			
+			NOT = { tag = ATL }
+		}
+		allow = {
+            is_free_or_tributary_trigger = yes
+			is_at_war = no
+            AND = {
+				is_core = 5113
+				is_core = 5107
+				is_core = 5105
+				is_core = 5045
+				is_core = 5108
+			}
+		}
+		effect = {
+			change_tag = NAU
+            set_government_rank = 2
+            
+            add_prestige = 25
+			add_stability = 1
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+        }
+		ai_will_do = {
+			factor = 1.0
+		}
+		ai_importance = 400
+	}
 }

@@ -1,9 +1,13 @@
 ﻿l_english: 
  #Formable Nations
-  ayadon_nation_title: "Kingdom of the Ayadoni"
-  ayadon_nation_desc: "As long as there has been an Atlantis, there has been a difference between the Atlanteans and the Ayadoni. With the east conslidated it is time for your people to carve their own destiny!"
-  arsumia_nation_title:"Kingdom of the Arsini"
-  argenta_nation_title:"Kingdom of the Argentini"
+  ayadon_nation_title: "Rexdom of the Ayadoni"
+  ayadon_nation_desc: "As long as there has been an Atlantis, there has been a difference between the Atlanteans and the Ayadoni. With the east consolidated it is time for your people to carve their own destiny!"
+  arsumia_nation_title: "Rexdom of the Arsini"
+  arsumia_nation_desc: "Neither Atlantean nor Ayadoni, the Arsini have never been able to have a say in the affairs of Atlantis. But now with the authority granted by the crown of Arsumia, our position will only improve."
+  argenta_nation_title: "Rexdom of the Argentini"
+  argenta_nation_desc: "The Imperator has no authority in the affairs of the Argentini, it is time to carve our own path, we will declare ourselves the Rex of Argenta and shake off the shackles of Atlantis!"
+  nautea_nation_title: "Rexdom of the Nauteans"
+  nautea_nation_desc: "The shores of Nautea have always been seperate from the tiresome quarrels of the Ayadoni and Atlanteans. As Rex of Nautea, we will renew our authority and assert our independence from these childish feuds."
   hawaiian_nation_title: "Kingdom of Hawaii"
   hawaiian_nation_desc: "At first our people were divided, but now we hold our heads up high."
  #Atlantis
