@@ -1,17 +1,17 @@
-#5044 - 
+#5045 - Gnais
 
 owner = A47
 controller = A47
 add_core = A47
 is_city = yes
 
-base_tax = 2
+base_tax = 1
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
 culture = nautean
 religion = atlanic
-trade_goods = naval_supplies
+trade_goods = wool
 hre = no
 
 discovered_by = atlantean
