@@ -42,6 +42,9 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
+			atlantean_eastlands = {
+				add_permanent_claim = ROOT 
+			}
         }
 		ai_will_do = {
 			factor = 1.0
@@ -88,6 +91,9 @@ country_decisions = {
 			add_country_modifier = {
 				name = centralization_modifier
 				duration = 3650
+			}
+			atlantean_southlands = {
+				add_permanent_claim = ROOT 
 			}
         }
 		ai_will_do = {
@@ -136,6 +142,9 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
+			atlantean_midlands = {
+				add_permanent_claim = ROOT 
+			}
         }
 		ai_will_do = {
 			factor = 1.0
@@ -183,6 +192,9 @@ country_decisions = {
 			add_country_modifier = {
 				name = centralization_modifier
 				duration = 3650
+			}
+			atlantean_westisles = {
+				add_permanent_claim = ROOT 
 			}
         }
 		ai_will_do = {
