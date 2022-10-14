@@ -1,4 +1,4 @@
-5047 - Kosmina
+#5047 - Kosmina
 
 capital = "Kosmina"
 trade_goods = unknown

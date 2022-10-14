@@ -69,6 +69,7 @@ atlantean_westisles ={
 		arrantza_area
 		philippi_area
 		askloy_area
+		ehiza_area
 	}
 }
 
