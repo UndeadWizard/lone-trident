@@ -1,4 +1,4 @@
-#4759 - Philippi
+#5108 - Philippi
 
 owner = A46
 controller = A46
@@ -11,7 +11,7 @@ base_manpower = 3
 
 culture = nautean
 religion = atlanic
-trade_goods = naval_supplies
+trade_goods = cloth
 hre = no
 center_of_trade = 1
 

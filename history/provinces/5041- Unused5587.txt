@@ -1,0 +1,17 @@
+#5041 - 
+
+owner = A47
+controller = A47
+add_core = A47
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = nautean
+religion = atlanic
+trade_goods = fish
+hre = no
+
+discovered_by = atlantean

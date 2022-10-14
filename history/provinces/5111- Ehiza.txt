@@ -1,4 +1,4 @@
-#4762 - Ehiza
+#5111 - Ehiza
 
 owner = A47
 controller = A47
@@ -11,7 +11,7 @@ base_manpower = 2
 
 culture = nautean
 religion = atlanic
-trade_goods = wool
+trade_goods = cloth
 hre = no
 
 discovered_by = atlantean

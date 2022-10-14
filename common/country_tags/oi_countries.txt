@@ -42,7 +42,7 @@ A32 = "countries/Tadipouro.txt"		# Atlanic, Alyshi, Monarchy
 A33 = "countries/Kanivalon.txt"		# Atlanic, Alyshi, Monarchy
 A34 = "countries/Melachrinoi.txt"	# Atlanic, Alyshi, Monarchy
 A35 = "countries/Hermusa.txt"		# Atlanic, Alyshi, Monarchy
-A36 = "countries/Oinordea.txt"	# Atlanic, Alyshi, Monarchy
+A36 = "countries/Oinordea.txt"		# Atlanic, Alyshi, Monarchy
 A37 = "countries/Sagarro.txt"		# Atlanic, Ayadoni, Monarchy
 A38 = "countries/Zephyria.txt"		# Atlanic, Ayadoni, Monarchy
 A39	= "countries/Sorginas.txt"		# Atlanic, Ayadoni, Monarchy
@@ -58,7 +58,7 @@ A48 = "countries/Askloy.txt"		# Atlanic, Nautean, Monarchy
 A49 = "countries/Tauryria.txt"		# Atlanic, Nautean, Monarchy
 A50 = "countries/Anthropofagoi.txt"	# Atlanic, Anthrean, Monarchy
 A51 = "countries/Atlani.txt"		# Atlanic, High Atlantean, Republic
-
+A52 = "countries/Violanomos.txt"		# Atlanic, Nautean, Monarchy
 #Thule
 THL = "countries/Thule.txt"			# Catholic, Irish, Monarchy
 

@@ -242,6 +242,7 @@ categories =  {
 			
 			5016 5019 5021 5034 5035 5037 5054 5067 5071 5080 5126  #Atlantis
 			5138 #Antillia
+			5043 5046 5107 #Nautean
 		}
 	}
 
@@ -316,7 +317,7 @@ categories =  {
 			5059 #Crownlands
 			5084 5090 5094 5096 #Ayadon
 			5022 5023 5024 5030 5032 5033 #Albanum
-			5109 5110 #Nautean
+			5041 5044 5045 5109 5110 5112 #Nautean
 		}
 	}
 	
@@ -632,7 +633,7 @@ categories =  {
 			5089 5101 # Ayadon
 			5078 5079 5081 5092 # Charsum
 			5031 5049 #Crownlands
-			5105 5106 5111 5112 #Nautean Island
+			5042 5044 5047 5048 5105 5106 5108 5111 #Nautean Island
 		}
 	}	
 	
