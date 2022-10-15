@@ -1,8 +1,8 @@
-#4772 - Codobu
+#5126 - Anhuib
 
-owner = AN2
-controller = AN2
-add_core = AN2
+owner = AN4
+controller = AN4
+add_core = AN4
 
 culture = antillian
 religion = heptarchic

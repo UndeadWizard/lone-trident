@@ -1,8 +1,8 @@
 #4782 - Helvua
 
-owner = AN6
-controller = AN6
-add_core = AN6
+owner = AN0
+controller = AN0
+add_core = AN0
 
 culture = antillian
 religion = heptarchic

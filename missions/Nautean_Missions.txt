@@ -98,7 +98,7 @@ nautean_missions_far_left = {
 	}
 }
 
-atlantean_missions_left = {
+nautean_missions_left = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -259,7 +259,7 @@ atlantean_missions_left = {
 	}
 }
 
-atlantean_missions_middle = {
+nautean_missions_middle = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -415,7 +415,7 @@ atlantean_missions_middle = {
 	}
 }
 
-atlantean_missions_right = {
+nautean_missions_right = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -503,7 +503,7 @@ atlantean_missions_right = {
 	}
 }
 
-atlantean_missions_far_right = {
+nautean_missions_far_right = {
 	slot = 5
 	generic = no
 	ai = yes
