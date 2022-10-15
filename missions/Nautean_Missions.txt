@@ -1,133 +1,26 @@
-atlantean_missions_far_left = {
+nautean_missions_far_left = {
 	slot = 1
 	generic = no
 	ai = yes
 	potential = {
 		AND = {
-			culture = high_atlantean
+			culture = nautean
 		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
-	ATL_nautean_expedition = {
-		icon = mission_invade_island
+	
+	NAU_new_world = {
+		icon = mission_iroquois_warriors
 		required_missions = { }
 		position = 1
-		provinces_to_highlight = {
-			OR = {
-				area = arrantza_area
-				area = philippi_area
-				area = askloy_area
-				area = ehiza_area
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			OR = {
-				arrantza_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				philippi_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				askloy_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				ehiza_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-			}
-		}
-		
-		effect = {
-			arrantza_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-			philippi_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-			askloy_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-			ehiza_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-			greater_antilles_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-		}
-	}
-	
-	ATL_cannibal_island = {
-		icon = mission_impaled_soldies
-		required_missions = { ATL_nautean_expedition }
-		position = 2
-		provinces_to_highlight = {
-			OR = {
-				province_id = 481
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			is_core = 481
-		}
-		
-		effect = {
-			create_explorer = {
-				tradition = 25
-			}
-		}
-	}
-	
-	ATL_new_world = {
-		icon = mission_iroquois_warriors
-		required_missions = { ATL_cannibal_island }
-		position = 3
 		
 		trigger = {
+			num_of_explorers = 1
 			custom_trigger_tooltip = {
-				tooltip = ATL_new_world_tt
+				tooltip = NAU_new_world_tt
 				OR = {
-					colonial_the_carribean = {
-						has_discovered = ROOT
-					}
-					colonial_brazil = {
-						has_discovered = ROOT
-					}
-					colonial_colombia = {
-						has_discovered = ROOT
-					}
-					colonial_mexico = {
-						has_discovered = ROOT
-					}
-					colonial_louisiana = {
-						has_discovered = ROOT
-					}
 					colonial_eastern_america = {
 						has_discovered = ROOT
 					}
@@ -142,49 +35,19 @@ atlantean_missions_far_left = {
 		}
 	}
 	
-	ATL_second_exile = {
+	NAU_arcadian_colony = {
 		icon = mission_colonial
-		required_missions = { ATL_new_world }
-		position = 4
+		required_missions = { NAU_new_world }
+		position = 2
 		
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = ATL_second_exile_tt
 				
-				OR = {
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_brazil
-						is_city = yes
-					}
-				
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_colombia
-						is_city = yes
-					}
-				
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_mexico
-						is_city = yes
-					}
-				
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_eastern_america
-						is_city = yes
-					}
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_the_carribean
-						is_city = yes
-					}
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_louisiana
-						is_city = yes
-					}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					colonial_region = colonial_eastern_america
+					is_city = yes
 				}
 			}
 		}
@@ -197,10 +60,183 @@ atlantean_missions_far_left = {
 		}
 	}
 	
+	
+	NAU_found_arcadia = {
+		icon = mission_colonial
+		required_missions = { NAU_arcadian_colony }
+		position = 3
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
+		}
+		
+		effect = {
+			add_adm_power = 100
+			every_subject_country = {
+				limit = {
+						OR = {
+							is_subject_of_type = colony
+							is_subject_of_type = crown_colony
+							is_subject_of_type = private_enterprise
+							is_subject_of_type = self_governing_colony
+						}
+						capital_scope = {
+							colonial_region = colonial_eastern_america
+						}
+				}
+				capital_scope = {
+					add_base_tax = 2
+					add_base_manpower = 3
+					add_base_production = 3
+				}
+			}
+		}
+	}
+}
+
+atlantean_missions_left = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		AND = {
+			culture = nautean
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	NAU_colonize_panchaia = {
+		icon = mission_colonize_the_caribbean
+		required_missions = { NAU_new_world }
+		position = 2
+		completed_by = 1530.1.1
+		provinces_to_highlight = {
+			colonial_region = colonial_the_carribean
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_the_carribean
+				is_city = yes
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			every_subject_country = {
+				limit = {
+						OR = {
+							is_subject_of_type = colony
+							is_subject_of_type = crown_colony
+							is_subject_of_type = private_enterprise
+							is_subject_of_type = self_governing_colony
+						}
+						capital_scope = {
+							colonial_region = colonial_the_carribean
+						}
+				}
+				capital_scope = {
+					add_base_tax = 2
+					add_base_manpower = 2
+					add_base_production = 2
+				}
+			}
+			mexico_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			eastern_mexico_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			puebla_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	NAU_aztec_gold = {
+		icon = mission_impaled_soldies
+		required_missions = { NAU_colonize_panchaia }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				region = mexico_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = mexico_region
+				is_city = yes
+			}
+		}
+
+		effect = {
+			add_treasury = 800
+			mexico_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	NAU_conquer_arsumia = {
+		icon = mission_invade_island
+		required_missions = { NAU_prepare_invasion_army }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = atlantean_arsumia
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			AND = {
+				atlantean_arsumia = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = ATL_aint_nothing_but_a_heartache
+				duration = 9125
+			}
+			hidden_effect = {
+				country_event = {
+					id = atl_conquest.3
+				}
+			}
+		}
+	}
+		
 	ATL_closing_the_atlantic = {
 		icon = mission_galleys_in_port
-		required_missions = { ATL_second_exile }
-		position = 5
+		required_missions = { ATL_the_new_empire }
+		position = 7
 		provinces_to_highlight = {
 			OR = {
 				region = antillia_region
@@ -223,130 +259,13 @@ atlantean_missions_far_left = {
 	}
 }
 
-atlantean_missions_left = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		AND = {
-			culture = high_atlantean
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	ATL_the_pride_of_atlantis = {
-		icon = mission_establish_high_seas_navy
-		required_missions = { }
-		position = 1
-		
-		trigger = {
-			num_of_light_ship = 15
-			navy_size_percentage = 0.75
-		}
-		effect = {
-			add_navy_tradition = 30
-			add_country_modifier = {
-				name = "ATL_atlantean_pride"
-				duration = 7300
-			}
-		}
-	}
-	
-	ATL_island_presence = {
-		icon = mission_hanseatic_city
-		required_missions = { ATL_the_pride_of_atlantis }
-		position = 2
-		provinces_to_highlight = {
-			OR = {
-				area = tridentislands_area
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = ATL_island_presence_tt
-				
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 1
-					area = tridentislands_area
-					is_core = ROOT
-				}
-			}
-		}
-		effect = {
-			tridentislands_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_claim = ROOT
-			}
-		}
-	}
-	
-	ATL_reclaim_the_islands = {
-		icon = mission_invade_island
-		required_missions = { ATL_prepare_imperial_army }
-		position = 5
-		provinces_to_highlight = {
-			OR = {
-				area = tridentislands_area
-				area = arrantza_area
-				area = philippi_area
-				area = askloy_area
-				province_id = 5104
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			AND = {
-				tridentislands_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				
-				5104 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				
-				arrantza_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				philippi_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				
-				askloy_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-			}
-		}
-		
-		effect = {
-			add_country_modifier = { 
-				name = ATL_aint_nothing_but_a_heartache
-				duration = 9125
-			}
-			hidden_effect = {
-				country_event = {
-					id = atl_conquest.3
-				}
-			}
-		}
-	}
-}
-
 atlantean_missions_middle = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
 		AND = {
-			culture = high_atlantean
+			culture = nautean
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -369,7 +288,7 @@ atlantean_missions_middle = {
 		}
 	}
 	
-	ATL_march_to_crownlands = {
+	NAU_secure_nautea = {
 		icon = mission_crusade_for_varna
 		required_missions = { ATL_strengthen_the_army }
 		position = 2
@@ -381,43 +300,40 @@ atlantean_missions_middle = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 5
-				region = atlantean_crownlands
+				value = 6
+				region = atlantean_nautea
 				is_core = ROOT
 			}
 		}
 		effect = {
-			atlantean_crownlands = {
+			atlantean_nautea = {
 				add_claim = ROOT
-			}
-			5053 = {
-				add_core = ROOT
 			}
 		}
 	}
 	
-	ATL_the_new_empire = {
+	NAU_a_nautean_rex = {
 		icon = mission_empire
-		required_missions = { ATL_island_presence ATL_march_to_crownlands ATL_eliminate_rivals }
+		required_missions = { NAU_secure_nautea ATL_eliminate_rivals }
 		position = 3
 		
 		trigger = {
-			NOT = { exists = ATL }
+			NOT = { exists = NAU }
 		}
 		
 		effect = {
-			hidden_effect = {
-				country_event = {
-					id = atl_events.1
-					days = 1
-				}
-			}
+			#hidden_effect = {
+			#	country_event = {
+			#		id = atl_events.1
+			#		days = 1
+			#	}
+			#}
 		}
 	}
 	
-	ATL_prepare_imperial_army = {
+	NAU_prepare_invasion_army = {
 		icon = mission_assemble_an_army
-		required_missions = { ATL_the_new_empire }
+		required_missions = { NAU_a_nautean_rex }
 		position = 4
 		
 		trigger = { 
@@ -433,9 +349,9 @@ atlantean_missions_middle = {
 		}
 	}
 	
-	ATL_reclaim_the_center = {
+	NAU_invade_the_crownlands = {
 		icon = mission_cannons_firing
-		required_missions = { ATL_prepare_imperial_army }
+		required_missions = { NAU_prepare_invasion_army }
 		position = 5
 		provinces_to_highlight = {
 			OR = {
@@ -446,11 +362,6 @@ atlantean_missions_middle = {
 		}
 		trigger = {
 			atlantean_crownlands = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
-			}
-			
-			atlantean_arsumia = {
 					type = all
 					country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -470,10 +381,29 @@ atlantean_missions_middle = {
 		}
 	}
 	
+	ATL_the_new_empire = {
+		icon = mission_empire
+		required_missions = { NAU_invade_the_crownlands }
+		position = 6
+		
+		trigger = {
+			NOT = { exists = ATL }
+		}
+		
+		effect = {
+			hidden_effect = {
+				country_event = {
+					id = atl_events.1
+					days = 1
+				}
+			}
+		}
+	}
+	
 	ATL_imperium_sine = {
 		icon = mission_early_modern_university
-		required_missions = { ATL_reclaim_the_center }
-		position = 6
+		required_missions = { ATL_the_new_empire }
+		position = 7
 		
 		trigger = { }
 		effect = {
@@ -491,7 +421,7 @@ atlantean_missions_right = {
 	ai = yes
 	potential = {
 		AND = {
-			culture = high_atlantean
+			culture = nautean
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -532,7 +462,7 @@ atlantean_missions_right = {
 	
 	ATL_reclaim_the_gate = {
 		icon = mission_sea_battles
-		required_missions = { ATL_prepare_imperial_army }
+		required_missions = { NAU_prepare_invasion_army }
 		position = 5
 		provinces_to_highlight = {
 			OR = {
@@ -579,7 +509,7 @@ atlantean_missions_far_right = {
 	ai = yes
 	potential = {
 		AND = {
-			culture = high_atlantean
+			culture = nautean
 		}
 		NOT = { map_setup = map_setup_random }
 	}

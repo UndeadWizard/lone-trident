@@ -6,9 +6,9 @@
  # Regions
  atlantean_crownlands: "Crownlands"
  atlantean_southlands: "Argenta"
- atlantean_midlands: "Arsumia"
+ atlantean_arsumia: "Arsumia"
  atlantean_eastlands: "Ayadon"
- atlantean_westisles: "Nautean Islands"
+ atlantean_nautea: "Nautean Islands"
  
  atlantean_sea_region: "Atlantean Sea"
  

@@ -1,8 +1,8 @@
 #4760 - Chiosa
 
-owner = A46
-controller = A46
-add_core = A46
+owner = A54
+controller = A54
+add_core = A54
 is_city = yes
 
 base_tax = 2

@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = atlantean_warring_state
+technology_group = atlantean
+religion = atlanic
+government_rank = 1
+primary_culture = nautean
+capital = 5047
+
+#Shattered Trident
+1444.1.1 = {
+	monarch = {
+		name = "Xanthos"
+		dynasty = "Kosmina"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1430.6.12
+	}
+
+	heir = {
+		name = "Zosimus"
+		dynasty = "Kosmina"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1410.7.15
+		death_date = 1448.9.12
+	}
+}

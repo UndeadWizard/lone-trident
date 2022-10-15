@@ -9,9 +9,9 @@ atlantean_unification = {
 		allowed_provinces = {
 			region = atlantean_crownlands
 			region = atlantean_southlands
-			region = atlantean_midlands
+			region = atlantean_arsumia
 			region = atlantean_eastlands
-			region = atlantean_westisles
+			region = atlantean_nautea
 		}
 		
 		peace_options = {
@@ -30,9 +30,9 @@ atlantean_unification = {
 		allowed_provinces = {
 			region = atlantean_crownlands
 			region = atlantean_southlands
-			region = atlantean_midlands
+			region = atlantean_arsumia
 			region = atlantean_eastlands
-			region = atlantean_westisles
+			region = atlantean_nautea
 		}
 		
 		
@@ -58,9 +58,9 @@ antillian_invasion = {
 		allowed_provinces = {
 			region = atlantean_crownlands
 			region = atlantean_southlands
-			region = atlantean_midlands
+			region = atlantean_arsumia
 			region = atlantean_eastlands
-			region = atlantean_westisles
+			region = atlantean_nautea
 		}
 		
 		peace_options = {
@@ -79,9 +79,9 @@ antillian_invasion = {
 		allowed_provinces = {
 			region = atlantean_crownlands
 			region = atlantean_southlands
-			region = atlantean_midlands
+			region = atlantean_arsumia
 			region = atlantean_eastlands
-			region = atlantean_westisles
+			region = atlantean_nautea
 		}
 		
 		

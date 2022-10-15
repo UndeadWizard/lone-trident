@@ -44,7 +44,7 @@ merc_trianja_stratos = {
 			capital_scope = { 
 				OR = {
 					region = atlantean_eastlands
-					region = atlantean_midlands	
+					region = atlantean_arsumia
 				}
 			}
 		}
@@ -82,7 +82,7 @@ merc_exercitus_hydrae = {
 		OR = {
 			capital_scope = { 
 				OR = {
-					region = atlantean_westisles
+					region = atlantean_nautea
 				}
 			}
 		}

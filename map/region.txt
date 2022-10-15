@@ -45,7 +45,7 @@ atlantean_southlands = {
 		tridentislands_area
 	}
 }
-atlantean_midlands = {
+atlantean_arsumia = {
 	areas = {
 		hermus_area
 		pialisdau_area
@@ -64,7 +64,7 @@ atlantean_eastlands = {
 	}
 }
 
-atlantean_westisles ={
+atlantean_nautea ={
 	areas = {
 		arrantza_area
 		philippi_area

@@ -3,9 +3,9 @@
 atlantean_superregion = {
 	atlantean_crownlands
 	atlantean_southlands
-	atlantean_midlands
+	atlantean_arsumia
 	atlantean_eastlands
-	atlantean_westisles
+	atlantean_nautea
 	antillia_region
 }
 

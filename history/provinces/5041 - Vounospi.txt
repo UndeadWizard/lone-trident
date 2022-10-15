@@ -1,13 +1,13 @@
 #5041 - Vounospit
 
-owner = A47
-controller = A47
-add_core = A47
+owner = A25
+controller = A25
+add_core = A25
 is_city = yes
 
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
 culture = nautean
 religion = atlanic

@@ -1,8 +1,8 @@
 #5112 - Arcadesis
 
-owner = A47
-controller = A47
-add_core = A47
+owner = A53
+controller = A53
+add_core = A53
 is_city = yes
 
 base_tax = 2

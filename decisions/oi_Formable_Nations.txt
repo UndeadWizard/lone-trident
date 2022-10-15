@@ -142,7 +142,7 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
-			atlantean_midlands = {
+			atlantean_arsumia = {
 				add_permanent_claim = ROOT 
 			}
         }
@@ -193,7 +193,7 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
-			atlantean_westisles = {
+			atlantean_nautea = {
 				add_permanent_claim = ROOT 
 			}
         }

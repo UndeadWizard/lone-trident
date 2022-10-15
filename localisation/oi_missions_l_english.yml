@@ -1,5 +1,5 @@
 ﻿l_english: 
- #Atlantean Missions
+ #High Atlantean Missions
  ATL_nautean_expedition_title: "Nautean Expedition"
  ATL_nautean_expedition_desc: "The Nautean Islands to the West are of great importance to Atlanteans. If a threat from the West is to ever rise, they are going to be our first line of defense, and our local brethren is some degree of willing to cooperate."
  
@@ -66,6 +66,36 @@
  ATL_pathway_to_europe_title: "Pathway to Europe"
  ATL_pathway_to_europe_desc: "The Macaronesian Archipelago, originally settled by Iberians, is a key point in the Atlantic Ocean. It's close to the coast of Africa enough to threaten the Berbers, and using the coast, it's easy to reach Europe. For us, living in a largely seaborne society, they serve as an interesting strategic location."
  
+ #Nautean Missions
+ NAU_secure_nautea_title: "Secure Nautea"
+ NAU_secure_nautea_desc: ""
+ 
+ NAU_a_nautean_rex_title: "A Nautean Rex"
+ NAU_secure_nautea_desc: ""
+ 
+ NAU_invade_the_crownlands_title: "Invade the Crownlands"
+ NAU_invade_the_crownlands_desc: ""
+ 
+ NAU_conquer_arsumia_title: "Conquer Arsumia"
+ NAU_conquer_arsumia_desc: ""
+ 
+ NAU_new_world_title: "A New World!"
+ NAU_new_world_desc: ""
+ 
+ NAU_arcadian_colony_title: "An Arcadian Colony"
+ NAU_arcadian_colony_desc: ""
+ 
+ NAU_found_arcadia_title: "Found Arcadia"
+ NAU_found_arcadia_desc: ""
+ 
+ NAU_colonize_panchaia_title: "Colonize Panchia"
+ NAU_colonize_panchaia_desc: ""
+ 
+ NAU_prepare_invasion_army_title: "Prepare Invasion Army"
+ NAU_prepare_invasion_army_desc: ""
+ 
+ NAU_aztec_gold_title: "Aztec Gold"
+ NAU_aztec_gold_desc: ""
  
  # Antillian Missions
  ANX_war_chest_title: "War Chest"

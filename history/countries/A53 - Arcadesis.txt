@@ -4,26 +4,26 @@ technology_group = atlantean
 religion = atlanic
 government_rank = 1
 primary_culture = nautean
-capital = 5041
+capital = 5112
 
 #Shattered Trident
 1444.1.1 = {
 	monarch = {
-		name = "Ignatius"
-		dynasty = "Barbatus"
-		adm = 4
+		name = "Euclid"
+		dynasty = "Arcadus"
+		adm = 1
 		dip = 3
-		mil = 3
-		birth_date = 1403.10.16
+		mil = 2
+		birth_date = 1415.5.2
 	}
 
 	heir = {
-		name = "Hyginus"
-		dynasty = "Barbatus"
-		adm = 4
-		dip = 6
-		mil = 3
-		birth_date = 1420.12.14
-		death_date = 1458.10.9
+		name = "Phyleus"
+		dynasty = "Arcadus"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1430.1.2
+		death_date = 1488.9.12
 	}
 }
