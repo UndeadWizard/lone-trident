@@ -233,7 +233,7 @@ nautean_missions_left = {
 		}
 	}
 		
-	ATL_closing_the_atlantic = {
+	NAU_closing_the_atlantic = {
 		icon = mission_galleys_in_port
 		required_missions = { ATL_the_new_empire }
 		position = 7
@@ -271,7 +271,7 @@ nautean_missions_middle = {
 	}
 	has_country_shield = yes
 	
-	ATL_strengthen_the_army = {
+	NAU_strengthen_the_army = {
 		icon = mission_build_up_to_force_limit
 		required_missions = { }
 		position = 1
@@ -290,7 +290,7 @@ nautean_missions_middle = {
 	
 	NAU_secure_nautea = {
 		icon = mission_crusade_for_varna
-		required_missions = { ATL_strengthen_the_army }
+		required_missions = { NAU_strengthen_the_army }
 		position = 2
 		provinces_to_highlight = {
 			OR = {
@@ -314,7 +314,7 @@ nautean_missions_middle = {
 	
 	NAU_a_nautean_rex = {
 		icon = mission_empire
-		required_missions = { NAU_secure_nautea ATL_eliminate_rivals }
+		required_missions = { NAU_secure_nautea NAU_eliminate_rivals }
 		position = 3
 		
 		trigger = {
@@ -381,7 +381,7 @@ nautean_missions_middle = {
 		}
 	}
 	
-	ATL_the_new_empire = {
+	NAU_the_new_empire = {
 		icon = mission_empire
 		required_missions = { NAU_invade_the_crownlands }
 		position = 6
@@ -400,9 +400,9 @@ nautean_missions_middle = {
 		}
 	}
 	
-	ATL_imperium_sine = {
+	NAU_imperium_sine = {
 		icon = mission_early_modern_university
-		required_missions = { ATL_the_new_empire }
+		required_missions = { NAU_the_new_empire }
 		position = 7
 		
 		trigger = { }
@@ -428,28 +428,28 @@ nautean_missions_right = {
 	has_country_shield = yes
 	
 	
-	ATL_establish_hegemony = {
+	NAU_establish_hegemony = {
 		icon = mission_unite_home_region
 		required_missions = { }
 		position = 1
 		
 		trigger = {
-			grown_by_states = 2
+			grown_by_states = 1
 		}
 		
 		effect = {
-			add_prestige = 15
+			add_prestige = 10
 		}
 	}
 	
-	ATL_eliminate_rivals = {
+	NAU_eliminate_rivals = {
 		icon = mission_conquer_50_development
-		required_missions = { ATL_establish_hegemony }
+		required_missions = { NAU_establish_hegemony }
 		position = 2
 		
 		
 		trigger = {
-			total_development = 150
+			total_development = 100
 		}
 		
 		effect = {
@@ -460,7 +460,7 @@ nautean_missions_right = {
 		}
 	}
 	
-	ATL_reclaim_the_gate = {
+	NAU_reclaim_the_gate = {
 		icon = mission_sea_battles
 		required_missions = { NAU_prepare_invasion_army }
 		position = 5
@@ -515,7 +515,7 @@ nautean_missions_far_right = {
 	}
 	has_country_shield = yes
 	
-	ATL_peace_at_home = {
+	NAU_peace_at_home = {
 		icon = mission_hands_praying
 		required_missions = { }
 		position = 1
@@ -531,35 +531,11 @@ nautean_missions_far_right = {
 			}
 		}
 	}
-	ATL_diplomatic_priority = {
-		icon = mission_alliances
-		required_missions = { ATL_peace_at_home }
-		position = 2
-		
-		trigger = {
-				num_of_allies = 2
-				calc_true_if = {
-					all_ally = {
-						has_opinion = {
-							who = ROOT
-							value = 150
-						}
-					}
-					amount = 2
-				}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "ATL_open_to_negotiation"
-				duration = 7300 # 20 Years
-				}
-		}
-	}
 	
-	ATL_deal_with_foreigners = {
+	NAU_deal_with_foreigners = {
 		icon = mission_noble_council
-		required_missions = { ATL_diplomatic_priority }
-		position = 3
+		required_missions = { NAU_peace_at_home }
+		position = 2
 		
 		trigger = {
 			calc_true_if = {
@@ -581,10 +557,10 @@ nautean_missions_far_right = {
 		}
 	}
 	
-	ATL_european_reforms = {
+	NAU_european_reforms = {
 		icon = mission_early_game_buildings
-		required_missions = { ATL_deal_with_foreigners }
-		position = 4
+		required_missions = { NAU_deal_with_foreigners }
+		position = 3
 		
 		trigger = {
 			has_institution = renaissance
@@ -597,10 +573,10 @@ nautean_missions_far_right = {
 		}
 	}
 	
-	ATL_pathway_to_europe = {
+	NAU_pathway_to_europe = {
 		icon = mission_galleys_in_port
-		required_missions = { ATL_european_reforms }
-		position = 5
+		required_missions = { NAU_european_reforms }
+		position = 4
 		
 		provinces_to_highlight = {
 			area = macaronesia_area

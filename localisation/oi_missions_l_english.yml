@@ -67,6 +67,18 @@
  ATL_pathway_to_europe_desc: "The Macaronesian Archipelago, originally settled by Iberians, is a key point in the Atlantic Ocean. It's close to the coast of Africa enough to threaten the Berbers, and using the coast, it's easy to reach Europe. For us, living in a largely seaborne society, they serve as an interesting strategic location."
  
  #Nautean Missions
+ NAU_strengthen_the_army_title: "Strengthen the Army"
+ NAU_strengthen_the_army_desc: ""
+ 
+ NAU_establish_hegemony_title: "Establish Hegmony"
+ NAU_establish_hegemony_desac: ""
+ 
+ NAU_eliminate_rivals_title: "Eliminate Rivals"
+ NAU_eliminate_rivals_desc: ""
+ 
+ NAU_reclaim_the_gate_title: "Reclaim The Gate"
+ NAU_reclaim_the_gate_desc: ""
+ 
  NAU_secure_nautea_title: "Secure Nautea"
  NAU_secure_nautea_desc: ""
  
@@ -78,6 +90,12 @@
  
  NAU_conquer_arsumia_title: "Conquer Arsumia"
  NAU_conquer_arsumia_desc: ""
+ 
+ NAU_closing_the_atlantic_title: "Closing the Atlantic"
+ NAU_closing_the_atlantic_desc: ""
+ 
+ NAU_the_new_empire_title: "The New Empire"
+ NAU_the_new_empire_desc: ""
  
  NAU_new_world_title: "A New World!"
  NAU_new_world_desc: ""
@@ -96,6 +114,21 @@
  
  NAU_aztec_gold_title: "Aztec Gold"
  NAU_aztec_gold_desc: ""
+ 
+ NAU_peace_at_home_title: "Peace at Home"
+ NAU_peace_at_home_desc: ""
+ 
+ NAU_deal_with_foreigners_title: "Deal with Foreigners"
+ NAU_deal_with_foreigners_desc: ""
+ 
+ NAU_european_reforms_title: "European Reforms"
+ NAU_european_reforms_desc: ""
+ 
+ NAU_pathway_to_europe_title: "Pathway to Europe"
+ NAU_pathway_to_europe_desc: ""
+ 
+ NAU_imperium_sine_title: "Imperium Sine"
+ NAU_imperium_sine_desc: ""
  
  # Antillian Missions
  ANX_war_chest_title: "War Chest"
