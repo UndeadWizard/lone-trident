@@ -342,7 +342,7 @@ tauryria_ideas = {
 	
 	tauryria_5 = { #Askloyite wood
 		ship_durability = 0.10
-		heavy_ship_power = 0.10
+		global_ship_recruit_speed = -0.15
 	}
 	
 	tauryria_6 = { #Tauryrian dock complex
