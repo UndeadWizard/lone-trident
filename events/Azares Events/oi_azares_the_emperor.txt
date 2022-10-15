@@ -9,6 +9,7 @@ country_event = { #Vassalize
 	picture = GREAT_BUILDING_eventPicture
 	
 	fire_only_once = yes
+	is_triggered_only = yes
 	
     trigger = {
 		tag = A00
