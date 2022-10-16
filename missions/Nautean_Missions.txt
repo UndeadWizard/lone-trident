@@ -68,7 +68,7 @@ nautean_missions_far_left = {
 		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 10
+				value = 5
 				colonial_region = colonial_eastern_america
 				is_city = yes
 			}

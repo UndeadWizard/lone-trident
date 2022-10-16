@@ -71,13 +71,13 @@
  NAU_strengthen_the_army_desc: ""
  
  NAU_establish_hegemony_title: "Establish Hegmony"
- NAU_establish_hegemony_desac: ""
+ NAU_establish_hegemony_desac: "If we seek to be recognized as more than yet another warring state, we must secure a power base within our immediate vicinity to start our campaigns from."
  
  NAU_eliminate_rivals_title: "Eliminate Rivals"
- NAU_eliminate_rivals_desc: ""
+ NAU_eliminate_rivals_desc: "Many rivals stand between us and success in our road for the unification of Atlantis. Silencing our early ones and growing our power base into a serious regional power will soften the rest of the process."
  
  NAU_reclaim_the_gate_title: "Reclaim The Gate"
- NAU_reclaim_the_gate_desc: ""
+ NAU_reclaim_the_gate_desc: "Both sides of the Trident Gate must be reclaimed in order to police and control the entry and exit of ships within the Trident Gulf. Being Atlantis' most important geographical feature, we can't have it any other way."
  
  NAU_secure_nautea_title: "Secure Nautea"
  NAU_secure_nautea_desc: ""
@@ -86,7 +86,7 @@
  NAU_secure_nautea_desc: ""
  
  NAU_invade_the_crownlands_title: "Invade the Crownlands"
- NAU_invade_the_crownlands_desc: ""
+ NAU_invade_the_crownlands_desc: "As long as the Crownlands remain out of our hands, then we cannot claim to be the true heirs to Atlantis. "
  
  NAU_conquer_arsumia_title: "Conquer Arsumia"
  NAU_conquer_arsumia_desc: ""
@@ -98,7 +98,7 @@
  NAU_the_new_empire_desc: ""
  
  NAU_new_world_title: "A New World!"
- NAU_new_world_desc: ""
+ NAU_new_world_desc: "It's been long since the inhabitants of the Trident have gone beyond the Nautean islands in search for more land, quite in contrast with our ancestors, who braved the Atlantic to arrive here. It's up to us to make the next great discoveries of this world, and find lands to conquer!"
  
  NAU_arcadian_colony_title: "An Arcadian Colony"
  NAU_arcadian_colony_desc: ""
@@ -116,19 +116,19 @@
  NAU_aztec_gold_desc: ""
  
  NAU_peace_at_home_title: "Peace at Home"
- NAU_peace_at_home_desc: ""
+ NAU_peace_at_home_desc: "Internal dissent and instability crashed the mighty Atlantean Empire. A hard lesson, but one we have to learn; we can't let internal strife destroy our legacy, else everything we built will be meaningless."
  
  NAU_deal_with_foreigners_title: "Deal with Foreigners"
- NAU_deal_with_foreigners_desc: ""
+ NAU_deal_with_foreigners_desc:  "Fairly recently, European explorers have started to visit Atlantis. It's in our best interests to open up dialogue with them for now and see what the future holds."
  
  NAU_european_reforms_title: "European Reforms"
- NAU_european_reforms_desc: ""
+ NAU_european_reforms_desc: "It's hard to deny that there is much to learn from the Europeans. Many of us can trace our ancestry to Europe, in fact; some of their advanced knowledge and weapons could be a decisive factor in an Atlantean conflict."
  
  NAU_pathway_to_europe_title: "Pathway to Europe"
- NAU_pathway_to_europe_desc: ""
+ NAU_pathway_to_europe_desc: "The Macaronesian Archipelago, originally settled by Iberians, is a key point in the Atlantic Ocean. It's close to the coast of Africa enough to threaten the Berbers, and using the coast, it's easy to reach Europe. For us, living in a largely seaborne society, they serve as an interesting strategic location."
  
- NAU_imperium_sine_title: "Imperium Sine"
- NAU_imperium_sine_desc: ""
+ NAU_imperium_sine_title: "Imperium Sine Fine"
+ NAU_imperium_sine_desc: "Our unification is complete. Atlantis is whole again, this time for good, we hope. Our undisputed title of Imperator is a heavy burden that we are going to assume with all of our might!"
  
  # Antillian Missions
  ANX_war_chest_title: "War Chest"
@@ -193,6 +193,7 @@
  
  #Tooltips
  ATL_new_world_tt: "Old Atlantean Records speak of territories to the west where many of the Nauteans ancestors originated from, with a more stable homeland we should find these once more."
+ NAU_new_world_tt: "Old Atlantean Records speak of territories to the west where many of the Nauteans ancestors originated from, with a more stable homeland we should find these once more."
  ATL_second_exile_tt: "Many Atlanteans are leaving their ancestral homes and farms on Atlantis to strike it out in new lands in our colonies, which many are posthumoursly calling 'The Second Exile'"
  ATL_island_presence_tt: "It is important to secure an island within the Trident Gulf to ensure a more secured position within the Trident Gulf." 
  ANX_discover_new_lands_tt:0 "There are rumours of lands to the west from fishing boats and sailors that have strayed to far from Antillia, discovering them would certainly be a boon to our people."
