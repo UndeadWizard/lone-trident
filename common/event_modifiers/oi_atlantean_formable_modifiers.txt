@@ -1,0 +1,6 @@
+### Modifiers for Nautea
+
+NAU_colonial_rush = {
+	global_colonial_growth = 30
+	colonists = 1 	
+}

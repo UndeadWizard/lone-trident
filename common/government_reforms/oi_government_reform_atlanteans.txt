@@ -137,6 +137,28 @@ ayadoni_rexdom = {
 	}
 }
 
+nautean_rexdom = {
+	icon = "nautean_rexdom"
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+			tag = NAU
+		}
+	}
+	modifiers = {
+		colonists = 1 
+		range = 0.20
+		native_assimilation = 0.05 		
+		max_absolutism = -5
+	}
+		
+	ai = {
+		factor = 100
+	}
+}
 #atlantean_warring_state_legacy = {
 #	icon = "castle"
 #	potential = {

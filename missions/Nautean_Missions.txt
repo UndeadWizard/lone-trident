@@ -222,7 +222,7 @@ nautean_missions_left = {
 		
 		effect = {
 			add_country_modifier = { 
-				name = ATL_aint_nothing_but_a_heartache
+				name = NAU_arsumia_conquest
 				duration = 9125
 			}
 			hidden_effect = {
@@ -318,16 +318,30 @@ nautean_missions_middle = {
 		position = 3
 		
 		trigger = {
-			NOT = { exists = NAU }
+			atlantean_nautea = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		
 		effect = {
-			#hidden_effect = {
-			#	country_event = {
-			#		id = atl_events.1
-			#		days = 1
-			#	}
-			#}
+			add_country_modifier = {
+				name = "NAU_colonial_rush"
+				duration = 9125
+			}
+			define_conquistador = {
+				name = "Aeacides Deuo"
+				fire = 4
+				shock = 4
+				manuever = 5
+				siege = 1
+			}
+			define_explorer = {
+				name = "Acnonios Deuo"
+				fire = 3
+				shock = 2
+				manuever = 5
+			}
 		}
 	}
 	
@@ -356,7 +370,6 @@ nautean_missions_middle = {
 		provinces_to_highlight = {
 			OR = {
 				region = atlantean_crownlands
-				region = atlantean_arsumia
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -369,7 +382,7 @@ nautean_missions_middle = {
 		
 		effect = {
 			add_country_modifier = { 
-				name = ATL_aint_nothing_but_a_mistake
+				name = ATL_unify_the_crownlands
 				duration = 9125
 			}
 			add_legitimacy = 10
@@ -484,11 +497,11 @@ nautean_missions_right = {
 		
 		effect = {
 			add_country_modifier = {
-				name = ATL_i_never_wanna_hear_you_say
+				name = ATL_economic_lockdown
 				duration = -1
 			}
 			add_country_modifier = {
-				name = ATL_i_want_it_that_way
+				name = ATL_control_the_gates
 				duration = 7300
 			}
 			add_army_tradition = 5

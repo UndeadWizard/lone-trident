@@ -80,21 +80,27 @@ ATL_path_to_europe = {
 	trade_efficiency = 0.05
 }
 
-ATL_aint_nothing_but_a_heartache = {
+ATL_unify_the_islands = {
 	navy_tradition = 1
 }
 
-ATL_aint_nothing_but_a_mistake = {
+ATL_unify_the_crownlands = {
 	prestige = 1
 }
 
-ATL_i_never_wanna_hear_you_say = {
+ATL_control_the_gates = {
 	embargo_efficiency = 0.25
 }
 
-ATL_i_want_it_that_way = {
+ATL_economic_lockdown = {
 	blockade_efficiency = 0.10
 }
+
+#Nautean Missions
+NAU_arsumia_conquest = {
+	core_creation = -0.1
+}
+
 
 #Oracle Modifiers
 

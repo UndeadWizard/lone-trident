@@ -68,6 +68,7 @@ monarchy = {
 				crippled_seneca_reforms
 				restored_seneca_reforms
 				ayadoni_rexdom
+				nautean_rexdom
 				akakios_bureaucracy
 			}
 		}
