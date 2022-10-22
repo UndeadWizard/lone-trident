@@ -109,9 +109,9 @@ akakios_bureaucracy  ={
 
 patership_reform = {
 	rank = {
-		1 = PATER
-		2 = PATER
-		3 = PATER
+		1 = PATERSHIP
+		2 = PATERSHIP
+		3 = PATERSHIP
 	}
 	
 	ruler_male = {

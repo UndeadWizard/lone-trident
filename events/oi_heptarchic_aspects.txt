@@ -53,7 +53,7 @@ country_event = {
 	option = {	
 		name = heptarchic_events.3.a
 		add_country_modifier = { 
-			name = book_of_bermudo_aspect 
+			name = wisdom_of_the_enlightened_aspect 
 			duration = 3650
 		}
 	}
