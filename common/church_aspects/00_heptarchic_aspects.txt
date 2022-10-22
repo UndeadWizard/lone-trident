@@ -50,6 +50,24 @@ book_of_bermudo_aspect = {
 	}
 }
 
+wisdom_of_the_enlightened_aspect = {
+	sprite = "GFX_divorce_consort_icon"
+	cost = 100
+	
+	effect = {
+		country_event = { id = heptarchic_events.3 }
+		add_manpower = 5
+	}
+	
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 8
+			is_at_war = yes 
+		}
+	}
+}
+
 stability_aspect = {
 	sprite = "GFX_progress_of_the_supreme_governor_icon"
 	cost = 200

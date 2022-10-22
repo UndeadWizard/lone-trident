@@ -70,7 +70,10 @@ ANX_colonial_aspirations = {
 legacy_of_ansis = {
 		global_colonial_growth = 25
 }
-
 book_of_bermudo_aspect = {
+	global_missionary_strength = 0.02
+	build_cost = -0.1
+}
+wisdom_of_the_enlightened_aspect = {
 	discipline = 0.025
 }

@@ -17,10 +17,7 @@ DUCATUS: "Ducatus"
 DUX: "Dux"
 DUCISSA: "Ducissa"
 
-LORD_ARCHBISHOP: "Lord Archbishop"
-SUPREME_ARCHBISHOP: "Supreme Archbishop"
-
-PRIME_ARCHBISHOPRIC: "Prime Archbishopric"
+PATER: "Pater"
 
 LUQAYAN: "Luqayan"
 LUQAYATUN: "Luqayatun"
@@ -79,5 +76,5 @@ council_reform: "The Council"
 council_reform_desc: "The tyranny of the Imperator shall be no more, for all that stands in Atlantium is only and will only be the Council."
 
 #Theocracies
-archbishop_reform: "Supreme Archdiocese"
-archbishop_reform_desc: "Descended from a long line of Supreme Archbishops beginning with Ansis, they are kings in their own right; dictating affairs of state under the divine mandate of God."
+patership_reform: "The Pateracy"
+patership_reform_desc: "Descended from a long line of Paters beginning with Ansis, they are kings in their own right; dictating affairs of state under the divine mandate of God."

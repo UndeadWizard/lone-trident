@@ -57,6 +57,7 @@ christian = {
 			book_of_preeminence_aspect
 			legacy_of_ansis_aspect
 			book_of_bermudo_aspect
+			wisdom_of_the_enlightened_aspect
 			stability_aspect
 		}
 		aspects_name = HEPTARCHIC_ASPECTS

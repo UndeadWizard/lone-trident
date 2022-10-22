@@ -1,4 +1,4 @@
-archbishop_reform = {
+patership_reform = {
 	potential = {
 		OR = {
 			tag = AN0

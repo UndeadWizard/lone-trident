@@ -107,26 +107,26 @@ akakios_bureaucracy  ={
 	}
 }
 
-archbishop_reform = {
+patership_reform = {
 	rank = {
-		1 = BISHOPRIC
-		2 = ARCHBISHOPRIC
-		3 = PRIME_ARCHBISHOPRIC
+		1 = PATER
+		2 = PATER
+		3 = PATER
 	}
 	
 	ruler_male = {
-		1 = ARCHBISHOP
-		2 = SUPREME_ARCHBISHOP
-		3 = LORD_ARCHBISHOP
+		1 = PATER
+		2 = PATER
+		3 = PATER
 	}
 
 	ruler_female = {
-		1 = BISHOP_fem
-		2 = ARCHBISHOP_fem
-		3 = MATRIARCH
+		1 = PATER
+		2 = PATER
+		3 = PATER
 	}
 	
 	trigger = {
-		has_reform = archbishop_reform
+		has_reform = patership_reform
 	}
 }
