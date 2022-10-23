@@ -58,3 +58,22 @@ country_event = {
 		}
 	}
 }
+
+# Book of Proverbs Aspect
+country_event = {
+	id = heptarchic_events.4
+	title = heptarchic_events.4.t
+	desc = heptarchic_events.4.d
+	picture = GREAT_BUILDING_eventPicture
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = heptarchic_events.4.a
+		add_country_modifier = { 
+			name = book_of_proverbs_aspect 
+			duration = 3650
+		}
+	}
+}

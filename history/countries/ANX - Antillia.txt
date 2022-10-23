@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = archbishop_reform
+add_government_reform = patership_reform
 technology_group = atlantean
 religion = heptarchic
 primary_culture = antillian

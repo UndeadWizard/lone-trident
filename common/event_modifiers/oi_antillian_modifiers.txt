@@ -66,14 +66,9 @@ ANX_colonial_aspirations = {
 	colonists = 1
 }
 
-#Heptarchic Bonuses
-legacy_of_ansis = {
-		global_colonial_growth = 25
-}
-book_of_bermudo_aspect = {
-	global_missionary_strength = 0.02
-	build_cost = -0.1
-}
-wisdom_of_the_enlightened_aspect = {
-	land_morale = -0.1
+#ANX AI bonuses
+anx_ai_bonuses = {
+	global_tax_income = 36
+	land_forcelimit_modifier = 0.25
+	manpower_recovery_speed = 0.10 
 }

@@ -7,7 +7,7 @@ country_event = { #AI bonuses
 	title = atl_ai.1.t
 	desc = atl_ai.1.d
 	picture = GREAT_BUILDING_eventPicture
-	
+	hidden = yes
 	fire_only_once = yes
 	
     trigger = {
@@ -34,7 +34,7 @@ country_event = { #AI bonuses
 	title = atl_ai.2.t
 	desc = atl_ai.2.d
 	picture = GREAT_BUILDING_eventPicture
-	
+	hidden = yes
 	fire_only_once = yes
 	
     trigger = {

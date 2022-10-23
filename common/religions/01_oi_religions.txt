@@ -55,6 +55,7 @@ christian = {
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			book_of_preeminence_aspect
+			book_of_proverbs_aspect
 			legacy_of_ansis_aspect
 			book_of_bermudo_aspect
 			wisdom_of_the_enlightened_aspect

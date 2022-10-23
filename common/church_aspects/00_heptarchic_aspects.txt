@@ -3,7 +3,7 @@ book_of_preeminence_aspect = {
 	cost = 50
 	
 	effect = {
-		create_general = { tradition = 40 }
+		create_general = { tradition = 60 }
 	}
 	
 	ai_will_do = {
@@ -14,6 +14,37 @@ book_of_preeminence_aspect = {
 		}
 	}
 }
+book_of_proverbs_aspect = {
+	sprite = "GFX_divorce_consort_icon"
+	cost = 50
+	potential = {
+		OR = {
+				NOT = {
+					has_country_flag = book_of_proverbs_aspect_flag 
+				}
+				had_country_flag = {
+						flag = book_of_proverbs_aspect_flag
+						days = 3650
+				}
+		}
+	}
+	effect = {
+		custom_tooltip = book_of_proverbs_aspect_tt
+		hidden_effect = {
+			set_country_flag = book_of_proverbs_aspect_flag
+			country_event = { id = heptarchic_events.4 }
+		}
+	}
+	
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 4
+			average_unrest = 2 
+		}
+	}
+}
+
 legacy_of_ansis_aspect = {
 	sprite = "GFX_divorce_consort_icon"
 	cost = 100
@@ -38,7 +69,7 @@ legacy_of_ansis_aspect = {
 }
 book_of_bermudo_aspect = {
 	sprite = "GFX_divorce_consort_icon"
-	cost = 200
+	cost = 100
 	
 	effect = {
 		custom_tooltip = book_of_bermudo_aspect_tt
@@ -50,8 +81,8 @@ book_of_bermudo_aspect = {
 	ai_will_do = {
 		factor = 2
 		modifier = {
-			factor = 8
-			is_at_war = yes 
+			factor = 4
+			is_at_war = no 
 		}
 	}
 }
@@ -72,7 +103,8 @@ wisdom_of_the_enlightened_aspect = {
 		factor = 2
 		modifier = {
 			factor = 8
-			is_at_war = yes 
+			is_at_war = yes
+			manpower_percentage = 0.30
 		}
 	}
 }

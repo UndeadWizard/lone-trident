@@ -1,5 +1,6 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
+government_rank = 1
 technology_group = atlantean
 religion = heptarchic
 primary_culture = antillian

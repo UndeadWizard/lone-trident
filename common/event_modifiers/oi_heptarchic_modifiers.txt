@@ -1,0 +1,15 @@
+#Heptarchic Aspect Bonuses
+legacy_of_ansis = {
+		global_colonial_growth = 25
+}
+book_of_bermudo_aspect = {
+	global_missionary_strength = 0.02
+	build_cost = -0.1
+}
+wisdom_of_the_enlightened_aspect = {
+	land_morale = -0.1
+}
+book_of_proverbs_aspect	 = {
+	global_unrest = -3
+	harsh_treatment_cost = -0.2 	
+}
