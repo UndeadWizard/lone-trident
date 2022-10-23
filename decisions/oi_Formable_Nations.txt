@@ -45,6 +45,11 @@ country_decisions = {
 			atlantean_eastlands = {
 				add_permanent_claim = ROOT 
 			}
+			capital_scope = {
+					add_base_tax = 1
+					add_base_manpower = 1
+					add_base_production = 1
+			}
         }
 		ai_will_do = {
 			factor = 1.0
@@ -95,6 +100,11 @@ country_decisions = {
 			atlantean_southlands = {
 				add_permanent_claim = ROOT 
 			}
+			capital_scope = {
+					add_base_tax = 1
+					add_base_manpower = 1
+					add_base_production = 1
+			}
         }
 		ai_will_do = {
 			factor = 1.0
@@ -144,6 +154,11 @@ country_decisions = {
 			}
 			atlantean_arsumia = {
 				add_permanent_claim = ROOT 
+			}
+			capital_scope = {
+					add_base_tax = 1
+					add_base_manpower = 1
+					add_base_production = 1
 			}
         }
 		ai_will_do = {
@@ -196,6 +211,11 @@ country_decisions = {
 			}
 			atlantean_nautea = {
 				add_permanent_claim = ROOT 
+			}
+			capital_scope = {
+					add_base_tax = 1
+					add_base_manpower = 1
+					add_base_production = 1
 			}
         }
 		ai_will_do = {

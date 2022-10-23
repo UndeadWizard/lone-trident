@@ -4995,9 +4995,9 @@ province;red;green;blue;x;x
 4994;3;3;52;Empty;x
 4995;4;4;53;Empty;x
 4996;5;5;54;Empty;x
-4997;6;6;55;Empty;x
-4998;7;7;56;Empty;x
-4999;8;8;57;Empty;x
+4997;38;195;255;Rem Passage;x
+4998;34;246;202;East Nautean Sea;Atlantis
+4999;113;230;230;Ansis's Landing;Atlantis
 5000;80;227;255;Trident Gulf;Atlantis
 5001;5;205;205;Jupiter Reef;Atlantis
 5002;64;171;175;Sea of Meropisa;Atlantis

@@ -408,6 +408,10 @@ ai_colonialist = {
 			tag = ANX
 		}
 		modifier = {
+			factor = 3
+			tag = NAU
+		}
+		modifier = {
 			factor = 0.5
 			tag = FRA
 		}
