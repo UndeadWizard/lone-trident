@@ -49,12 +49,20 @@
  hastur_cult: "Hastur Cult"
  nyarlathotep_cult: "Nyarlathotep Cult"
  yig_cult: "Yig Cult"
+ 
 #Heptarchic Aspects
-book_of_preeminence_aspect: "Book of Preeminence"
+book_of_preeminence_aspect: "§YBook of Preeminence§!"
 desc_book_of_preeminence_aspect: "Even though I walk through the valley of the shadow of death, I fear no evil. Lucifer releaseth thy hound towards thine Messiah; The Son of God demands it."
-legacy_of_ansis_aspect: "Legacy of Ansis"
-desc_legacy_of_ansis_aspect: "And like Moses before him, Ansis was appointed by God to lead the chosen away from Iberia, far from the scourge of the Saracen and the heretic, to Antillia; the Second Holy Land." 
-book_of_bermudo_aspect: "Book of Bermudo"
+legacy_of_ansis_aspect: "§YLegacy of Ansis§!"
+desc_legacy_of_ansis_aspect: "And like Moses before him, Ansis was appointed by God to lead the chosen away from Iberia, far from the scourge of the Saracen and the heretic, to Antillia; the Second Holy Land. 
+book_of_bermudo_aspect: "§YBook of Bermudo§!"
 desc_book_of_bermudo_aspect: "And on the sixth month of the second year, Bermudo had a vision from God to build a mighty temple nestled within the hills of Antillia."
-wisdom_of_the_enlightened_aspect: "Wisdom of the Enlightened"
+wisdom_of_the_enlightened_aspect: "§YWisdom of the Enlightened§!".
 desc_wisdom_of_the_enlightened_aspect: "And so, as the Pater Felipe declared, there would be those that could shed Atlantean blood and still enter the Kingdom of Heaven. From Sinner to Enlightened, the Holy Land will be protected by any means necessary."
+
+#book_of_proverbs_aspect:"As a dog returns to its vomit, so fools repeat their folly. §GProverbs 26:11§"
+#book of genesis_aspect: "God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it.§GGenesis 1:28§"
+
+legacy_of_ansis_aspect_tt: "Gain §G25§! Global Colonial Growth for §Y10§! years."
+book_of_bermudo_aspect_tt: "Gain §G2%§! Missionary Power and §G-10%§! reduced Build Cost for §Y10§! years."
+wisdom_of_the_enlightened_aspect_tt: "Land Morale reduced by §R-10%§! for §Y10§! years."

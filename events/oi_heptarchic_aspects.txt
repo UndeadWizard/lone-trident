@@ -31,7 +31,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {	
+	option = {
 		name = heptarchic_events.2.a
 		add_country_modifier = { 
 			name = book_of_bermudo_aspect 

@@ -75,5 +75,5 @@ book_of_bermudo_aspect = {
 	build_cost = -0.1
 }
 wisdom_of_the_enlightened_aspect = {
-	discipline = 0.025
+	land_morale = -0.1
 }

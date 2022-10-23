@@ -16,10 +16,13 @@ book_of_preeminence_aspect = {
 }
 legacy_of_ansis_aspect = {
 	sprite = "GFX_divorce_consort_icon"
-	cost = 200
+	cost = 100
 	
 	effect = {
-		country_event = { id = heptarchic_events.1 }
+		custom_tooltip = legacy_of_ansis_aspect_tt
+		hidden_effect = {
+			country_event = { id = heptarchic_events.1 }
+		}
 	}
 	
 	ai_will_do = {
@@ -38,7 +41,10 @@ book_of_bermudo_aspect = {
 	cost = 200
 	
 	effect = {
-		country_event = { id = heptarchic_events.2 }
+		custom_tooltip = book_of_bermudo_aspect_tt
+		hidden_effect = {
+			country_event = { id = heptarchic_events.2 }
+		}
 	}
 	
 	ai_will_do = {
@@ -52,11 +58,14 @@ book_of_bermudo_aspect = {
 
 wisdom_of_the_enlightened_aspect = {
 	sprite = "GFX_divorce_consort_icon"
-	cost = 100
+	cost = 200
 	
 	effect = {
-		country_event = { id = heptarchic_events.3 }
-		add_manpower = 5
+		add_yearly_manpower = 5
+		custom_tooltip = wisdom_of_the_enlightened_aspect_tt
+		hidden_effect = {
+			country_event = { id = heptarchic_events.3 }
+		}
 	}
 	
 	ai_will_do = {
