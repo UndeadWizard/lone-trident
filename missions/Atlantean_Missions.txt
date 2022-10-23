@@ -241,8 +241,7 @@ atlantean_missions_left = {
 		position = 1
 		
 		trigger = {
-			num_of_light_ship = 15
-			navy_size_percentage = 0.75
+			navy_size_percentage = 0.9
 		}
 		effect = {
 			add_navy_tradition = 30
@@ -398,7 +397,7 @@ atlantean_missions_middle = {
 	
 	ATL_the_new_empire = {
 		icon = mission_empire
-		required_missions = { ATL_island_presence ATL_march_to_crownlands ATL_eliminate_rivals }
+		required_missions = { ATL_march_to_crownlands ATL_eliminate_rivals }
 		position = 3
 		
 		trigger = {

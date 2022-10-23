@@ -111,7 +111,7 @@ antillian_missions_left = {
 		effect = {
 			add_country_modifier = {
 				name = "ANX_settler_growth"
-				duration = 9125 #25 years
+				duration = -1 #Forever
 			}
 		}
 	}

@@ -8,6 +8,11 @@ religion = heptarchic
 primary_culture = antillian
 capital = 5138
 
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+
 1444.1.1 = {
 	monarch = {
 		name = "Argaith I"
