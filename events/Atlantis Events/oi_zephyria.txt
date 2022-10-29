@@ -1,0 +1,105 @@
+namespace = zep_events
+
+
+###### Flavor Events
+
+# Demand Vassalization
+country_event = {
+	id = zep_events.1
+	title = zep_events.1.t
+	desc = zep_events.1.d
+	picture = GREAT_BUILDING_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = A38
+	}
+	
+	mean_time_to_happen = {
+		days = 45
+	}
+	option = {
+		name = zep_events.1.a
+		ai_chance = { factor = 90}
+		hidden_effect = {
+			A37 = {
+				country_event = {
+					id = zep_events.2
+					days = 15
+				}
+			}
+		}
+	}
+}
+
+# Zephyrian 
+country_event = {
+	id = zep_events.2
+	title = zep_events.2.t
+	desc = zep_events.2.d
+	picture = GREAT_BUILDING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = A37
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = zep_events.2.a
+		ai_chance = { factor = 30}
+		A38 = {
+			vassalize = A37
+		}
+	}
+	option = {
+		name = zep_events.2.b
+		ai_chance = { factor = 70}
+		hidden_effect = {
+			A38 = {
+				country_event = {
+					id = zep_events.3
+					days = 15
+				}
+			}
+		}
+	}
+}
+
+# The Red Hemp War
+country_event = {
+	id = zep_events.3
+	title = zep_events.3.t
+	desc = zep_events.3.d
+	picture = GREAT_BUILDING_eventPicture
+
+	fire_only_once = yes
+	
+	
+	trigger = {
+		tag = A38
+	}
+	
+	mean_time_to_happen = {
+		days = 45
+	}
+
+	option = {	
+		name = zep_events.3.a
+		ai_chance = { factor = 100}
+		declare_war_with_cb = {
+				who = A37
+				casus_belli = cb_atlantean_wars
+		}
+	}
+	option = {
+		name = zep_events.3.b
+		ai_chance = { factor = 0}
+		add_prestige = -20
+	}
+}
