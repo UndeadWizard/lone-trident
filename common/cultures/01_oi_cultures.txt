@@ -40,7 +40,7 @@ atlantean_group = {
 		}
 		male_names = {
 			Aelianus Aelius Albina Albus Antonius Augustus Aquilinus Aulus Aurelius Blasius Brutus Cato Caeso Caius Cassian Camillus Cicero Decimus Domitianus Duilius
-			Ennius Fabius Fabricius Felix Festus Fulvius Gaius Gallus Gnaeus Hadrianus Helvius Herminius Ianuarius Iovianus Jovian Julius Junius Laelius Livius
+			Ennius Fabius Fabricius Felix Festus Fulvius Gaius Gallus Gnaeus Gregorius Hadrianus Helvius Herminius Ianuarius Iovianus Jovian Julius Junius Laelius Livius
 			Manius Manlius Marcus Martinus Maximus Naevius Nero Octavius Paulinus Paulus Petronius Pontius Quinctus Quintilius Regulus Rufus Sabinus Salvius Seneca
 			Titus Traianus Tullius Valens Valentinus Valerius Vitus
 			

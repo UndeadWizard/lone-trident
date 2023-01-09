@@ -1,8 +1,8 @@
 #4778 - Badijoz 
 
-owner = AN1
-controller = AN1
-add_core = AN1
+owner = AN0
+controller = AN0
+add_core = AN0
 
 culture = antillian
 religion = heptarchic

@@ -9,8 +9,8 @@ capital = 5052
 #Shattered Trident
 1444.1.1 = {
 	monarch = {
-		name = "Gregoras"
-		dynasty = "Attaleiates"
+		name = "Gregorius"
+		dynasty = "Oenoleiates"
 		adm = 4
 		dip = 1
 		mil = 3
@@ -19,8 +19,7 @@ capital = 5052
 
 	heir = {
 		name = "Eugenios"
-		monarch_name = "Eugenios"
-		dynasty = "Attaleiates"
+		dynasty = "Oenoleiates"
 		adm = 5
 		dip = 2
 		mil = 1

@@ -1,8 +1,7 @@
 government = theocracy
 add_government_reform = patership_reform
 government_rank = 2
-historical_rival = AN1
-historical_rival = AN6
+historical_rival = AN5
 technology_group = atlantean
 religion = heptarchic
 primary_culture = antillian

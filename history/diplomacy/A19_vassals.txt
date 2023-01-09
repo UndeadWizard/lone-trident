@@ -1,0 +1,24 @@
+ # Azaesan Vassals
+
+vassal = {
+	first = A19
+	second = A18
+	start_date = 1390.11.11
+	end_date = 1475.1.1 #Annexed
+}
+
+
+vassal = { #
+	first = A19
+	second = A30
+	start_date = 1340.11.11
+	end_date = 1485.2.20 #Annexed
+}
+
+
+vassal = {
+	first = A19
+	second = A29
+	start_date = 1340.11.11
+	end_date = 1495.1.1 #Annexed
+}

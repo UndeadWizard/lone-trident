@@ -1,17 +1,17 @@
-#4779 - Oveido
+#5131 - Almeri
 
-owner = AN1
-controller = AN1
-add_core = AN1
+owner = AN0
+controller = AN0
+add_core = AN0
 
 culture = antillian
 religion = heptarchic
 
 base_tax = 2
-base_production = 3
+base_production = 2
 base_manpower = 2
 
-trade_goods = fur 
+trade_goods = fish 
 hre = no
 
 discovered_by = atlantean
