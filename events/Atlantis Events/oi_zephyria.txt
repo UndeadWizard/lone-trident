@@ -46,10 +46,6 @@ country_event = {
 		tag = A37
 	}
 	
-	mean_time_to_happen = {
-		days = 10
-	}
-	
 	option = {
 		name = zep_events.2.a
 		ai_chance = { factor = 30}
