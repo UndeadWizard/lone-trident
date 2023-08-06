@@ -4,7 +4,7 @@ deity_mero = {
 	discipline = 0.05
 	infantry_power = 0.10
 	
-	allow = {
+	potential = {
 		AND = {
 			religion = atlanic
 			primary_culture = meropisean
@@ -21,7 +21,7 @@ deity_khronos = {
 	global_supply_limit_modifier = 0.25
 	movement_speed = 0.10
 	
-	allow = {
+	potential = {
 		AND = {
 			religion = atlanic
 			primary_culture = anthrean
@@ -38,7 +38,7 @@ deity_jupiter = {
 	prestige = 1
 	war_exhaustion = -0.025
 	
-	allow = { religion = atlanic }
+	potential = { religion = atlanic }
 	sprite = 14
 	
 	ai_will_do = {
@@ -58,7 +58,7 @@ deity_yamm= {
 	naval_morale = 0.10
 	navy_tradition = 0.50
 	
-	allow = { religion = atlanic }
+	potential = { religion = atlanic }
 	sprite = 13
 	
 	ai_will_do = {
@@ -78,7 +78,7 @@ deity_haides = {
 	ae_impact = -0.10
 	shock_damage = 0.1
 	
-	allow = { religion = atlanic }
+	potential = { religion = atlanic }
 	sprite = 15
 	
 	ai_will_do = {
@@ -98,7 +98,7 @@ deity_juno = {
 	global_unrest = -1
 	diplomatic_annexation_cost = -0.15
 	
-	allow = { religion = atlanic }
+	potential = { religion = atlanic }
 	sprite = 16
 	
 	ai_will_do = {
@@ -118,7 +118,7 @@ deity_minrva = {
 	land_morale = 0.10
 	mil_tech_cost_modifier = -0.05
 	
-	allow = { religion = atlanic }
+	potential = { religion = atlanic }
 	sprite = 17
 	
 	ai_will_do = {
@@ -143,7 +143,7 @@ deity_astarte = {
 	diplomatic_upkeep = 1
 	improve_relation_modifier = 0.25
 	
-	allow = { religion = atlanic }
+	potential = { religion = atlanic }
 	sprite = 18
 	
 	ai_will_do = {

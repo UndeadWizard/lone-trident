@@ -40,7 +40,7 @@ country_decisions = {
 					}
 				}
 			}
-			NOT = { has_reform = dutch_republic }
+			NOT = { has_government_attribute = has_dutch_election }
 			NOT = { has_reform = colonial_government }
 			NOT = { has_reform = shogunate }
 			NOT = { has_reform = elective_monarchy }
@@ -214,7 +214,7 @@ country_decisions = {
 			always = no
 			has_reform = pirate_republic_reform
 			NOT = { has_dlc = "Dharma" }
-			NOT = { has_dlc = "Emperor" }
+			NOT = { has_dlc = "Emperor" }#
 		}
 		allow = {
 			stability = 1

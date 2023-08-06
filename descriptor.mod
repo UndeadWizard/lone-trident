@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="Lone Trident"
-supported_version="1.34.4"
+supported_version="1.35.6"
